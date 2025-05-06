@@ -1,0 +1,224 @@
+.scores_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: white;
+    height: 95px;
+    width: 100vw;
+    color: black;
+    /* box-shadow: 0px 3px 3px rgba(0,0,0,0.25); */
+}
+
+
+.carosel_container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100vw;
+    /* margin-left: 0; */
+}
+
+.slide_container {
+    position: absolute;
+    display: flex;
+    /* left: 30.333px; */
+    top: 0;
+    bottom: 0;
+    width: fit-content;
+    transition: var(--transition-main);
+    /* margin-left: 38px; */
+}
+
+.scoreCard_container {
+    display: grid;
+    position: relative;
+    grid-template-rows: 1fr 2fr 2fr;
+    border-left: 1px solid lightgray;
+    padding: 0.5rem 0.5rem 1rem;
+    width: 10rem;
+    font-size: 0.75rem;
+    transition: var(--transition-main);
+}
+
+.filter_container {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: fit-content;
+    background-color: white;
+    z-index: 1;
+}
+
+.score_overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(29, 53, 113, 0.95);
+    transition: 300ms ease-in-out;
+    opacity: 0;
+    border-bottom: 2px solid var(--color-red);
+}
+
+.score_overlay_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
+    background: none;
+    font-size: 1rem;
+    font-family: var(--font-header);
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.scoreCard_container:hover .score_overlay{
+    opacity: 100%;
+}
+
+/* .scoreCard_container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+} */
+
+.scoreCard_container:last-of-type{
+    border-right: 1px solid lightgray;
+}
+
+.scoreDate {
+    padding-bottom: 0.15rem;
+}
+
+.teamCard_container {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr 1fr;
+    /* gap: 0.3rem; */
+    align-items: center;
+    justify-content: center;
+}
+
+.team_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teamLogo img{
+    aspect-ratio: 1/1;
+    /* height: 100%; */
+    width: 25px;
+}
+
+.teamScore {
+    justify-self: center;
+}
+
+.teamDiv {
+    border: 1px solid lightgray;
+    height: 35%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.teamName, .teamScore{
+    font-weight: bold;
+}
+
+.teamName {
+    justify-self: start;
+    padding-left: 0.5rem;
+}
+
+.next_btn , .prev_btn {
+    height: 100%;
+    background-color: white;
+    border: none;
+    padding: 0 0.5rem;
+    z-index: 1;
+    transition: var(--transition-main);
+    cursor: pointer;
+    border-left: 1px solid lightgray;
+}
+
+.prev_btn {
+    border-right: 1px solid lightgray;
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition-main);
+}
+
+.prev_vis{
+    border-right: 1px solid lightgray;
+    opacity: 100%;
+    visibility: visible;
+}
+
+
+.next_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+
+.next_btn:hover , .prev_btn:hover {
+background-color: var(--color-lightgrey);
+}
+
+.dateCard_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75rem;
+    background-color: lightgray;
+    padding: 0 0.5rem;
+    height: 95px;
+    /* height: 100%; */
+    border-left: 1px solid lightgray;
+}
+
+.dayofweek {
+    font-weight: 300;
+}
+
+.date {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.scoresFilter_container {
+    padding: 0 0.75rem;
+}
+
+.filter_dropdown {
+    display: flex;
+    background-color: lightgrey;
+    font-size: 0.8rem;
+    font-weight: bold;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}

@@ -1,0 +1,48 @@
+.teamScoreTile {
+    display: grid;
+    grid-template-columns: 2fr 9fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-header);
+    overflow: hidden;
+}
+
+.teamScore_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* aspect-ratio: 1/1; */
+    width: 100%;
+}
+
+.teamScore_logo img {
+    aspect-ratio: 1/1;
+    padding: 0.3rem;
+}
+
+.teamScore_name {
+    font-weight: 800;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem
+}
+
+.div-dot {
+    height: 0.75rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.teamScore_shots {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: lightgrey;
+}
+
+.teamScore_score {
+    font-weight: 800;
+    font-size: 2rem;
+}

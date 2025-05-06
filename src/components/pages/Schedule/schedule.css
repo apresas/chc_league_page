@@ -1,0 +1,38 @@
+.schedule_container {
+    width: 95%;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.schedule_header {
+    margin-bottom: 1px solid lightgrey
+}
+
+.content h1{
+    font-weight: 900;
+    color: var(--color-primary);
+    margin-bottom: 0;
+}
+
+.schedule_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.dateTile_container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.games_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0 0 2rem 0;
+}

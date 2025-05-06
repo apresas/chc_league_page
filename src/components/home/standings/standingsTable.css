@@ -1,0 +1,88 @@
+.standings_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+    gap: 1rem;
+}
+
+.standings_container h3{
+    margin: 0.75rem 0;
+}
+
+.standings_title {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 95%;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 1.25rem;
+}
+
+.standings_title h1{
+    font-size: 1.5rem;
+    color: rgb(29, 53, 113);
+    /* text-transform: uppercase; */
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+}
+
+.table_container {
+    width: 95%;
+}
+
+.standings_table {
+    width: 95%;
+    border-collapse: collapse;
+    transition: var(--transition-main);
+}
+
+
+
+.standingsRow_container {
+    text-align: center;
+    border-top: 1px solid lightgrey;
+}
+
+th { 
+    background-color: lightgrey;
+    padding: 0.5rem 0;
+}
+
+
+.standings_logo{
+    width: 2rem;
+    aspect-ratio: 1/1;
+    padding: 0.25rem;
+}
+
+.team_name_row {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 0.5rem;
+    margin: 0 0 0 1rem;
+    /* font-weight: bold; */
+}
+
+.table_label {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red_label{
+    background-color: red;
+    color: white;
+}
+.white_label{
+    background-color: rgb(230, 229, 235);
+}
+.blue_label{
+    background-color: blue;
+    color: white;
+}
+
+

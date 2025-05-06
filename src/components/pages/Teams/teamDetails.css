@@ -1,0 +1,31 @@
+.team-detail-page {
+    font-family: var(--font-header);
+}
+
+.leader-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.team-header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-banner-logo {
+    width: 12rem;
+    aspect-ratio: 1/1;
+}
+
+.leader-category.leader-table {
+    width: 100%;
+}

@@ -1,0 +1,246 @@
+[
+  {
+    "teams": [
+      {
+        "id": 0,
+        "name": "Olentangy",
+        "mascot": "Braves",
+        "logo": "/OHS_Logo.svg",
+        "division": "RED",
+        "record": {
+          "games": 10,
+          "wins": 6,
+          "loses": 0,
+          "ties": 2,
+          "overtime": 2,
+          "goalsFor": 48,
+          "goalsAgainst": 18
+        }
+      },
+      {
+        "id": 1,
+        "name": "Olentangy Liberty",
+        "mascot": "Patriots",
+        "logo": "/OLHS_Logo.svg",
+        "division": "RED",
+        "record": {
+          "games": 8,
+          "wins": 5,
+          "loses": 2,
+          "ties": 0,
+          "overtime": 1,
+          "goalsFor": 36,
+          "goalsAgainst": 26
+        }
+      },
+      {
+        "id": 2,
+        "name": "Upper Arlington",
+        "mascot": "Golden Bears",
+        "logo": "/UA_Logo.svg",
+        "division": "RED",
+        "record": {
+          "games": 9,
+          "wins": 7,
+          "loses": 1,
+          "ties": 1,
+          "overtime": 0,
+          "goalsFor": 40,
+          "goalsAgainst": 18
+        }
+      },
+      {
+        "id": 3,
+        "name": "St. Charles",
+        "mascot": "Cardinals",
+        "logo": "/SC_Logo.svg",
+        "division": "RED",
+        "record": {
+          "games": 12,
+          "wins": 5,
+          "loses": 2,
+          "ties": 3,
+          "overtime": 2,
+          "goalsFor": 36,
+          "goalsAgainst": 28
+        }
+      },
+      {
+        "id": 4,
+        "name": "Olentangy Berlin",
+        "mascot": "Bears",
+        "logo": "/OBHS_Logo.svg",
+        "division": "RED",
+        "record": {
+          "games": 12,
+          "wins": 2,
+          "loses": 7,
+          "ties": 1,
+          "overtime": 2,
+          "goalsFor": 27,
+          "goalsAgainst": 58
+        }
+      },
+      {
+        "id": 5,
+        "name": "New Albany",
+        "mascot": "Eagles",
+        "logo": "/NA_Logo.svg",
+        "division": "RED",
+        "record": {
+          "games": 12,
+          "wins": 10,
+          "loses": 2,
+          "ties": 0,
+          "overtime": 0,
+          "goalsFor": 61,
+          "goalsAgainst": 30
+        }
+      },
+      {
+        "id": 6,
+        "name": "Archbishop Moeller",
+        "mascot": "Crusaders",
+        "logo": "/MOE_Logo.svg",
+        "division": "RED",
+        "record": {
+          "games": 11,
+          "wins": 4,
+          "loses": 7,
+          "ties": 0,
+          "overtime": 0,
+          "goalsFor": 34,
+          "goalsAgainst": 47
+        }
+      },
+      {
+        "id": 7,
+        "name": "Olentangy Orange",
+        "mascot": "Pioneers",
+        "logo": "/OOHS_Logo.svg",
+        "division": "WHITE",
+        "record": {
+          "games": 12,
+          "wins": 7,
+          "loses": 5,
+          "ties": 0,
+          "overtime": 0,
+          "goalsFor": 37,
+          "goalsAgainst": 40
+        }
+      },
+      {
+        "id": 8,
+        "name": "Dublin Coffman",
+        "mascot": "Shamrocks",
+        "logo": "/DC_Logo.svg",
+        "division": "WHITE",
+        "record": {
+          "games": 12,
+          "wins": 8,
+          "loses": 4,
+          "ties": 0,
+          "overtime": 0,
+          "goalsFor": 41,
+          "goalsAgainst": 29
+        }
+      },
+      {
+        "id": 9,
+        "name": "Dublin Jerome",
+        "mascot": "Celtics",
+        "logo": "/DJ_Logo.svg",
+        "division": "WHITE",
+        "record": {
+          "games": 12,
+          "wins": 8,
+          "loses": 1,
+          "ties": 3,
+          "overtime": 0,
+          "goalsFor": 58,
+          "goalsAgainst": 16
+        }
+      },
+      {
+        "id": 10,
+        "name": "St.Xavier",
+        "mascot": "Bombers",
+        "logo": "/STX_Logo.svg",
+        "division": "WHITE",
+        "record": {
+          "games": 13,
+          "wins": 3,
+          "loses": 10,
+          "ties": 0,
+          "overtime": 1,
+          "goalsFor": 33,
+          "goalsAgainst": 64
+        }
+      },
+      {
+        "id": 11,
+        "name": "Thomas Worthington",
+        "mascot": "Cardinals",
+        "logo": "/TW_Logo.svg",
+        "division": "BLUE",
+        "record": {
+          "games": 13,
+          "wins": 0,
+          "loses": 12,
+          "ties": 0,
+          "overtime": 1,
+          "goalsFor": 21,
+          "goalsAgainst": 67
+        }
+      },
+      {
+        "id": 12,
+        "name": "Worthington Kilbourne",
+        "mascot": "Wolves",
+        "logo": "/WK_Logo.svg",
+        "division": "BLUE",
+        "record": {
+          "games": 11,
+          "wins": 5,
+          "loses": 5,
+          "ties": 0,
+          "overtime": 1,
+          "goalsFor": 28,
+          "goalsAgainst": 38
+        }
+      },
+      {
+        "id": 13,
+        "name": "Gahanna",
+        "mascot": "Lions",
+        "logo": "/GAH_Logo.svg",
+        "division": "BLUE",
+        "record": {
+          "games": 10,
+          "wins": 6,
+          "loses": 4,
+          "ties": 0,
+          "overtime": 0,
+          "goalsFor": 31,
+          "goalsAgainst": 29
+        }
+      },
+      {
+        "id": 14,
+        "name": "Archbishop Waterson",
+        "mascot": "Eagles",
+        "logo": "/BW_Logo.svg",
+        "division": "BLUE",
+        "record": {
+          "games": 11,
+          "wins": 3,
+          "loses": 8,
+          "ties": 0,
+          "overtime": 0,
+          "goalsFor": 18,
+          "goalsAgainst": 41
+        }
+      }
+    ]
+  }
+]

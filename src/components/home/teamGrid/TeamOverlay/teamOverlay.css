@@ -1,0 +1,292 @@
+@keyframes slideOpen {
+0% {
+    visibility: hidden
+};
+100% {
+    height: 86%;
+    visibility: visible
+};
+}
+
+
+.team_bg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: 20%; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    /* opacity: 0; */
+    height: 0;
+    transition: var(--transition-main);
+    visibility: hidden;
+    /* padding: 2rem; */
+}
+
+.overlay_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay_container::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(180deg, black, white);
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.team_overlay {
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    overflow: clip;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.35);
+    visibility: hidden;
+    transition: var(--transition-main);
+}
+
+.overlay_open {
+    animation: slideOpen 0.5s forwards;
+    animation-delay: 0.5s;
+    height: 0;
+}
+
+.teamClose_btn {
+    all: unset;
+    font-size: 1.75rem;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 3;
+    transition: var(--transition-main);
+}
+
+.teamClose_btn:hover {
+    color: var(--color-red);
+}
+
+.team_overlay::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 70%;
+    background-image: url(/ice_texture2.png);
+    background-image: cover;
+    opacity: 0.5;
+    mix-blend-mode: soft-light;
+    z-index: 2;
+}
+
+.team_open {
+    /* opacity: 1; */
+    height: 80%;
+    visibility: visible;
+}
+
+.overlay_header {
+    position: absolute;
+    top: 0;
+    bottom: 70%;
+    left: 0;
+    right: 0;
+    background-color: var(--color-primary);
+    border-bottom: 5px solid white;
+    box-shadow: 0 7px 0 0 var(--color-red);
+}
+
+.logo_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay_logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 45%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 1.75rem;
+    margin-top: 1rem;
+    z-index: 3;
+    background: linear-gradient(0deg, white 40%, var(--color-white));
+
+}
+
+.overlay_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1.5rem 0 2rem 0; */
+    font-family: var(--font-header);
+    gap: 0.5rem;
+    /* height: 100%; */
+
+}
+
+.overlay_name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    color: var(--color-primary);
+}
+
+.overlay_teamName {
+    font-weight: 600;
+    font-size: 1.85rem;
+}
+
+.overlay_mascot {
+    font-size: 1.5rem;
+}
+
+.overlay_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+.overlay_city, .overlay_est, .overlay_rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 1rem;
+    color: grey;
+    font-weight: 300;
+    padding: 0.5rem 0;
+    /* padding-bottom: 1.5rem; */
+    transition: var(--transition-main)
+}
+
+.overlay_rank_icon, .location_icon, .ohio_icon svg {
+    transition: var(--transition-main);
+}
+
+
+.overlay_rank_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75rem;
+    color: lightgrey;
+}
+
+.ohio_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgrey;
+}
+
+.ohio_icon svg {
+    width: 28px;
+    height: 28px;
+    aspect-ratio: 1/1;
+    path {
+        transition: var(--transition-main);
+        fill: lightgrey;
+    }
+    
+}
+
+.overlay_rank:hover .overlay_rank_icon {
+    color: gold;
+}
+
+.overlay_city:hover .location_icon {
+    color: var(--color-red);
+}
+
+.overlay_est:hover .ohio_icon svg{
+    path {
+        fill: var(--color-blue);
+    }
+}
+
+/* .ohio_icon img{
+    width: 28px;
+    height: 28px;
+    aspect-ratio: 1/1;
+} */
+
+/* .overlay_est {
+    box-shadow: 1px 0 0 0 lightgrey;
+}
+
+.overlay_rank {
+    box-shadow: -1px 0 0 0 lightgrey;
+} */
+
+
+.overlay_logo_container img {
+    height: 100%;
+    width: 100%;
+}
+
+.logo_outline_red {
+    box-shadow: 0 0 0 7px var(--color-red);
+}
+
+.logo_outline_white {
+    box-shadow: 0 0 0 7px var(--color-white);
+}
+
+.logo_outline_blue {
+    box-shadow: 0 0 0 7px var(--color-blue);
+}
+
+.overlay_border_red {
+    box-shadow: 0 0 0 7px var(--color-red);
+}
+
+.overlay_border_white {
+    box-shadow: 0 0 0 7px var(--color-white);
+}
+
+.overlay_border_blue {
+    box-shadow: 0 0 0 7px var(--color-blue);
+}
+
+.overlay_red, .overlay_white, .overlay_blue{
+    background-color: var(--color-white);
+}
+
+/* .overlay_white {
+    background-color: var(--color-white);
+}
+
+.overlay_blue {
+    background-color: var(--color-white);
+} */

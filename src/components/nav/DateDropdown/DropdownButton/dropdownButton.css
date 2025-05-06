@@ -1,0 +1,34 @@
+.dropdown-btn {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+    width: 9rem;
+    padding: 0.75rem 1rem;
+    background-color: var(--color-lightgrey);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: var(--transition-main);
+    font-size: 0.85rem;
+}
+
+.toggle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    transition: var(--transition-main);
+    padding: 0.3rem 0;
+    border-radius: 0.2rem;
+}
+
+.dropdown-btn:hover .toggle-icon {
+    background-color: white;
+}
+
+.arrow-toggle {
+    transform: rotate(180deg);
+}
+
+.button-open {
+    border-radius: 0.5rem 0.5rem 0 0;
+}

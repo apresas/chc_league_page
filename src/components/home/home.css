@@ -1,0 +1,37 @@
+.main_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 1280px;
+    /* height: 100vh; */
+    margin: 2.5rem 0;
+}
+
+.standing_title {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    width: 100%;
+    /* border-bottom: 1px solid lightgrey; */
+    margin-bottom: 0;
+}
+
+.homeStandings_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 2rem 0;
+}
+
+.standing_title h1 {
+    color: var(--color-primary);
+    font-family: var(--font-header);
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: 900;
+}

@@ -1,0 +1,53 @@
+.dateTile{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 1rem;
+    transition: var(--transition-main);
+}
+
+.dateTile_header {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-header);
+    font-weight: 500;
+}
+
+.dateTile_games {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    /* font-size: 0.85rem; */
+    font-family: var(--font-header);
+    font-weight: 600;
+}
+
+.dateTile.clickable {
+    cursor: pointer;
+    transition: transform 0.15s ease;
+  }
+  
+  .dateTile.clickable:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+
+  .dateTile.selected {
+    box-shadow: 0 0 0 2px var(--color-blue);
+  }
+
+  .dateTile.selected:hover {
+    box-shadow: 0 0 0 2px var(--color-blue);
+  }
+
+  .dateTile_selected_icon {
+    opacity: 0;
+    transition: var(--transition-main);
+  }
+
+  .selected-icon {
+    opacity: 1;
+  }
+

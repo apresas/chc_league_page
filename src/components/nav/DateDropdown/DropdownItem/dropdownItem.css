@@ -1,0 +1,15 @@
+.dropdown-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: var(--transition-main);
+}
+
+.dropdown-item:hover {
+    background-color: white;
+}

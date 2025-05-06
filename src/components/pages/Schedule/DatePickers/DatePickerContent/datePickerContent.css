@@ -1,0 +1,144 @@
+.datePicker-content {
+    position: absolute;
+    /* left: 0; */
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    background-color: var(--color-lightgrey);
+    border-radius: 0 0 0.5rem 0.5rem;
+    max-height: 0;
+    opacity: 0;
+    transition: var(--transition-main);
+    font-family: var(--font-header);
+    visibility: hidden;
+    z-index: 3;
+}
+
+.content-header {
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    padding: 0 0 0.5rem 0;
+}
+
+.content-header-btn, .content-btn {
+    all: unset;
+}
+
+.content-header-btn {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.content-calender {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    padding: 1rem 0;
+}
+
+.calender-header, .calender-body {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-content: center;
+}
+
+.calender-header {
+    color: grey;
+}
+
+
+.calender-body {
+    font-weight: 600;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.day_title {
+    aspect-ratio: 1/1;
+}
+
+.day {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    transition: var(--transition-main);
+    cursor: pointer;
+}
+
+.day:hover {
+    background-color: white;
+}
+
+.datePicker-content-open {
+    opacity: 1;
+    max-height: 28rem;
+    visibility: visible;
+    /* max-height: fit-content; */
+}
+
+.content-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    border: 1px solid lightgrey;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 700;
+}  
+
+.chevron_btn {
+    all: unset;
+    opacity: 1;
+    transition: var(--transition-main);
+    cursor: pointer;
+}
+
+.chevron_hidden {
+    opacity: 0;
+}
+
+
+/* Calender Grid */
+
+#d1 {
+    grid-row-start: 1;
+    grid-column-start: 7;
+}
+
+#d2, #d3, #d4, #d5, #d6, #d7, #d8{
+    grid-row-start: 2;
+}
+
+#d9, #d10, #d11, #d12, #d13, #d14, #d15{
+    grid-row-start: 3;
+}
+
+#d16, #d17, #d18, #d19, #d20, #d21, #d22{
+    grid-row-start: 4;
+}
+
+#d23, #d24, #d25, #d26, #d27, #d28, #d29{
+    grid-row-start: 5;
+}
+
+#d30{
+    grid-row-start: 6;
+}

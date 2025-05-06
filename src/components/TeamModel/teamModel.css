@@ -1,0 +1,143 @@
+.teamModel_bg {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(29, 53, 113, 0.5);
+    z-index: 3;
+}
+
+.teamModel_container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    background-color: white;
+    height: 75vh;
+    width: 70vw;
+}
+
+.teamModel_container section{
+/* border: 1px solid red; */
+}
+
+.close_btn {
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 2rem;
+    transition: color 300ms ease-in-out;
+}
+
+.close_btn:hover {
+    color: red;
+}
+
+.model_teamInfo {
+    background-color: var(--color-primary);
+    display: grid;
+    /* display: grid;
+    grid-template-rows: 4fr 2fr 1fr;
+    height: 100%; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.model_banner {
+    width: 100%;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.model_info {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.model_logo_container {
+    width: 9rem;
+    aspect-ratio: 1/1;
+
+}
+
+.info_stat {
+    display: grid;
+    /* gap: 1rem; */
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.div_icon, .est_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+}
+
+.rank_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.rank_value, .div_value, .est_value {
+    text-align: center;
+}
+
+.info_column {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr 3fr 1fr;
+    width: 100%;
+}
+
+.info_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.info_icon img {
+    fill: white;
+}
+
+.info_value {
+    color: white;
+}
+
+.model_info h1, .model_info h2, .model_info h3 {
+    margin: 0;
+    color: white;
+}
+
+.model_info h1, .model_info h2 {
+    font-family: var(--font-header);
+    font-weight: 500;
+}
+
+
+.model_info h3 {
+    font-weight: 300;
+    font-size: 0.9rem;
+}

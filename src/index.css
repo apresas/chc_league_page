@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  display: flex;
+  /* place-items: center; */
+  /* min-width: 320px; */
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+:root {
+
+  --color-bg: rgb(212, 215, 221);
+  --color-primary: rgb(29, 53, 113);
+  --color-lightgrey: rgb(242, 244, 249);
+  --color-blue: #1055d4;
+  --color-red: #ea1836;
+  --color-white: #e4e6ed;
+  --color-black: #161617;
+
+  --font-main: "Roboto";
+  /* --font-header: "Teko"; */
+  /* --font-main: "Poppins"; */
+  --font-header: "Rajdhani";
+
+  --transition-main: 300ms ease-in-out;
+}

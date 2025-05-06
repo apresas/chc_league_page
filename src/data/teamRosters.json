@@ -1,0 +1,5192 @@
+[
+    {
+      "team": "OHS",
+      "roster": [
+        {
+          "id": "b120de27",
+          "name": {
+            "first": "Nate",
+            "last": "Day"
+          },
+          "number": 35,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 141,
+          "dob": "2009-06-12",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "05a2cc3f",
+          "name": {
+            "first": "Griffin",
+            "last": "Harvey"
+          },
+          "number": 11,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 137,
+          "dob": "2008-11-28",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "efeb1281",
+          "name": {
+            "first": "Brady",
+            "last": "Reed"
+          },
+          "number": 58,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2007-03-20",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "2bbbb2a5",
+          "name": {
+            "first": "Franklin",
+            "last": "McGuire"
+          },
+          "number": 20,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 140,
+          "dob": "2010-01-07",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "0d130b10",
+          "name": {
+            "first": "Porter",
+            "last": "Lyons"
+          },
+          "number": 76,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 139,
+          "dob": "2009-08-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "96814850",
+          "name": {
+            "first": "Bruce",
+            "last": "Holmes"
+          },
+          "number": 42,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 148,
+          "dob": "2008-11-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "7cfe5cc1",
+          "name": {
+            "first": "Jasper",
+            "last": "Oliver"
+          },
+          "number": 15,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 142,
+          "dob": "2010-02-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "ae97157d",
+          "name": {
+            "first": "Johan",
+            "last": "Dunn"
+          },
+          "number": 87,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 143,
+          "dob": "2010-02-28",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a96e20f3",
+          "name": {
+            "first": "Lincoln",
+            "last": "Hoffman"
+          },
+          "number": 18,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 151,
+          "dob": "2006-09-05",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "e8a75268",
+          "name": {
+            "first": "Waylon",
+            "last": "King"
+          },
+          "number": 49,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "6'3\"",
+          "weight": 147,
+          "dob": "2010-01-19",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1db13242",
+          "name": {
+            "first": "Samson",
+            "last": "Byrne"
+          },
+          "number": 83,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2009-02-19",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2e257e9d",
+          "name": {
+            "first": "Simon",
+            "last": "Lambert"
+          },
+          "number": 52,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 146,
+          "dob": "2010-01-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "03e8f275",
+          "name": {
+            "first": "Wilson",
+            "last": "Reese"
+          },
+          "number": 8,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "6'1\"",
+          "weight": 141,
+          "dob": "2007-03-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "7d8df8a9",
+          "name": {
+            "first": "Jack",
+            "last": "Lewis"
+          },
+          "number": 72,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 139,
+          "dob": "2006-06-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "852614b9",
+          "name": {
+            "first": "Wilder",
+            "last": "Madden"
+          },
+          "number": 54,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 145,
+          "dob": "2010-11-10",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "e26c7eef",
+          "name": {
+            "first": "Heath",
+            "last": "Chambers"
+          },
+          "number": 95,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2010-06-13",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1b314c5f",
+          "name": {
+            "first": "Ezra",
+            "last": "Murphy"
+          },
+          "number": 55,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "6'3\"",
+          "weight": 155,
+          "dob": "2009-05-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f30d970e",
+          "name": {
+            "first": "Forrest",
+            "last": "Parks"
+          },
+          "number": 93,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 146,
+          "dob": "2010-05-18",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "3acf1ecc",
+          "name": {
+            "first": "Kane",
+            "last": "Munoz"
+          },
+          "number": 37,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 145,
+          "dob": "2007-12-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "38859e26",
+          "name": {
+            "first": "Torin",
+            "last": "Lockridge"
+          },
+          "number": 99,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 147,
+          "dob": "2006-10-28",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 0
+    },
+    {
+      "team": "OLHS",
+      "roster": [
+        {
+          "id": "346e046a",
+          "name": {
+            "first": "Manuel",
+            "last": "Morgan"
+          },
+          "number": 8,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 146,
+          "dob": "2008-01-17",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "cb8a44e1",
+          "name": {
+            "first": "Valentino",
+            "last": "Olsen"
+          },
+          "number": 66,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2010-09-05",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "3bbf1be1",
+          "name": {
+            "first": "Tyler",
+            "last": "Hayes"
+          },
+          "number": 43,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'7\"",
+          "weight": 144,
+          "dob": "2007-08-18",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "9dfd2224",
+          "name": {
+            "first": "Tavian",
+            "last": "Crowhurst"
+          },
+          "number": 57,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 149,
+          "dob": "2006-08-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "86997d5d",
+          "name": {
+            "first": "Uriah",
+            "last": "Diaz"
+          },
+          "number": 44,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'6\"",
+          "weight": 147,
+          "dob": "2008-11-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1db73408",
+          "name": {
+            "first": "Zion",
+            "last": "Fletcher"
+          },
+          "number": 29,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 138,
+          "dob": "2008-01-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "ff584a2c",
+          "name": {
+            "first": "Andre",
+            "last": "Paul"
+          },
+          "number": 60,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 144,
+          "dob": "2007-07-28",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "bc4ca17b",
+          "name": {
+            "first": "Grant",
+            "last": "Howell"
+          },
+          "number": 78,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 144,
+          "dob": "2007-05-16",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a59b30fc",
+          "name": {
+            "first": "Warren",
+            "last": "Luna"
+          },
+          "number": 39,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 146,
+          "dob": "2007-10-11",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "717e387a",
+          "name": {
+            "first": "Adrian",
+            "last": "Clark"
+          },
+          "number": 96,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 132,
+          "dob": "2008-11-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "934c6cb0",
+          "name": {
+            "first": "Shane",
+            "last": "Hudson"
+          },
+          "number": 51,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 145,
+          "dob": "2007-12-15",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "566e4704",
+          "name": {
+            "first": "Aven",
+            "last": "Fenwick"
+          },
+          "number": 28,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "6'1\"",
+          "weight": 148,
+          "dob": "2009-02-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5362c5e5",
+          "name": {
+            "first": "Corbin",
+            "last": "Knight"
+          },
+          "number": 14,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2010-07-10",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "19edca36",
+          "name": {
+            "first": "Archer",
+            "last": "Ramirez"
+          },
+          "number": 68,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "6'1\"",
+          "weight": 144,
+          "dob": "2007-06-14",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "029576c3",
+          "name": {
+            "first": "Raiden",
+            "last": "Reynolds"
+          },
+          "number": 88,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 146,
+          "dob": "2010-04-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "3fc192e7",
+          "name": {
+            "first": "Nelson",
+            "last": "Neal"
+          },
+          "number": 84,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "6'0\"",
+          "weight": 146,
+          "dob": "2006-03-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5666bee1",
+          "name": {
+            "first": "Ronan",
+            "last": "Ellison"
+          },
+          "number": 33,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 145,
+          "dob": "2007-08-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8dc40342",
+          "name": {
+            "first": "Emmett",
+            "last": "Fuller"
+          },
+          "number": 24,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 140,
+          "dob": "2009-06-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "d015ef16",
+          "name": {
+            "first": "Reese",
+            "last": "Nunez"
+          },
+          "number": 74,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'6\"",
+          "weight": 147,
+          "dob": "2007-08-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "7c189b4a",
+          "name": {
+            "first": "Liam",
+            "last": "Reeves"
+          },
+          "number": 36,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Junior",
+          "height": "6'2\"",
+          "weight": 144,
+          "dob": "2010-11-17",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 1
+    },
+    {
+      "team": "OBHS",
+      "roster": [
+        {
+          "id": "1eb4cef3",
+          "name": {
+            "first": "Cesar",
+            "last": "Collier"
+          },
+          "number": 97,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "6'1\"",
+          "weight": 144,
+          "dob": "2007-02-19",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "69dba258",
+          "name": {
+            "first": "Mario",
+            "last": "Greene"
+          },
+          "number": 38,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Senior",
+          "height": "6'1\"",
+          "weight": 147,
+          "dob": "2007-05-24",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "4e2d1ba3",
+          "name": {
+            "first": "Merrick",
+            "last": "Ashen"
+          },
+          "number": 32,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "6'4\"",
+          "weight": 144,
+          "dob": "2006-09-05",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "1af72666",
+          "name": {
+            "first": "Caden",
+            "last": "Long"
+          },
+          "number": 78,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'7\"",
+          "weight": 145,
+          "dob": "2009-07-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "9509087d",
+          "name": {
+            "first": "Briggs",
+            "last": "Ashcroft"
+          },
+          "number": 58,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 148,
+          "dob": "2009-02-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "532189ca",
+          "name": {
+            "first": "Desmond",
+            "last": "Cross"
+          },
+          "number": 47,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 141,
+          "dob": "2008-08-18",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "836eacfc",
+          "name": {
+            "first": "Micah",
+            "last": "Cochran"
+          },
+          "number": 80,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Sophomore",
+          "height": "5'6\"",
+          "weight": 145,
+          "dob": "2010-09-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "39466bf6",
+          "name": {
+            "first": "Levi",
+            "last": "Dalton"
+          },
+          "number": 46,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "6'4\"",
+          "weight": 139,
+          "dob": "2009-04-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2ae21ec9",
+          "name": {
+            "first": "Dustin",
+            "last": "Blair"
+          },
+          "number": 43,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2006-06-11",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f9d2d868",
+          "name": {
+            "first": "Cairo",
+            "last": "Draven"
+          },
+          "number": 31,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 143,
+          "dob": "2010-06-03",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "76cad0df",
+          "name": {
+            "first": "Dane",
+            "last": "Morris"
+          },
+          "number": 52,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 140,
+          "dob": "2009-08-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "58edd7a4",
+          "name": {
+            "first": "Francis",
+            "last": "Poole"
+          },
+          "number": 85,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 144,
+          "dob": "2009-05-11",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "0051d249",
+          "name": {
+            "first": "Terry",
+            "last": "Patterson"
+          },
+          "number": 39,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 148,
+          "dob": "2007-06-11",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "131bc627",
+          "name": {
+            "first": "Russell",
+            "last": "Matthews"
+          },
+          "number": 71,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Sophomore",
+          "height": "6'0\"",
+          "weight": 143,
+          "dob": "2007-12-03",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c862632d",
+          "name": {
+            "first": "Aaron",
+            "last": "Fraser"
+          },
+          "number": 22,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 140,
+          "dob": "2009-06-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4567c1cf",
+          "name": {
+            "first": "Killian",
+            "last": "Riley"
+          },
+          "number": 24,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'5\"",
+          "weight": 146,
+          "dob": "2007-02-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "81bac20f",
+          "name": {
+            "first": "Zayden",
+            "last": "Phillips"
+          },
+          "number": 7,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2007-06-18",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5c4e77d6",
+          "name": {
+            "first": "Tobias",
+            "last": "Underwood"
+          },
+          "number": 75,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 146,
+          "dob": "2008-05-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "766aed43",
+          "name": {
+            "first": "Ezekiel",
+            "last": "Reyes"
+          },
+          "number": 34,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 141,
+          "dob": "2010-09-22",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4b11fe44",
+          "name": {
+            "first": "Leon",
+            "last": "Bates"
+          },
+          "number": 57,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'11\"",
+          "weight": 147,
+          "dob": "2008-11-10",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 2
+    },
+    {
+      "team": "UA",
+      "roster": [
+        {
+          "id": "6636abf7",
+          "name": {
+            "first": "Odin",
+            "last": "Barron"
+          },
+          "number": 38,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2006-10-28",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "0f414c8e",
+          "name": {
+            "first": "Wesley",
+            "last": "Patel"
+          },
+          "number": 40,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 138,
+          "dob": "2009-06-23",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "015f24dc",
+          "name": {
+            "first": "Walker",
+            "last": "Kemp"
+          },
+          "number": 75,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2007-07-01",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "9cf05e12",
+          "name": {
+            "first": "Braden",
+            "last": "Hart"
+          },
+          "number": 65,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "6'1\"",
+          "weight": 147,
+          "dob": "2008-11-07",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "9b510e37",
+          "name": {
+            "first": "Jace",
+            "last": "Hunter"
+          },
+          "number": 15,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 148,
+          "dob": "2008-06-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "3b143e42",
+          "name": {
+            "first": "Chase",
+            "last": "Norton"
+          },
+          "number": 4,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 145,
+          "dob": "2006-01-28",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2c704bc6",
+          "name": {
+            "first": "Abel",
+            "last": "Brown"
+          },
+          "number": 37,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 146,
+          "dob": "2007-11-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "28ef4ce9",
+          "name": {
+            "first": "Travis",
+            "last": "Barlow"
+          },
+          "number": 52,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 150,
+          "dob": "2007-05-22",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "b6be0783",
+          "name": {
+            "first": "Jair",
+            "last": "McBride"
+          },
+          "number": 25,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 141,
+          "dob": "2009-05-18",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f24a7fa9",
+          "name": {
+            "first": "Gunner",
+            "last": "Garner"
+          },
+          "number": 17,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 148,
+          "dob": "2010-12-07",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "577a1448",
+          "name": {
+            "first": "Rodney",
+            "last": "Jordan"
+          },
+          "number": 53,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 134,
+          "dob": "2009-11-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "14a1c7e6",
+          "name": {
+            "first": "Zarek",
+            "last": "Colburn"
+          },
+          "number": 58,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'7\"",
+          "weight": 144,
+          "dob": "2010-02-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1441376e",
+          "name": {
+            "first": "Drake",
+            "last": "Ferguson"
+          },
+          "number": 91,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 154,
+          "dob": "2009-11-01",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "0476b1d3",
+          "name": {
+            "first": "Malachi",
+            "last": "Walker"
+          },
+          "number": 73,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 146,
+          "dob": "2010-12-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "517aa5c8",
+          "name": {
+            "first": "August",
+            "last": "Lynch"
+          },
+          "number": 18,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 144,
+          "dob": "2006-01-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2318a8f4",
+          "name": {
+            "first": "Paxton",
+            "last": "Joseph"
+          },
+          "number": 82,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2010-12-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "968cfdab",
+          "name": {
+            "first": "Brett",
+            "last": "Richards"
+          },
+          "number": 94,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2009-04-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "73cc51a0",
+          "name": {
+            "first": "Quentin",
+            "last": "Lamb"
+          },
+          "number": 49,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 149,
+          "dob": "2009-10-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "252edf2b",
+          "name": {
+            "first": "Harvey",
+            "last": "Barnes"
+          },
+          "number": 3,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "5'7\"",
+          "weight": 147,
+          "dob": "2009-05-17",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1a708e37",
+          "name": {
+            "first": "Raul",
+            "last": "Kelly"
+          },
+          "number": 36,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2010-06-23",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 3
+    },
+    {
+      "team": "ST.C",
+      "roster": [
+        {
+          "id": "086e8a9a",
+          "name": {
+            "first": "River",
+            "last": "Ingram"
+          },
+          "number": 84,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 141,
+          "dob": "2007-03-26",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "e4331834",
+          "name": {
+            "first": "Niko",
+            "last": "McConnell"
+          },
+          "number": 16,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 144,
+          "dob": "2006-06-07",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "4b375511",
+          "name": {
+            "first": "Tristan",
+            "last": "Kim"
+          },
+          "number": 36,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 144,
+          "dob": "2007-09-21",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "ddbde248",
+          "name": {
+            "first": "Remy",
+            "last": "Jefferson"
+          },
+          "number": 2,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 141,
+          "dob": "2009-08-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "81e98184",
+          "name": {
+            "first": "Randall",
+            "last": "Hampton"
+          },
+          "number": 41,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'7\"",
+          "weight": 145,
+          "dob": "2006-01-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "da718b63",
+          "name": {
+            "first": "Gideon",
+            "last": "Robinson"
+          },
+          "number": 8,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 145,
+          "dob": "2010-12-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c20649ef",
+          "name": {
+            "first": "Solomon",
+            "last": "Boone"
+          },
+          "number": 10,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 139,
+          "dob": "2008-10-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "d3d01142",
+          "name": {
+            "first": "Clark",
+            "last": "Payne"
+          },
+          "number": 71,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "6'2\"",
+          "weight": 148,
+          "dob": "2008-03-05",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "3870301a",
+          "name": {
+            "first": "Jesse",
+            "last": "Ortega"
+          },
+          "number": 13,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2007-05-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "9f498bab",
+          "name": {
+            "first": "Zane",
+            "last": "Bryant"
+          },
+          "number": 32,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 145,
+          "dob": "2006-03-20",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "e2568ff2",
+          "name": {
+            "first": "Josiah",
+            "last": "McIntosh"
+          },
+          "number": 36,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 142,
+          "dob": "2006-11-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2cb757d3",
+          "name": {
+            "first": "Clay",
+            "last": "Richardson"
+          },
+          "number": 93,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 148,
+          "dob": "2008-08-17",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "e3758571",
+          "name": {
+            "first": "Otis",
+            "last": "Daniels"
+          },
+          "number": 64,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'11\"",
+          "weight": 155,
+          "dob": "2007-12-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "bd7022ab",
+          "name": {
+            "first": "Phillip",
+            "last": "Powell"
+          },
+          "number": 5,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "6'0\"",
+          "weight": 140,
+          "dob": "2006-04-01",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c94abaa2",
+          "name": {
+            "first": "Darren",
+            "last": "Rios"
+          },
+          "number": 38,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 154,
+          "dob": "2009-05-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c50eaa08",
+          "name": {
+            "first": "Kingston",
+            "last": "Maxwell"
+          },
+          "number": 86,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 149,
+          "dob": "2009-09-22",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "44b91d51",
+          "name": {
+            "first": "Colton",
+            "last": "Irwin"
+          },
+          "number": 97,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2007-08-16",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "9fe70051",
+          "name": {
+            "first": "Kendrick",
+            "last": "Collins"
+          },
+          "number": 66,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 132,
+          "dob": "2010-08-13",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "3109b539",
+          "name": {
+            "first": "Angelo",
+            "last": "Anderson"
+          },
+          "number": 46,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 146,
+          "dob": "2010-07-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8475b1bc",
+          "name": {
+            "first": "Hayes",
+            "last": "Malone"
+          },
+          "number": 39,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 151,
+          "dob": "2009-12-14",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 4
+    },
+    {
+      "team": "NA",
+      "roster": [
+        {
+          "id": "fa4c37b2",
+          "name": {
+            "first": "Malik",
+            "last": "Lindsey"
+          },
+          "number": 38,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 153,
+          "dob": "2010-05-21",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f80f46de",
+          "name": {
+            "first": "Xander",
+            "last": "Osborne"
+          },
+          "number": 80,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 148,
+          "dob": "2008-09-20",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "f7d3654f",
+          "name": {
+            "first": "Iker",
+            "last": "Cohen"
+          },
+          "number": 98,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 144,
+          "dob": "2010-04-13",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "c287291c",
+          "name": {
+            "first": "Vince",
+            "last": "Morrison"
+          },
+          "number": 49,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2009-12-15",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "ecd96f75",
+          "name": {
+            "first": "Jensen",
+            "last": "Page"
+          },
+          "number": 1,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 140,
+          "dob": "2007-12-16",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "ced33875",
+          "name": {
+            "first": "Aiden",
+            "last": "Henderson"
+          },
+          "number": 38,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 142,
+          "dob": "2008-10-14",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "394e5c51",
+          "name": {
+            "first": "Asher",
+            "last": "Huff"
+          },
+          "number": 90,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 148,
+          "dob": "2007-12-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "23a5a70a",
+          "name": {
+            "first": "Israel",
+            "last": "Thompson"
+          },
+          "number": 95,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 145,
+          "dob": "2008-05-04",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1fc84555",
+          "name": {
+            "first": "Kolton",
+            "last": "Black"
+          },
+          "number": 91,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2009-10-15",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c1509e16",
+          "name": {
+            "first": "Louis",
+            "last": "Adams"
+          },
+          "number": 52,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 135,
+          "dob": "2006-05-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1a5d2e0e",
+          "name": {
+            "first": "Holden",
+            "last": "Young"
+          },
+          "number": 25,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 141,
+          "dob": "2009-04-04",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "7ce75fff",
+          "name": {
+            "first": "Kairo",
+            "last": "Trenholm"
+          },
+          "number": 28,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 155,
+          "dob": "2010-03-04",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "9fd67b7e",
+          "name": {
+            "first": "Carter",
+            "last": "Parker"
+          },
+          "number": 73,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 143,
+          "dob": "2008-01-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2a62fc53",
+          "name": {
+            "first": "Kyler",
+            "last": "Little"
+          },
+          "number": 53,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 146,
+          "dob": "2009-05-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "da29b921",
+          "name": {
+            "first": "Theo",
+            "last": "Jarvis"
+          },
+          "number": 65,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 155,
+          "dob": "2008-03-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "59f17b51",
+          "name": {
+            "first": "Cruz",
+            "last": "Perkins"
+          },
+          "number": 4,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 142,
+          "dob": "2007-03-01",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "efd9e877",
+          "name": {
+            "first": "Edison",
+            "last": "Jackson"
+          },
+          "number": 6,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 148,
+          "dob": "2009-05-19",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "669551e5",
+          "name": {
+            "first": "Elijah",
+            "last": "McKenzie"
+          },
+          "number": 57,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 145,
+          "dob": "2007-12-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "b9ca7f4f",
+          "name": {
+            "first": "Silas",
+            "last": "Drake"
+          },
+          "number": 15,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 147,
+          "dob": "2010-07-15",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1cfc939d",
+          "name": {
+            "first": "Keaton",
+            "last": "Robbins"
+          },
+          "number": 14,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 140,
+          "dob": "2010-04-06",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 5
+    },
+    {
+      "team": "MOE",
+      "roster": [
+        {
+          "id": "104d1125",
+          "name": {
+            "first": "Ramon",
+            "last": "Jenkins"
+          },
+          "number": 16,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2007-11-19",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5418b88f",
+          "name": {
+            "first": "Lance",
+            "last": "James"
+          },
+          "number": 95,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "5'11\"",
+          "weight": 146,
+          "dob": "2007-08-16",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "113e4336",
+          "name": {
+            "first": "Knox",
+            "last": "Rodriguez"
+          },
+          "number": 74,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2009-11-08",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "af4a51ee",
+          "name": {
+            "first": "Brian",
+            "last": "Mayo"
+          },
+          "number": 44,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 140,
+          "dob": "2009-01-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "9fa901c6",
+          "name": {
+            "first": "Milo",
+            "last": "Roberson"
+          },
+          "number": 50,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 140,
+          "dob": "2008-06-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f3b16f30",
+          "name": {
+            "first": "Pedro",
+            "last": "Hall"
+          },
+          "number": 93,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2010-10-16",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "bbdebcee",
+          "name": {
+            "first": "Jorge",
+            "last": "Rodgers"
+          },
+          "number": 80,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'6\"",
+          "weight": 135,
+          "dob": "2009-10-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "76919c86",
+          "name": {
+            "first": "Grady",
+            "last": "Lee"
+          },
+          "number": 25,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2007-10-28",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5f77b66a",
+          "name": {
+            "first": "Caleb",
+            "last": "Jimenez"
+          },
+          "number": 23,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 140,
+          "dob": "2010-12-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "aa4197a8",
+          "name": {
+            "first": "Kobe",
+            "last": "Nichols"
+          },
+          "number": 35,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 144,
+          "dob": "2010-11-14",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c784e245",
+          "name": {
+            "first": "Trevor",
+            "last": "Miles"
+          },
+          "number": 48,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2009-03-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "618ff8e9",
+          "name": {
+            "first": "Alvin",
+            "last": "Patrick"
+          },
+          "number": 1,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 148,
+          "dob": "2008-06-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4ce2360b",
+          "name": {
+            "first": "Elian",
+            "last": "Clayton"
+          },
+          "number": 55,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2010-10-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2eee3c1a",
+          "name": {
+            "first": "Quinton",
+            "last": "Craig"
+          },
+          "number": 45,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "6'3\"",
+          "weight": 154,
+          "dob": "2009-08-20",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "302ccb11",
+          "name": {
+            "first": "Seth",
+            "last": "Fisher"
+          },
+          "number": 6,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2008-02-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "56e2a63a",
+          "name": {
+            "first": "Wyatt",
+            "last": "Dean"
+          },
+          "number": 71,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Sophomore",
+          "height": "5'7\"",
+          "weight": 132,
+          "dob": "2006-07-20",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5dcdc194",
+          "name": {
+            "first": "Calvin",
+            "last": "Conner"
+          },
+          "number": 73,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2008-04-18",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a22cd9a0",
+          "name": {
+            "first": "Erik",
+            "last": "Briggs"
+          },
+          "number": 98,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 153,
+          "dob": "2006-08-13",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "64205b70",
+          "name": {
+            "first": "Roger",
+            "last": "Palmer"
+          },
+          "number": 81,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2008-06-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a038bac2",
+          "name": {
+            "first": "Nico",
+            "last": "Lawrence"
+          },
+          "number": 15,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 148,
+          "dob": "2010-04-08",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 6
+    },
+    {
+      "team": "DCHS",
+      "roster": [
+        {
+          "id": "17e7738f",
+          "name": {
+            "first": "Layton",
+            "last": "Carr"
+          },
+          "number": 85,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 144,
+          "dob": "2008-05-11",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "84fd1bab",
+          "name": {
+            "first": "Kaiden",
+            "last": "Goodman"
+          },
+          "number": 37,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 135,
+          "dob": "2007-07-16",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "48df328b",
+          "name": {
+            "first": "Ismael",
+            "last": "Boyd"
+          },
+          "number": 7,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 151,
+          "dob": "2007-02-26",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "477c0247",
+          "name": {
+            "first": "Maxwell",
+            "last": "Elliott"
+          },
+          "number": 66,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2006-07-20",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2845aca6",
+          "name": {
+            "first": "Rhys",
+            "last": "Medina"
+          },
+          "number": 26,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 141,
+          "dob": "2006-02-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "73f6874a",
+          "name": {
+            "first": "Weston",
+            "last": "Cole"
+          },
+          "number": 94,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 146,
+          "dob": "2009-03-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "844306b8",
+          "name": {
+            "first": "Jagger",
+            "last": "Jacobs"
+          },
+          "number": 25,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2010-07-14",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "de261f61",
+          "name": {
+            "first": "Coleson",
+            "last": "Dunridge"
+          },
+          "number": 61,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 151,
+          "dob": "2010-07-13",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "d302c54c",
+          "name": {
+            "first": "Lucian",
+            "last": "Cox"
+          },
+          "number": 35,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2007-03-22",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "27dabc3e",
+          "name": {
+            "first": "Noel",
+            "last": "Nelson"
+          },
+          "number": 28,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 146,
+          "dob": "2006-10-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "fb782fd4",
+          "name": {
+            "first": "Nasir",
+            "last": "Dennis"
+          },
+          "number": 51,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 141,
+          "dob": "2006-07-07",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1dd6a3a7",
+          "name": {
+            "first": "Atlas",
+            "last": "Peters"
+          },
+          "number": 82,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'6\"",
+          "weight": 143,
+          "dob": "2009-11-28",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8d5ebd8b",
+          "name": {
+            "first": "Beau",
+            "last": "Keller"
+          },
+          "number": 15,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 146,
+          "dob": "2009-07-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4123b62d",
+          "name": {
+            "first": "Lorenzo",
+            "last": "Hines"
+          },
+          "number": 46,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 154,
+          "dob": "2010-12-19",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "671d56e0",
+          "name": {
+            "first": "Enzo",
+            "last": "Marshall"
+          },
+          "number": 88,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "6'1\"",
+          "weight": 141,
+          "dob": "2006-12-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "b909b4c3",
+          "name": {
+            "first": "Marshall",
+            "last": "Reid"
+          },
+          "number": 74,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "6'1\"",
+          "weight": 145,
+          "dob": "2006-07-05",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "cbc3be7a",
+          "name": {
+            "first": "Rex",
+            "last": "Kent"
+          },
+          "number": 24,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 140,
+          "dob": "2008-12-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "292aefae",
+          "name": {
+            "first": "Dominic",
+            "last": "Erickson"
+          },
+          "number": 50,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 143,
+          "dob": "2007-11-04",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2325cf50",
+          "name": {
+            "first": "Ivan",
+            "last": "Pearson"
+          },
+          "number": 54,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 144,
+          "dob": "2009-04-04",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "81abfee9",
+          "name": {
+            "first": "Hugo",
+            "last": "Mendez"
+          },
+          "number": 41,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 141,
+          "dob": "2010-06-18",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 7
+    },
+    {
+      "team": "DJHS",
+      "roster": [
+        {
+          "id": "75c1ada1",
+          "name": {
+            "first": "Zeke",
+            "last": "Harris"
+          },
+          "number": 31,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 141,
+          "dob": "2009-02-05",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "536413be",
+          "name": {
+            "first": "Santos",
+            "last": "Hopkins"
+          },
+          "number": 94,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 141,
+          "dob": "2010-06-08",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "f2c9e39c",
+          "name": {
+            "first": "Kian",
+            "last": "Carey"
+          },
+          "number": 72,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "6'4\"",
+          "weight": 141,
+          "dob": "2008-01-22",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "14eb2c41",
+          "name": {
+            "first": "Sterling",
+            "last": "Davis"
+          },
+          "number": 42,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2009-03-28",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "7b4b8ad6",
+          "name": {
+            "first": "Wade",
+            "last": "Graham"
+          },
+          "number": 2,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 147,
+          "dob": "2007-02-20",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "31dd873d",
+          "name": {
+            "first": "Saul",
+            "last": "Davidson"
+          },
+          "number": 65,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2009-06-24",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4177c83e",
+          "name": {
+            "first": "Shawn",
+            "last": "Harper"
+          },
+          "number": 27,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2006-10-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c12d7ad8",
+          "name": {
+            "first": "Kaiser",
+            "last": "Maddox"
+          },
+          "number": 99,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'5\"",
+          "weight": 144,
+          "dob": "2009-06-11",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "0d13fbe1",
+          "name": {
+            "first": "Roy",
+            "last": "Morton"
+          },
+          "number": 22,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2008-12-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "d9b667e3",
+          "name": {
+            "first": "Vincent",
+            "last": "Ashford"
+          },
+          "number": 61,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 143,
+          "dob": "2009-06-10",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "6abbd174",
+          "name": {
+            "first": "Orion",
+            "last": "Frank"
+          },
+          "number": 13,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2006-05-05",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a1fc7b51",
+          "name": {
+            "first": "Jake",
+            "last": "Pittman"
+          },
+          "number": 4,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2009-11-24",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "0c10cbc5",
+          "name": {
+            "first": "Brendan",
+            "last": "Potter"
+          },
+          "number": 39,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'11\"",
+          "weight": 148,
+          "dob": "2010-03-07",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "3c88d187",
+          "name": {
+            "first": "Kody",
+            "last": "Howard"
+          },
+          "number": 41,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2007-05-07",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "ee69b48e",
+          "name": {
+            "first": "Isaias",
+            "last": "Callahan"
+          },
+          "number": 31,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 147,
+          "dob": "2009-07-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c474f4d3",
+          "name": {
+            "first": "Tomas",
+            "last": "Houston"
+          },
+          "number": 37,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2008-04-16",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "297117e2",
+          "name": {
+            "first": "Mohamed",
+            "last": "Mack"
+          },
+          "number": 12,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 155,
+          "dob": "2009-02-03",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "b1e36b9f",
+          "name": {
+            "first": "Reid",
+            "last": "Gutierrez"
+          },
+          "number": 28,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "6'2\"",
+          "weight": 144,
+          "dob": "2008-10-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c11d6c57",
+          "name": {
+            "first": "Zachary",
+            "last": "Mitchell"
+          },
+          "number": 86,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 147,
+          "dob": "2009-11-19",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "eedf9bc1",
+          "name": {
+            "first": "Dean",
+            "last": "Leonard"
+          },
+          "number": 55,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 141,
+          "dob": "2007-01-20",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 8
+    },
+    {
+      "team": "OOHS",
+      "roster": [
+        {
+          "id": "b377c84b",
+          "name": {
+            "first": "Abram",
+            "last": "Baker"
+          },
+          "number": 74,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 136,
+          "dob": "2010-04-23",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c1f8509c",
+          "name": {
+            "first": "Skyler",
+            "last": "Butler"
+          },
+          "number": 71,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2008-07-18",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "b67f4199",
+          "name": {
+            "first": "Kylan",
+            "last": "Vaughn"
+          },
+          "number": 60,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 154,
+          "dob": "2007-04-25",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "43315331",
+          "name": {
+            "first": "Ryder",
+            "last": "Quinn"
+          },
+          "number": 91,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'5\"",
+          "weight": 146,
+          "dob": "2006-04-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "451b1927",
+          "name": {
+            "first": "Jaden",
+            "last": "Mason"
+          },
+          "number": 20,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 145,
+          "dob": "2008-02-07",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "7d924006",
+          "name": {
+            "first": "Dakota",
+            "last": "McGee"
+          },
+          "number": 67,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'6\"",
+          "weight": 146,
+          "dob": "2008-11-28",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8b9bd766",
+          "name": {
+            "first": "Isaac",
+            "last": "Hubbard"
+          },
+          "number": 43,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 132,
+          "dob": "2010-04-28",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "526f019f",
+          "name": {
+            "first": "Leroy",
+            "last": "Higgins"
+          },
+          "number": 42,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 140,
+          "dob": "2008-12-22",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8bde0465",
+          "name": {
+            "first": "Cassius",
+            "last": "Hawkins"
+          },
+          "number": 89,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 137,
+          "dob": "2007-02-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "31be7981",
+          "name": {
+            "first": "Kareem",
+            "last": "Evans"
+          },
+          "number": 81,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2007-10-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "9e02b89a",
+          "name": {
+            "first": "Thaddeus",
+            "last": "Hunt"
+          },
+          "number": 36,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 144,
+          "dob": "2006-11-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "25dbe9c2",
+          "name": {
+            "first": "Marco",
+            "last": "Cobb"
+          },
+          "number": 16,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 142,
+          "dob": "2010-04-13",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5c83a06b",
+          "name": {
+            "first": "Tony",
+            "last": "Lucas"
+          },
+          "number": 58,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2008-04-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "009dfc17",
+          "name": {
+            "first": "Kael",
+            "last": "Thorne"
+          },
+          "number": 75,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2010-11-22",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "d6c7e818",
+          "name": {
+            "first": "Ryker",
+            "last": "Doyle"
+          },
+          "number": 41,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 143,
+          "dob": "2009-04-19",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "44a9fc9f",
+          "name": {
+            "first": "Maddox",
+            "last": "Lawson"
+          },
+          "number": 79,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 140,
+          "dob": "2007-09-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "e137e7a1",
+          "name": {
+            "first": "Darius",
+            "last": "Armstrong"
+          },
+          "number": 39,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 155,
+          "dob": "2009-11-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "7bac4db7",
+          "name": {
+            "first": "Jorren",
+            "last": "Halvorsen"
+          },
+          "number": 29,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 146,
+          "dob": "2010-11-01",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "66b26588",
+          "name": {
+            "first": "Damon",
+            "last": "Parsons"
+          },
+          "number": 11,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2009-10-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1a565570",
+          "name": {
+            "first": "Quincy",
+            "last": "Porter"
+          },
+          "number": 40,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "6'1\"",
+          "weight": 145,
+          "dob": "2007-04-07",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 9
+    },
+    {
+      "team": "ST.X",
+      "roster": [
+        {
+          "id": "661bda98",
+          "name": {
+            "first": "Kenneth",
+            "last": "Myers"
+          },
+          "number": 67,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2007-02-28",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "22b024d6",
+          "name": {
+            "first": "Emerson",
+            "last": "Bennett"
+          },
+          "number": 24,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2010-03-21",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "ee27f7aa",
+          "name": {
+            "first": "Maximus",
+            "last": "Prince"
+          },
+          "number": 57,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 148,
+          "dob": "2010-03-20",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "ba250050",
+          "name": {
+            "first": "Ian",
+            "last": "Burns"
+          },
+          "number": 50,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2008-08-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "19b4abfc",
+          "name": {
+            "first": "Donovan",
+            "last": "Holland"
+          },
+          "number": 41,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 150,
+          "dob": "2010-12-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f6bb9305",
+          "name": {
+            "first": "Eli",
+            "last": "Park"
+          },
+          "number": 28,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 142,
+          "dob": "2010-07-10",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "163d342f",
+          "name": {
+            "first": "Camden",
+            "last": "Jennings"
+          },
+          "number": 38,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 140,
+          "dob": "2009-12-01",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "dafa05aa",
+          "name": {
+            "first": "Bodie",
+            "last": "Klein"
+          },
+          "number": 70,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 141,
+          "dob": "2009-10-24",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "b086c79c",
+          "name": {
+            "first": "Easton",
+            "last": "Perez"
+          },
+          "number": 86,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "6'2\"",
+          "weight": 140,
+          "dob": "2010-11-01",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "da5b4615",
+          "name": {
+            "first": "Ulises",
+            "last": "Carlson"
+          },
+          "number": 7,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 143,
+          "dob": "2009-01-10",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "fe1e57e2",
+          "name": {
+            "first": "Xavier",
+            "last": "Meyer"
+          },
+          "number": 31,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Junior",
+          "height": "5'5\"",
+          "weight": 146,
+          "dob": "2010-06-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5847c465",
+          "name": {
+            "first": "Omar",
+            "last": "Hill"
+          },
+          "number": 39,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 147,
+          "dob": "2009-04-17",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "611d9623",
+          "name": {
+            "first": "Raphael",
+            "last": "Kennedy"
+          },
+          "number": 74,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2006-07-05",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8c8d2fee",
+          "name": {
+            "first": "Maverick",
+            "last": "Becker"
+          },
+          "number": 96,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'11\"",
+          "weight": 143,
+          "dob": "2010-03-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8f084f89",
+          "name": {
+            "first": "Javier",
+            "last": "Marsh"
+          },
+          "number": 51,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 154,
+          "dob": "2006-03-19",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "0eb9cb37",
+          "name": {
+            "first": "Moses",
+            "last": "Gross"
+          },
+          "number": 99,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'5\"",
+          "weight": 148,
+          "dob": "2007-06-24",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5b339ab7",
+          "name": {
+            "first": "Blake",
+            "last": "McKinney"
+          },
+          "number": 79,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 144,
+          "dob": "2009-11-03",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "31d4f7a6",
+          "name": {
+            "first": "Sullivan",
+            "last": "McCarthy"
+          },
+          "number": 35,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 141,
+          "dob": "2008-05-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "ba44825c",
+          "name": {
+            "first": "Owen",
+            "last": "McCoy"
+          },
+          "number": 22,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2008-09-28",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c6292ae2",
+          "name": {
+            "first": "Jaxon",
+            "last": "Hale"
+          },
+          "number": 31,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "6'0\"",
+          "weight": 143,
+          "dob": "2007-06-25",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 10
+    },
+    {
+      "team": "WAT",
+      "roster": [
+        {
+          "id": "cdd505de",
+          "name": {
+            "first": "Ronin",
+            "last": "Hogan"
+          },
+          "number": 83,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2010-04-13",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4ca61852",
+          "name": {
+            "first": "Cameron",
+            "last": "Cooper"
+          },
+          "number": 99,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "6'1\"",
+          "weight": 143,
+          "dob": "2009-08-24",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "1fb12844",
+          "name": {
+            "first": "Emilio",
+            "last": "Hammond"
+          },
+          "number": 37,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 146,
+          "dob": "2010-11-04",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "4371d936",
+          "name": {
+            "first": "Gavin",
+            "last": "Fox"
+          },
+          "number": 92,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 141,
+          "dob": "2010-11-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5fc2bdb7",
+          "name": {
+            "first": "Riley",
+            "last": "Chapman"
+          },
+          "number": 44,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2007-06-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "73d64088",
+          "name": {
+            "first": "Justice",
+            "last": "Pierce"
+          },
+          "number": 19,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 136,
+          "dob": "2008-10-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8e8df714",
+          "name": {
+            "first": "Drew",
+            "last": "Ellis"
+          },
+          "number": 18,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 151,
+          "dob": "2008-10-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a079ba33",
+          "name": {
+            "first": "Victor",
+            "last": "Obrien"
+          },
+          "number": 71,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 140,
+          "dob": "2009-06-19",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "12867a12",
+          "name": {
+            "first": "Talon",
+            "last": "Weyland"
+          },
+          "number": 61,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 140,
+          "dob": "2009-12-17",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "56d6ccdc",
+          "name": {
+            "first": "Lucas",
+            "last": "Zimmerman"
+          },
+          "number": 84,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 137,
+          "dob": "2006-11-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a5f0ffce",
+          "name": {
+            "first": "Bennett",
+            "last": "Garrison"
+          },
+          "number": 87,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 136,
+          "dob": "2008-11-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "042240a7",
+          "name": {
+            "first": "Lorcan",
+            "last": "Blackwell"
+          },
+          "number": 42,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 142,
+          "dob": "2008-02-21",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "0002e502",
+          "name": {
+            "first": "Alec",
+            "last": "Ramos"
+          },
+          "number": 11,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 140,
+          "dob": "2010-08-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5a4abf9c",
+          "name": {
+            "first": "Trenton",
+            "last": "Mullen"
+          },
+          "number": 17,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 145,
+          "dob": "2006-09-24",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "3cb42722",
+          "name": {
+            "first": "Martin",
+            "last": "Cummings"
+          },
+          "number": 1,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 146,
+          "dob": "2010-03-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f47799d1",
+          "name": {
+            "first": "Trey",
+            "last": "McDonald"
+          },
+          "number": 74,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'9\"",
+          "weight": 134,
+          "dob": "2006-10-16",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "12549f91",
+          "name": {
+            "first": "Ricky",
+            "last": "Estrada"
+          },
+          "number": 6,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2006-05-05",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "483d8b0b",
+          "name": {
+            "first": "Dante",
+            "last": "Freeman"
+          },
+          "number": 39,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 146,
+          "dob": "2007-09-10",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "04365e14",
+          "name": {
+            "first": "Ricardo",
+            "last": "Stewart"
+          },
+          "number": 96,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 148,
+          "dob": "2006-09-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "411934c6",
+          "name": {
+            "first": "Talon",
+            "last": "Johnson"
+          },
+          "number": 12,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 132,
+          "dob": "2008-04-09",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 11
+    },
+    {
+      "team": "WKHS",
+      "roster": [
+        {
+          "id": "4e1a0947",
+          "name": {
+            "first": "Tucker",
+            "last": "Emerson"
+          },
+          "number": 5,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2010-02-26",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "cad664b3",
+          "name": {
+            "first": "Walter",
+            "last": "Norris"
+          },
+          "number": 29,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 132,
+          "dob": "2010-09-18",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "cc8333f1",
+          "name": {
+            "first": "Kelvin",
+            "last": "Hancock"
+          },
+          "number": 8,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2010-04-01",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "15b71df7",
+          "name": {
+            "first": "Tate",
+            "last": "Daniel"
+          },
+          "number": 44,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 142,
+          "dob": "2007-02-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "39af87ed",
+          "name": {
+            "first": "Jude",
+            "last": "Moody"
+          },
+          "number": 95,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 141,
+          "dob": "2010-04-20",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "1b261408",
+          "name": {
+            "first": "Max",
+            "last": "Orr"
+          },
+          "number": 86,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 146,
+          "dob": "2006-06-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2bedda0c",
+          "name": {
+            "first": "Cohen",
+            "last": "McDaniel"
+          },
+          "number": 61,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'11\"",
+          "weight": 145,
+          "dob": "2006-12-07",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8917bbb9",
+          "name": {
+            "first": "Casey",
+            "last": "Norman"
+          },
+          "number": 74,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 147,
+          "dob": "2007-03-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5fe066c9",
+          "name": {
+            "first": "Ziven",
+            "last": "Holloway"
+          },
+          "number": 32,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 134,
+          "dob": "2010-08-12",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "b0717ea2",
+          "name": {
+            "first": "Gael",
+            "last": "May"
+          },
+          "number": 43,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2009-04-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "318b5427",
+          "name": {
+            "first": "Joseph",
+            "last": "Gibson"
+          },
+          "number": 82,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 144,
+          "dob": "2008-03-04",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "6a7ff319",
+          "name": {
+            "first": "Taylor",
+            "last": "Bradley"
+          },
+          "number": 12,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Junior",
+          "height": "5'11\"",
+          "weight": 147,
+          "dob": "2008-06-22",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "cd40e9a7",
+          "name": {
+            "first": "Tyson",
+            "last": "Holt"
+          },
+          "number": 64,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 141,
+          "dob": "2010-05-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "85706711",
+          "name": {
+            "first": "Keith",
+            "last": "Martin"
+          },
+          "number": 98,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 144,
+          "dob": "2010-09-23",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "63723e40",
+          "name": {
+            "first": "Jeremiah",
+            "last": "Newton"
+          },
+          "number": 94,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 151,
+          "dob": "2008-03-18",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "cfb2ccc4",
+          "name": {
+            "first": "Kohen",
+            "last": "Chandler"
+          },
+          "number": 32,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 148,
+          "dob": "2006-07-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "54ff94b4",
+          "name": {
+            "first": "Lawson",
+            "last": "Moss"
+          },
+          "number": 35,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 147,
+          "dob": "2007-04-10",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "77084375",
+          "name": {
+            "first": "Daxton",
+            "last": "Storme"
+          },
+          "number": 67,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 142,
+          "dob": "2006-05-02",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c6aca39d",
+          "name": {
+            "first": "Peter",
+            "last": "Carson"
+          },
+          "number": 15,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 144,
+          "dob": "2006-01-20",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "107e0160",
+          "name": {
+            "first": "Jayce",
+            "last": "Hurley"
+          },
+          "number": 30,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 147,
+          "dob": "2007-04-05",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 12
+    },
+    {
+      "team": "TWHS",
+      "roster": [
+        {
+          "id": "bcdc6b82",
+          "name": {
+            "first": "Lionel",
+            "last": "Gibbs"
+          },
+          "number": 38,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2007-08-05",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "d83fba34",
+          "name": {
+            "first": "Brayden",
+            "last": "Larson"
+          },
+          "number": 83,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 147,
+          "dob": "2010-01-24",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "40ee4085",
+          "name": {
+            "first": "Brody",
+            "last": "Casey"
+          },
+          "number": 30,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2007-04-15",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "d43fa056",
+          "name": {
+            "first": "Felix",
+            "last": "Gordon"
+          },
+          "number": 1,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2010-12-06",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "e62ed8fb",
+          "name": {
+            "first": "Leonard",
+            "last": "Ford"
+          },
+          "number": 85,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "6'0\"",
+          "weight": 148,
+          "dob": "2009-06-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "34ce2c66",
+          "name": {
+            "first": "Garrett",
+            "last": "Kirby"
+          },
+          "number": 67,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 140,
+          "dob": "2010-02-10",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8c49b824",
+          "name": {
+            "first": "Dexter",
+            "last": "Hughes"
+          },
+          "number": 84,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 149,
+          "dob": "2007-06-24",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f3268b56",
+          "name": {
+            "first": "Mark",
+            "last": "Edwards"
+          },
+          "number": 86,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'9\"",
+          "weight": 147,
+          "dob": "2009-07-15",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f6b5cc47",
+          "name": {
+            "first": "Rocco",
+            "last": "Douglas"
+          },
+          "number": 64,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 141,
+          "dob": "2009-02-16",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8db80253",
+          "name": {
+            "first": "Joel",
+            "last": "Murray"
+          },
+          "number": 22,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 142,
+          "dob": "2008-03-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "2c55e173",
+          "name": {
+            "first": "Blaine",
+            "last": "Fleming"
+          },
+          "number": 40,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Sophomore",
+          "height": "5'11\"",
+          "weight": 146,
+          "dob": "2009-05-05",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "b5e6f36e",
+          "name": {
+            "first": "Ryden",
+            "last": "Hawkwood"
+          },
+          "number": 33,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 144,
+          "dob": "2007-08-03",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8d500e9d",
+          "name": {
+            "first": "Neil",
+            "last": "Price"
+          },
+          "number": 62,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 140,
+          "dob": "2009-04-03",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4f056e18",
+          "name": {
+            "first": "Miguel",
+            "last": "Hardy"
+          },
+          "number": 65,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 148,
+          "dob": "2008-04-19",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "dc41c180",
+          "name": {
+            "first": "Kaleb",
+            "last": "Foster"
+          },
+          "number": 31,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Freshman",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2008-05-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "67d8c01f",
+          "name": {
+            "first": "Finnian",
+            "last": "Campbell"
+          },
+          "number": 74,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'10\"",
+          "weight": 143,
+          "dob": "2008-04-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a7aa9896",
+          "name": {
+            "first": "Samir",
+            "last": "Abbott"
+          },
+          "number": 37,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 146,
+          "dob": "2010-09-08",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "eff943b2",
+          "name": {
+            "first": "Jose",
+            "last": "Griffin"
+          },
+          "number": 63,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "6'5\"",
+          "weight": 145,
+          "dob": "2007-07-09",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "e7dc4fbf",
+          "name": {
+            "first": "Jalen",
+            "last": "Harrison"
+          },
+          "number": 33,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Senior",
+          "height": "5'10\"",
+          "weight": 145,
+          "dob": "2010-10-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "f18bc70d",
+          "name": {
+            "first": "Jonah",
+            "last": "Ray"
+          },
+          "number": 18,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "6'5\"",
+          "weight": 141,
+          "dob": "2010-11-02",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 13
+    },
+    {
+      "team": "GLHS",
+      "roster": [
+        {
+          "id": "c22f305f",
+          "name": {
+            "first": "Reed",
+            "last": "Atkinson"
+          },
+          "number": 94,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 143,
+          "dob": "2009-01-20",
+          "captain": true,
+          "assistantCaptain": false
+        },
+        {
+          "id": "5dde491a",
+          "name": {
+            "first": "Rafael",
+            "last": "Moore"
+          },
+          "number": 39,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 147,
+          "dob": "2006-09-15",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "65fddad9",
+          "name": {
+            "first": "Nehemiah",
+            "last": "Mueller"
+          },
+          "number": 28,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 148,
+          "dob": "2006-07-26",
+          "captain": false,
+          "assistantCaptain": true
+        },
+        {
+          "id": "46ab6e16",
+          "name": {
+            "first": "Hunter",
+            "last": "Rhodes"
+          },
+          "number": 50,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Junior",
+          "height": "5'10\"",
+          "weight": 139,
+          "dob": "2009-01-03",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "7cd77d67",
+          "name": {
+            "first": "Ty",
+            "last": "Dixon"
+          },
+          "number": 68,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Senior",
+          "height": "5'7\"",
+          "weight": 148,
+          "dob": "2006-01-20",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "246db6c2",
+          "name": {
+            "first": "Connor",
+            "last": "Garcia"
+          },
+          "number": 22,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 140,
+          "dob": "2009-07-24",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a1e159c7",
+          "name": {
+            "first": "Fletcher",
+            "last": "Merrill"
+          },
+          "number": 62,
+          "position": "Right Defense",
+          "positionType": "Defense",
+          "positionAbbr": "RD",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 140,
+          "dob": "2010-06-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "101cb74b",
+          "name": {
+            "first": "Austin",
+            "last": "Gill"
+          },
+          "number": 42,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 153,
+          "dob": "2006-01-04",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4ab87557",
+          "name": {
+            "first": "Mason",
+            "last": "Phelps"
+          },
+          "number": 52,
+          "position": "Left Defense",
+          "positionType": "Defense",
+          "positionAbbr": "LD",
+          "class": "Sophomore",
+          "height": "6'2\"",
+          "weight": 136,
+          "dob": "2007-12-13",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "3a0f00c0",
+          "name": {
+            "first": "Parker",
+            "last": "Cain"
+          },
+          "number": 66,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Freshman",
+          "height": "5'11\"",
+          "weight": 144,
+          "dob": "2006-02-25",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "0cc1b86f",
+          "name": {
+            "first": "Thiago",
+            "last": "Lane"
+          },
+          "number": 33,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Senior",
+          "height": "6'0\"",
+          "weight": 144,
+          "dob": "2006-01-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "54427fa4",
+          "name": {
+            "first": "Kade",
+            "last": "Cook"
+          },
+          "number": 72,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Senior",
+          "height": "5'8\"",
+          "weight": 143,
+          "dob": "2006-05-20",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "d0f551ad",
+          "name": {
+            "first": "Clyde",
+            "last": "Conway"
+          },
+          "number": 64,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "5'9\"",
+          "weight": 147,
+          "dob": "2010-03-24",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "3b27bcdd",
+          "name": {
+            "first": "Julian",
+            "last": "Rice"
+          },
+          "number": 95,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Freshman",
+          "height": "6'1\"",
+          "weight": 143,
+          "dob": "2010-06-17",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "a8071212",
+          "name": {
+            "first": "Ethan",
+            "last": "Xavier"
+          },
+          "number": 92,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Senior",
+          "height": "5'9\"",
+          "weight": 136,
+          "dob": "2006-08-01",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4f9c1cc0",
+          "name": {
+            "first": "Sheldon",
+            "last": "Love"
+          },
+          "number": 8,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "6'4\"",
+          "weight": 146,
+          "dob": "2009-06-11",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "8fb40fa4",
+          "name": {
+            "first": "Mylo",
+            "last": "Peterson"
+          },
+          "number": 58,
+          "position": "Center",
+          "positionType": "Forward",
+          "positionAbbr": "C",
+          "class": "Junior",
+          "height": "5'7\"",
+          "weight": 149,
+          "dob": "2010-11-26",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "c7ce8e09",
+          "name": {
+            "first": "Harley",
+            "last": "Farrell"
+          },
+          "number": 67,
+          "position": "Right Wing",
+          "positionType": "Forward",
+          "positionAbbr": "RW",
+          "class": "Junior",
+          "height": "5'8\"",
+          "weight": 140,
+          "dob": "2008-10-27",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "4700868e",
+          "name": {
+            "first": "Bryce",
+            "last": "Perry"
+          },
+          "number": 38,
+          "position": "Goalie",
+          "positionType": "Goalie",
+          "positionAbbr": "G",
+          "class": "Sophomore",
+          "height": "5'10\"",
+          "weight": 148,
+          "dob": "2007-07-07",
+          "captain": false,
+          "assistantCaptain": false
+        },
+        {
+          "id": "fff5ea7b",
+          "name": {
+            "first": "Phoenix",
+            "last": "Miller"
+          },
+          "number": 93,
+          "position": "Left Wing",
+          "positionType": "Forward",
+          "positionAbbr": "LW",
+          "class": "Sophomore",
+          "height": "5'8\"",
+          "weight": 144,
+          "dob": "2009-11-11",
+          "captain": false,
+          "assistantCaptain": false
+        }
+      ],
+      "teamId": 14
+    }
+  ]

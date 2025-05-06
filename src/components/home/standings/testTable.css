@@ -1,0 +1,149 @@
+.test_table_container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    z-index: 1;
+    width: 100%;
+}
+
+/* .test_table_body::before {
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 50%;
+    bottom: 0;
+    background-color: red;
+    z-index: -1;
+} */
+
+.test_table_title {
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 53, 113);
+    color: white;
+    width: 100%;
+    box-shadow: inset 0 0 0 5px red;
+
+}
+
+.test_table_title::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 75%;
+    background-color: red;
+    --p: 70px; /* control the shape (can be percentage) */
+    height: 100%;
+    width: 25%;
+    aspect-ratio: 1;
+    clip-path: polygon(0 0,calc(100% - var(--p)) 0,100% 100%,0 100%);
+}
+
+.test_table_header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 55% 45%;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid lightgrey;
+    font-weight: bold;
+    color: var(--color-primary);
+    font-family: var(--font-header);
+    font-size: 1.15rem;
+}
+
+.column_container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.column_container button{
+    color: black;
+    width: 90%;
+    border: none;
+    background-color: white;
+    transition: 300ms ease-in-out;
+    font-family: var(--font-header);
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.column_container button:hover{
+    background-color: var(--color-lightgrey);
+}
+
+.test_table_body{
+    position: relative;
+    width: 100%;
+    /* padding: 0 0 2rem 0; */
+    z-index: 2;
+}
+
+
+
+.test_row_container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 55% 45%;
+    /* border: 1px solid red; */
+    height: 2rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid lightgrey;
+    transition: 300ms ease-in-out;
+    /* opacity: 0; */
+}
+
+.test_row_container:hover {
+    background-color: var(--color-lightgrey);
+}
+
+.sorted {
+    opacity: 1;
+}
+
+.test_team_container {
+    display: grid;
+    grid-template-columns: 5% 5% 90%;
+    align-items: center;
+    justify-items: center;
+    gap: 0.5rem;
+    transition: var(--transition-main);
+}
+
+
+
+.test_position {
+    background-color: lightgrey;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.test_logo {
+    aspect-ratio: 1/1;
+    /* width: 2.5rem; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test_teamName {
+    display: flex;
+    justify-self: baseline;
+    /* padding: 0 0.5rem; */
+}

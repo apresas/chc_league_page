@@ -1,0 +1,136 @@
+{
+  "teams": [
+    {
+      "divisions": [
+        {
+          "red": [
+            {
+              "id": 0,
+              "logo": "./OHS_Logo.svg",
+              "name": "Olentangy",
+              "mascot": "Braves",
+              "city": "Lewis Center",
+              "abrev": "OHS"
+            },
+            {
+              "id": 1,
+              "logo": "./OLHS_Logo.svg",
+              "name": "Olentangy Liberty",
+              "mascot": "Patriots",
+              "city": "Powell",
+              "abrev": "OLHS"
+            },
+            {
+              "id": 2,
+              "logo": "./OBHS_Logo.svg",
+              "name": "Olentangy Berlin",
+              "mascot": "Bears",
+              "city": "Delaware",
+              "abrev": "OBHS"
+            },
+            {
+              "id": 3,
+              "logo": "./UA_Logo.svg",
+              "name": "Upper Arlington",
+              "mascot": "Golden Bears",
+              "city": "Upper Arlington",
+              "abrev": "UA"
+            },
+            {
+              "id": 4,
+              "logo": "./SC_Logo.svg",
+              "name": "Saint Charles Prep",
+              "mascot": "Cardinals",
+              "city": "Bexley",
+              "abrev": "ST.C"
+            },
+            {
+              "id": 5,
+              "logo": "./NA_Logo.svg",
+              "name": "New Albany",
+              "mascot": "Eagles",
+              "city": "New Albany",
+              "abrev": "NA"
+            },
+            {
+              "id": 6,
+              "logo": "./MOE_Logo.svg",
+              "name": "Archbishop Moeller",
+              "mascot": "Crusaders",
+              "city": "Cincinnati",
+              "abrev": "MOE"
+            }
+          ],
+          "white": [
+            {
+              "id": 7,
+              "logo": "./DC_Logo.svg",
+              "name": "Dublin Coffman",
+              "mascot": "Shamrocks",
+              "city": "Dublin",
+              "abrev": "DCHS"
+            },
+            {
+              "id": 8,
+              "logo": "./DJ_Logo.svg",
+              "name": "Dublin Jerome",
+              "mascot": "Celtics",
+              "city": "Dublin",
+              "abrev": "DJHS"
+            },
+            {
+              "id": 9,
+              "logo": "./OOHS_Logo.svg",
+              "name": "Olentangy Orange",
+              "mascot": "Pioneers",
+              "city": "Lewis Center",
+              "abrev": "OOHS"
+            },
+            {
+              "id": 10,
+              "logo": "./STX_Logo.svg",
+              "name": "Saint Xavier",
+              "mascot": "Bombers",
+              "city": "Cincinnati",
+              "abrev": "ST.X"
+            }
+          ],
+          "blue": [
+            {
+              "id": 11,
+              "logo": "./BW_Logo.svg",
+              "name": "Archbishop Watterson",
+              "mascot": "Eagles",
+              "city": "Columbus",
+              "abrev": "WAT"
+            },
+            {
+              "id": 12,
+              "logo": "./WK_Logo.svg",
+              "name": "Worthington Kilbourne",
+              "mascot": "Wolves",
+              "city": "Worthington",
+              "abrev": "WKHS"
+            },
+            {
+              "id": 13,
+              "logo": "./TW_Logo.svg",
+              "name": "Worthington Thomas",
+              "mascot": "Cardinals",
+              "city": "Worthington",
+              "abrev": "TWHS"
+            },
+            {
+              "id": 14,
+              "logo": "./GAH_Logo.svg",
+              "name": "Gahanna Lincoln",
+              "mascot": "Lions",
+              "city": "Gahanna",
+              "abrev": "GLHS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

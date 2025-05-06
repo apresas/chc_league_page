@@ -1,0 +1,93 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(29, 53, 113);
+    /* height: 55px; */
+    width: 100vw;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+.navBar_container {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 15fr 5fr;
+    align-items: center;
+    width: 1280px;
+    gap: 1rem;
+}
+
+.navBar_container ul {
+    display: flex;
+    list-style: none;
+    gap: 0.75rem;
+    padding: 0;
+}
+
+
+.navBar_container ul li a {
+    position: relative;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.navBar_container ul li a:hover {
+    /* color: red; */
+    color: lightgrey;
+}
+
+.navBar_container ul li a::after {
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    left: 0;
+    width: 0%;
+    opacity: 0%;
+    background-color: var(--color-red);
+    bottom: -7px;
+    border-radius: 10px;
+    transition: 300ms ease-in-out;
+}
+
+.navBar_container ul li a:hover::after{
+    width: 100%;
+    opacity: 100%;
+}
+
+.leagueLogo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 2rem; */
+}
+
+.leagueLogo img {
+    width: 3rem;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-self: end;
+}
+
+.login_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.login_container:hover {
+    color: lightgrey;
+}
