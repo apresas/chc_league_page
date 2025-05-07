@@ -65,9 +65,9 @@
     min-width: 20rem;
     max-width: 20rem;
     padding: 10px;
-    background: #fff;
+    background: white;
     border-radius: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--color-ui-lightgrey);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     font-size: 0.85rem;
     flex-shrink: 0;
@@ -78,25 +78,20 @@
 
 .player-portrait {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 4.5rem;
-    aspect-ratio: 1/1;
+    height: 4.5rem;
     border-radius: 50%;
-    border: 1px solid lightgrey;
+    box-shadow: 0 0 0 1px lightgrey;
     overflow: clip;
-    /* padding: 0.5rem; */
     z-index: 1;
     background-color: white;
 }
 
 .player-portrait img {
     position: absolute;
-    top: 0.5rem;
+    top: 0.2rem;
     right: 0;
     left: 0;
-    width: 102%;
 }
 
 .card-info {
@@ -130,7 +125,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px dashed #ccc;
+    border: 1px dashed var(--color-ui-lightgrey);
     flex-shrink: 0;
     height: 4rem;
   }
@@ -145,7 +140,7 @@
     padding: 4px 10px;
     font-size: 0.85rem;
     cursor: pointer;
-    color: var(--color-blue);
+    color: var(--color-ui-blue);
     transition: background 0.2s ease;
 }
 
@@ -169,13 +164,13 @@
     width: 0.5rem;
     height: 0.5rem;
     border-radius: 5px;
-    background: #ccc;
+    background: var(--color-ui-lightgrey);
     cursor: pointer;
     transition: background 0.3s;
   }
   
   .dot.active {
-    background: #1a73e8;
+    background: var(--color-ui-blue);
     width: 2rem;
   }
 

@@ -25,7 +25,7 @@
     gap: 2rem;
     flex-direction: column;
     width: 100%;
-    padding: 0 0 2rem 0;
+    /* padding: 0 0 2rem 0; */
 }
 
 .standing_title h1 {

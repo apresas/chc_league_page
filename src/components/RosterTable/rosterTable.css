@@ -18,7 +18,7 @@
   .roster-table-row {
     /* display: flex; */
     display: grid;
-    grid-template-columns: 2fr 10fr 2fr 3fr 2fr 2fr;
+    grid-template-columns: 10fr 1fr 1fr 2fr 1fr 1fr;
     padding: 0.75rem 1rem;
   }
   
@@ -37,22 +37,53 @@
     transition: background-color 0.2s ease;
   }
   
-  .roster-table-row:last-child {
+  /* .roster-table-row:last-child {
     border-bottom: none;
-  }
+  } */
   
   .roster-table-row:hover {
-    background-color: #f0f0f0;
+    background-color: var(--color-ui-lightgrey);
   }
   
   .roster-table-cell {
+    display: flex;
+    align-items: center;
     flex: 1;
     text-align: left;
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
     font-size: 0.95rem;
     color: #333;
   }
+
+  .roster-portrait {
+    position: relative;
+    /* display: flex;
+    align-items: end;
+    justify-content: center; */
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-ui-lightgrey);
+    /* border: 1px solid lightgrey; */
+    box-shadow: 0 0 0 1px lightgrey;
+    border-radius: 50%;
+    overflow: clip;
+  }
+
+  .roster-portrait img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0.2rem;
+    /* height: 95%;
+    width: 95%;   */
+  }
   
+  .roster-name-cell {
+    display: flex;
+    gap: 1rem;
+  }
+
   .roster-table-header-cell {
     color: #111;
     font-size: 0.95rem;
@@ -61,6 +92,6 @@
   }
 
   .roster-table-header-cell:hover {
-    background-color: white;
+    color: var(--color-ui-blue);
   }
   

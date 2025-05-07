@@ -5,7 +5,7 @@
     justify-items: center;
     width: 9rem;
     padding: 0.75rem 1rem;
-    background-color: var(--color-lightgrey);
+    background-color: var(--color-ui-lightgrey);
     border-radius: 0.5rem;
     cursor: pointer;
     transition: var(--transition-main);

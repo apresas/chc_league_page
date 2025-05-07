@@ -13,6 +13,25 @@
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
+.team-sub {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0.25rem 0 0 0;
+}
+
+.team-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 2rem 0;
+    font-weight: 600;
+}
+
+.team-meta {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
 
 .team-header {
     display: flex;
@@ -21,8 +40,24 @@
     align-items: center;
 }
 
+.team-ranking, .team-record, .team-scoring {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.team-ranking p, .team-record p, .team-scoring p {
+    margin: 0;
+}
+
+.field-label {
+    font-weight: 400;
+    margin-right: 0.25rem;
+}
+
 .team-banner-logo {
-    width: 12rem;
+    width: 15rem;
+    height: 15rem;
     aspect-ratio: 1/1;
 }
 

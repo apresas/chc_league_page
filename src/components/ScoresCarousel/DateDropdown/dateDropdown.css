@@ -7,7 +7,7 @@
   
   .dropdown-button {
     padding: 1rem;
-    background-color: var(--color-lightgrey);
+    background-color: var(--color-ui-lightgrey);
     border: none;
     width: 12rem;
     border-radius: 7px;
@@ -41,7 +41,7 @@
     /* right: 0; */
     width: 11rem;
     padding: 0.5rem;
-    background: var(--color-lightgrey);
+    background: var(--color-ui-lightgrey);
     /* border: 1px solid #ccc; */
     border-radius: 6px;
     /* max-height: 25vh; */
@@ -71,8 +71,10 @@
   }
 
   .dropdown-item.selected {
-    background-color: #e0f2ff;
+    /* background-color: #e0f2ff; */
+    background-color: var(--color-ui-blue);
     font-weight: bold;
-    color: var(--color-blue);
+    color: white;
+    /* color: var(--color-ui-blue); */
   }
   

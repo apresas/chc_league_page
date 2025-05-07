@@ -64,26 +64,6 @@
     margin-top: 6px;
   }
 
-
-
-  .filter-controls {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .filter-controls select {
-    background-color: var(--color-lightgrey);
-    border: none;
-    padding: 6px 12px;
-    font-size: 1rem;
-  }
-
-
-
-
-
-
   .date-separator {
     font-family: var(--font-header);
     display: flex;
@@ -92,7 +72,7 @@
     justify-content: center;
     min-width: 45px;
     padding: 0 12px;
-    background: lightgrey;
+    background: var(--color-ui-lightgrey);
     /* border-radius: 6px; */
     font-weight: bold;
     text-align: center;

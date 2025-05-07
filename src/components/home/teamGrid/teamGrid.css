@@ -205,8 +205,8 @@
     align-items: center;
     width: 100%;
     padding-top: 0.5rem ;
-    color: white;
-    color: var(--color-primary);
+    /* color: white; */
+    /* color: var(--color-primary); */
     height: 2rem;
 }
 

@@ -29,6 +29,7 @@
 
   .calendar-cell:hover {
     background-color: white;
+    color: var(--color-ui-blue);
   }
   
   .empty {
@@ -36,12 +37,12 @@
   }
 
   .faded {
-    color: #aaa;
+    color: var(--color-ui-lightgrey);
   }
 
 
   .highlighted {
-    background-color: var(--color-blue);
+    background-color: var(--color-ui-blue);
     color: white;
     /* border-color: #1a73e8; */
   }

@@ -7,7 +7,7 @@
     align-items: center;
     padding: 1rem;
     margin-top: 0.5rem;
-    background-color: var(--color-lightgrey);
+    background-color: var(--color-ui-lightgrey);
     border-radius: 0 0 0.5rem 0.5rem;
     max-height: 0;
     opacity: 0;

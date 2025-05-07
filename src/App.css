@@ -34,6 +34,10 @@ h1 {
 
 }
 
+.content:last-child {
+  margin-bottom: 2rem;
+}
+
 /* .logo {
   height: 6em;
   padding: 1.5em;

@@ -35,11 +35,11 @@
   }
 
   .dateTile.selected {
-    box-shadow: 0 0 0 2px var(--color-blue);
+    box-shadow: 0 0 0 2px var(--color-ui-blue);
   }
 
   .dateTile.selected:hover {
-    box-shadow: 0 0 0 2px var(--color-blue);
+    box-shadow: 0 0 0 2px var(--color-ui-blue);
   }
 
   .dateTile_selected_icon {
