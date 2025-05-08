@@ -10,13 +10,13 @@ import { useStats } from "../../../context/StatsContext";
 import "./teamDetails.css";
 import StatTable from "../../StatTable/StatTable";
 import RosterTable from "../../RosterTable/RosterTable";
+import ScoringLeaders from "../../ScoringLeaders/ScoringLeaders";
 
 const Team = ({ setTeamID }) => {
   const { teamId } = useParams();
   const team = teamData.teams.find((t) => t.id.toString() === teamId);
   const roster = rosterData.find((t) => t.team === team.abrev)?.roster || [];
-
-  const { playerStats, goalieStats } = useStats();
+  console.log(roster);
 
   const { standings, overall, sortedDivisions } = useStandings();
   const teamStandings = standings[team.abrev];
@@ -28,22 +28,6 @@ const Team = ({ setTeamID }) => {
     sortedDivisions[team.div]?.findIndex(
       (standing) => standing.abrev === team.abrev
     ) + 1;
-
-  const teamPlayerStats = Object.entries(playerStats)
-    .map(([id, stats]) => {
-      const player = roster.find((p) => p.id === id);
-      return player
-        ? {
-            player,
-            goals: stats.goals,
-            assists: stats.assists,
-            points: stats.goals + stats.assists,
-          }
-        : null;
-    })
-    .filter(Boolean);
-
-  // console.log(sortedDivisions["red"]);
 
   const {
     topGoals,
@@ -203,13 +187,16 @@ const Team = ({ setTeamID }) => {
           </div>
 
           <section className="roster-section">
-            <RosterTable title="Team Roster" players={roster} team={team.abrev}/>
+            <RosterTable
+              title="Team Roster"
+              players={roster}
+              team={team.abrev}
+            />
           </section>
 
           <section className="leaders-section">
             <h2>Team Leaders</h2>
             <div className="leader-grid">
-              {/* <div className="leader-category"> */}
               <StatTable
                 title="Top Goals"
                 columns={["Name", "Goals"]}
@@ -223,9 +210,6 @@ const Team = ({ setTeamID }) => {
                   </>
                 )}
               />
-              {/* </div> */}
-
-              {/* <div className="leader-category"> */}
               <StatTable
                 title="Top Assists"
                 columns={["Name", "Assists"]}
@@ -239,8 +223,6 @@ const Team = ({ setTeamID }) => {
                   </>
                 )}
               />
-              {/* </div> */}
-              {/* <div className="leader-category"> */}
               <StatTable
                 title="Top Points"
                 columns={["Name", "Points"]}
@@ -254,14 +236,12 @@ const Team = ({ setTeamID }) => {
                   </>
                 )}
               />
-              {/* </div> */}
             </div>
           </section>
 
           <section className="goalie-section">
             <h2>Goalie Stats</h2>
             <div className="leader-grid">
-              {/* <div className="leader-category"> */}
               <StatTable
                 title="Top GAA"
                 columns={["Name", "GAA"]}
@@ -275,9 +255,6 @@ const Team = ({ setTeamID }) => {
                   </>
                 )}
               />
-              {/* </div> */}
-
-              {/* <div className="leader-category"> */}
               <StatTable
                 title="Save%"
                 columns={["Name", "Sv%"]}
@@ -291,9 +268,6 @@ const Team = ({ setTeamID }) => {
                   </>
                 )}
               />
-              {/* </div> */}
-
-              {/* <div className="leader-category"> */}
               <StatTable
                 title="Wins"
                 columns={["Name", "Wins"]}
@@ -307,9 +281,12 @@ const Team = ({ setTeamID }) => {
                   </>
                 )}
               />
-              {/* </div> */}
             </div>
           </section>
+          <div className="team-leaders-section">
+            <ScoringLeaders position={"Forward"} team={team} roster={roster} />
+            <ScoringLeaders position={"Defense"} team={team} roster={roster} />
+          </div>
         </div>
       </div>
     </div>

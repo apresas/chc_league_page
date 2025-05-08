@@ -1,0 +1,90 @@
+.leader-card {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: var(--font-header);
+    border-right: 1px solid lightgrey;
+    /* border: 1px solid lightgrey */
+}
+
+.leader-portrait {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    aspect-ratio: 1/1;
+    box-shadow: 0 0 0 1px lightgrey;
+    border-radius: 50%;
+    background: linear-gradient(180deg, var(--color-ui-lightgrey), white 90%) ;
+    overflow: clip;
+}
+
+.leader-portrait img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0.25rem;
+}
+
+.leader-name{
+    margin-top: 0.75rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.leader-name h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.55rem;
+    line-height: 1.5rem;
+}
+
+.leader-team {
+    margin-top: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    color: var(--color-ui-grey);
+}
+
+.leader-teamName {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.leader-teamName img {
+    width: 1.5rem;
+    aspect-ratio: 1/1;
+}
+
+.leader-stat{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.leader-stat h3 {
+    margin: 0;
+    font-weight: 600;
+    color: var(--color-ui-grey);
+    text-transform: uppercase;
+}
+
+.leader-stat h1 {
+    margin: 0;
+    font-size: 6rem;
+    line-height: 4rem;
+}

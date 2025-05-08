@@ -44,18 +44,7 @@ function App() {
       })
       .catch((err) => console.error("Failed to load scores:", err));
   }, []);
-
   
-  useEffect(() => {
-    fetch("/data/gamesData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const sorted = data.sort((a, b) => new Date(a.date) - new Date(b.date));
-        setGames(sorted);
-        setFilteredGames(data);
-      })
-      .catch((err) => console.error("Failed to load scores:", err));
-  }, [teamID]);
 
   // const uniqueDates = [...new Set(games.map(g => g.date))].sort();
   // const uniqueDivisions = [...new Set(games.flatMap(g => [g.home.div, g.away.div]))].sort();

@@ -64,3 +64,8 @@
 .leader-category.leader-table {
     width: 100%;
 }
+
+.team-leaders-section {
+    display: flex;
+    gap: 2rem;
+}

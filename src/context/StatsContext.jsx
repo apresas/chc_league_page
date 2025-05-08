@@ -1,65 +1,56 @@
 import React, { createContext, useContext, useMemo } from "react";
 import goalEvents from "../data/gameEvents.json";
-import rosters from "../data/teamRosters.json";
-import games from "../data/scheduledGames.json";
+import teamRosters from "../data/teamRosters.json";
 
 const StatsContext = createContext();
 
+export const useStats = () => useContext(StatsContext);
+
 export const StatsProvider = ({ children }) => {
-  const value = useMemo(() => {
-    const playerStats = {};
-    const goalieStats = {};
+  const stats = useMemo(() => {
+    const goalMap = {};
+    const assistMap = {};
 
-    goalEvents.forEach((event) => {
-      const { scorerId, assistIds = [], gameId, team, period } = event;
+    goalEvents.forEach((goal) => {
+      const scorer = goal.scorerId;
+      const assists = goal.assistIds || [];
 
-      if (!playerStats[scorerId]) playerStats[scorerId] = { goals: 0, assists: 0, points: 0 };
-      playerStats[scorerId].goals += 1;
-      playerStats[scorerId].points += 1;
-
-      assistIds.forEach((id) => {
-        if (!playerStats[id]) playerStats[id] = { goals: 0, assists: 0, points: 0 };
-        playerStats[id].assists += 1;
-        playerStats[id].points += 1;
+      goalMap[scorer] = (goalMap[scorer] || 0) + 1;
+      assists.forEach((aid) => {
+        assistMap[aid] = (assistMap[aid] || 0) + 1;
       });
     });
 
-    games.forEach((game) => {
-      [game.home, game.away].forEach((teamSide) => {
-        const goalieId = teamSide.startingGoalie;
-        if (!goalieId) return;
+    const statMap = {};
+    teamRosters.forEach((player) => {
+      const id = player.id;
+      const goals = goalMap[id] || 0;
+      const assists = assistMap[id] || 0;
 
-        if (!goalieStats[goalieId]) {
-          goalieStats[goalieId] = {
-            goalsAgainst: 0,
-            shotsAgainst: 0,
-            gamesPlayed: 0,
-            wins: 0,
-            saves: 0,
-          };
-        }
-
-        const isHome = teamSide === game.home;
-        const opponent = isHome ? game.away : game.home;
-
-        goalieStats[goalieId].gamesPlayed += 1;
-        goalieStats[goalieId].goalsAgainst += opponent.score;
-        goalieStats[goalieId].shotsAgainst += opponent.shotsFor;
-        goalieStats[goalieId].saves += opponent.shotsFor - opponent.score;
-
-        if (teamSide.score > opponent.score) {
-          goalieStats[goalieId].wins += 1;
-        }
-      });
+      statMap[id] = {
+        player,
+        goals,
+        assists,
+        points: goals + assists,
+      };
     });
+
+    const allStats = Object.values(statMap);
+
+    const getStatsByPosition = (position) => {
+      return allStats.filter((entry) => entry.player.positionType === position);
+    };
 
     return {
-      playerStats,
-      goalieStats,
+      allStats,
+      topPoints: allStats.sort((a, b) => b.points - a.points).slice(0, 5),
+      topGoals: allStats.sort((a, b) => b.goals - a.goals).slice(0, 5),
+      topAssists: allStats.sort((a, b) => b.assists - a.assists).slice(0, 5),
+      getStatsByPosition,
     };
   }, []);
 
-  return <StatsContext.Provider value={value}>{children}</StatsContext.Provider>;
-};
+  console.log(stats)
 
-export const useStats = () => useContext(StatsContext);
+  return <StatsContext.Provider value={stats}>{children}</StatsContext.Provider>;
+};
