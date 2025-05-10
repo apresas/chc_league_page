@@ -50,7 +50,7 @@ export const StatsProvider = ({ children }) => {
     };
   }, []);
 
-  console.log(stats)
+//   console.log(stats)
 
   return <StatsContext.Provider value={stats}>{children}</StatsContext.Provider>;
 };

@@ -66,7 +66,7 @@ const PositionGroup = ({ title, players, team }) => {
 
   return (
     <div className="roster-group">
-      <h4>{title}</h4>
+      <h3>{title}</h3>
       <div className="roster-table-header">
         <div
           className="roster-table-cell roster-table-header-cell"
@@ -112,7 +112,8 @@ const PositionGroup = ({ title, players, team }) => {
           <div key={index} className="roster-table-row">
             <div className="roster-table-cell roster-name-cell">
               <div className="roster-portrait">
-                <img src={`/teamIcons/${team}.svg`} alt="" />
+                {title === "Goalies" ? <img src={`/teamIcons/${team}_goalie.svg`} alt="" /> : <img src={`/teamIcons/${team}.svg`} alt="" />}
+                {/* <img src={`/teamIcons/${team}.svg`} alt="" /> */}
               </div>
               {p.name.first} {p.name.last}
             </div>
@@ -137,7 +138,7 @@ const RosterTable = ({ title = "Roster", players, team }) => {
 
   return (
     <div className="roster-table">
-      <h3>{title}</h3>
+      <h1>{title}</h1>
       <PositionGroup title="Forwards" players={forwards} team={team} />
       <PositionGroup title="Defense" players={defense} team={team} />
       <PositionGroup title="Goalies" players={goalies} team={team} />

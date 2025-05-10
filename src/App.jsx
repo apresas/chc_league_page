@@ -18,6 +18,7 @@ import Players from "./components/pages/Players/Players";
 import Standings from "./components/pages/Standings/Standings";
 import ScoresCarousel from "./components/ScoresCarousel/ScoresCarousel"; // Adjust path as needed
 import GamesData from "./data/gamesData.json";
+import GameCenter from "./components/pages/GameCenter/GameCenter";
 
 
 function App() {
@@ -118,6 +119,7 @@ function App() {
           <Route path="/standings" element={<Standings />} />
           <Route path="/teams/:teamId" element={<Teams setTeamID={setTeamID}/>} />
           <Route path="/players" element={<Players />} />
+          <Route path="/gamecenter/:gameId" element={<GameCenter />} />
         </Routes>
         <Footer />
       </div>

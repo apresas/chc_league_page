@@ -1,0 +1,272 @@
+.game-summary {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    background-color: white;
+    /* color: #ffffff; */
+    /* padding: 20px; */
+    border-radius: 8px;
+    /* margin-bottom: 20px; */
+    gap: 2rem;
+    font-family: var(--font-header);
+  }
+
+  .summary-main h1{
+    margin-bottom: 1rem;
+  }
+
+  .summary-sideBar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .game-summary h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+.scoring-summary {
+    margin-bottom: 20px;
+  }
+
+  .period-breakdown {
+    background-color: white;
+    color: var(--color-ui-black);
+    /* padding: 0 0 2rem 0; */
+  }
+
+  .period-breakdown h3 {
+    margin-top: 0;
+  }
+
+  .line-score-row:nth-last-of-type(1) {
+    border-top: none;
+  }
+
+  .period-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .period-section h3 {
+    margin: 0;
+  }
+
+  .scoring-grid {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .period-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .period-scores:last-of-type {
+    font-weight: 700;
+  }
+
+  .line-score-team {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .line-score-header, .line-score-row {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+  }
+
+  .line-score-header {
+    border-top: 1px solid lightgrey;
+    margin-top: 2rem;
+  }
+
+  .header-label {
+    font-weight: 700;
+  }
+
+  .line-score-row {
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+  }
+
+
+  .line-score-name {
+    justify-self: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    gap: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .line-score-name img {
+    width: 2rem;
+    aspect-ratio: 1/1;
+  }
+  
+  .period-row, .scoring-event {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* background-color: #2e2e2e; */
+    border-radius: 5px;
+  }
+  
+  .scoring-event {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    gap: 1rem;
+    border: 1px solid lightgrey;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .scoring-score-tile, .scoring-time-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-ui-lightgrey);
+    /* width: 100%; */
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: 300;
+  }
+  
+  .scoring-period, .scoring-team, .scoring-player {
+    flex: 1;
+  }
+
+  .scoring-player {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .scoring-score, .scoring-time {
+    font-weight: 600;
+    /* font-size: 1.1rem; */
+  }
+
+  .scoring-score span {
+    font-weight: 800;
+  }
+  
+  .player-name {
+    font-weight: bold;
+  }
+
+  .scoring-portrait {
+    position: relative;
+    width: 4.5rem;
+    aspect-ratio: 1/1;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    overflow: clip;
+  }
+  .scoring-portrait img{
+    position: absolute;
+    bottom: -0.25rem;
+  }
+
+  .scoring-player-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 1.1rem;
+  }
+  
+  .scoring-assists {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--color-ui-grey);
+    display: flex;
+  }
+
+  .scoring-assists img {
+    aspect-ratio: 1/1;
+    width: 1.5rem;
+  }
+  
+  .no-events {
+    text-align: center;
+    color: #bbbbbb;
+  }
+
+  /* Head to Head */
+  /* .game-summary-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .game-summary-main {
+    flex: 3;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  } */
+  
+  /* .game-summary-sidebar {
+    flex: 1;
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 8px;
+  } */
+  
+  .head-to-head-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .head-to-head-tile {
+    /* background-color: #333; */
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgrey;
+    color: var(--color-ui-black);
+  }
+  
+  .match-date {
+    font-weight: bold;
+    color: #ffa502;
+  }
+  
+  .match-teams {
+    margin: 5px 0;
+    /* color: #ffffff; */
+  }
+  
+  .match-score {
+    font-weight: bold;
+    color: #2ed573;
+  }
+  
+  .match-status {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+  }
+  
+  .no-matches {
+    text-align: center;
+    color: #bbbbbb;
+  }
+  
+  

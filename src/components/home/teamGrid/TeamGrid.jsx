@@ -30,11 +30,27 @@ function TeamGrid({
   const [redStandings, setRedStandings] = useState([]);
 
   const [rank, setRank] = useState(0);
+
+  const sortByName = (a, b) => a.name.localeCompare(b.name);
+
+  // Filter and sort by division and name
+  const redDivision = TeamInfo.teams
+    .filter((team) => team.div === "red")
+    .sort(sortByName);
+
+  const whiteDivision = TeamInfo.teams
+    .filter((team) => team.div === "white")
+    .sort(sortByName);
+
+  const blueDivision = TeamInfo.teams
+    .filter((team) => team.div === "blue")
+    .sort(sortByName);
+
   // let teamRefs = useRef([React.createRef()]);
 
   useEffect(() => {
     // console.log(redStandings)
-  }, [redStandings])
+  }, [redStandings]);
 
   // useEffect(() => {
   //   const handler = (event) => {
@@ -71,56 +87,29 @@ function TeamGrid({
             <img src={RedDiv} alt="" />
           </div>
           <div className="division_grid">
-            {TeamInfo.teams
-              .filter((team) => team.div === "red")
-              .map((team, i) => (
-                <TeamTile
-                  currentTeam={redTeam}
-                  keys={redKeys}
-                  ref={teamRef}
-                  team={team}
-                  key={i}
-                  id={team.id}
-                  logo={team.id}
-                  name={team.name}
-                  mascot={team.mascot}
-                  city={team.city}
-                  division={team.div}
-                  isOpen={isOpen}
-                  setIsOpen={setIsOpen}
-                  redOpen={redOpen}
-                  setRedOpen={setRedOpen}
-                  setCurrentTeam={setRedTeam}
-                  setRank={setRank}
-                  setDivStandings={setRedStandings}
-                  divStandings={redStandings}
-                />
-              ))}
-            {/* {Teams.teams.map((team) =>
-              team.divisions.map((division) =>
-                division.red.map((red, i) => {
-                  redKeys.push(i);
-                  return (
-                    <TeamTile
-                    currentTeam={currentTeam}
-                      keys={redKeys}
-                      ref={teamRef}
-                      team={red}
-                      key={i}
-                      id={red.id}
-                      logo={red.logo}
-                      name={red.name}
-                      mascot={red.mascot}
-                      city={red.city}
-                      division={"red"}
-                      isOpen={isOpen}
-                      setIsOpen={setIsOpen}
-                      setCurrentTeam={setCurrentTeam}
-                    />
-                  );
-                })
-              )
-            )} */}
+            {redDivision.map((team, i) => (
+              <TeamTile
+                currentTeam={redTeam}
+                keys={redKeys}
+                ref={teamRef}
+                team={team}
+                key={i}
+                id={team.id}
+                logo={team.id}
+                name={team.name}
+                mascot={team.mascot}
+                city={team.city}
+                division={team.div}
+                isOpen={isOpen}
+                setIsOpen={setIsOpen}
+                redOpen={redOpen}
+                setRedOpen={setRedOpen}
+                setCurrentTeam={setRedTeam}
+                setRank={setRank}
+                setDivStandings={setRedStandings}
+                divStandings={redStandings}
+              />
+            ))}
           </div>
           <div className="conference_grid"></div>
         </div>
@@ -135,51 +124,29 @@ function TeamGrid({
             <img src={WhiteDiv} alt="" />
           </div>
           <div className="division_grid">
-            {TeamInfo.teams
-              .filter((team) => team.div === "white")
-              .map((team, i) => (
-                <TeamTile
-                  currentTeam={whiteTeam}
-                  keys={redKeys}
-                  ref={teamRef}
-                  team={team}
-                  key={i}
-                  id={team.id}
-                  logo={team.id}
-                  name={team.name}
-                  mascot={team.mascot}
-                  city={team.city}
-                  division={team.div}
-                  isOpen={isOpen}
-                  setIsOpen={setIsOpen}
-                  whiteOpen={whiteOpen}
-                  setWhiteOpen={setWhiteOpen}
-                  setCurrentTeam={setWhiteTeam}
-                  setRank={setRank}
-                  setDivStandings={setRedStandings}
-                  divStandings={redStandings}
-                />
-              ))}
-            {/* {Teams.teams.map((team) =>
-              team.divisions.map((division) =>
-                division.white.map((white, i) => (
-                  <TeamTile
-                    ref={teamRef}
-                    team={white}
-                    key={i}
-                    id={white.id}
-                    logo={white.logo}
-                    name={white.name}
-                    mascot={white.mascot}
-                    city={white.city}
-                    division={"white"}
-                    isOpen={isOpen}
-                    setIsOpen={setIsOpen}
-                    setCurrentTeam={setCurrentTeam}
-                  />
-                ))
-              )
-            )} */}
+            {whiteDivision.map((team, i) => (
+              <TeamTile
+                currentTeam={whiteTeam}
+                keys={redKeys}
+                ref={teamRef}
+                team={team}
+                key={i}
+                id={team.id}
+                logo={team.id}
+                name={team.name}
+                mascot={team.mascot}
+                city={team.city}
+                division={team.div}
+                isOpen={isOpen}
+                setIsOpen={setIsOpen}
+                whiteOpen={whiteOpen}
+                setWhiteOpen={setWhiteOpen}
+                setCurrentTeam={setWhiteTeam}
+                setRank={setRank}
+                setDivStandings={setRedStandings}
+                divStandings={redStandings}
+              />
+            ))}
           </div>
           <div className="conference_grid"></div>
         </div>
@@ -194,51 +161,29 @@ function TeamGrid({
             <img src={BlueDiv} alt="" />
           </div>
           <div className="division_grid">
-            {TeamInfo.teams
-              .filter((team) => team.div === "blue")
-              .map((team, i) => (
-                <TeamTile
-                  currentTeam={blueTeam}
-                  keys={redKeys}
-                  ref={teamRef}
-                  team={team}
-                  key={i}
-                  id={team.id}
-                  logo={team.id}
-                  name={team.name}
-                  mascot={team.mascot}
-                  city={team.city}
-                  division={team.div}
-                  isOpen={isOpen}
-                  setIsOpen={setIsOpen}
-                  blueOpen={blueOpen}
-                  setBlueOpen={setBlueOpen}
-                  setCurrentTeam={setBlueTeam}
-                  setRank={setRank}
-                  setDivStandings={setRedStandings}
-                  divStandings={redStandings}
-                />
-              ))}
-            {/* {Teams.teams.map((team) =>
-              team.divisions.map((division) =>
-                division.blue.map((blue, i) => (
-                  <TeamTile
-                    ref={teamRef}
-                    team={blue}
-                    key={i}
-                    id={blue.id}
-                    logo={blue.logo}
-                    name={blue.name}
-                    mascot={blue.mascot}
-                    city={blue.city}
-                    division={"blue"}
-                    isOpen={isOpen}
-                    setIsOpen={setIsOpen}
-                    setCurrentTeam={setCurrentTeam}
-                  />
-                ))
-              )
-            )} */}
+            {blueDivision.map((team, i) => (
+              <TeamTile
+                currentTeam={blueTeam}
+                keys={redKeys}
+                ref={teamRef}
+                team={team}
+                key={i}
+                id={team.id}
+                logo={team.id}
+                name={team.name}
+                mascot={team.mascot}
+                city={team.city}
+                division={team.div}
+                isOpen={isOpen}
+                setIsOpen={setIsOpen}
+                blueOpen={blueOpen}
+                setBlueOpen={setBlueOpen}
+                setCurrentTeam={setBlueTeam}
+                setRank={setRank}
+                setDivStandings={setRedStandings}
+                divStandings={redStandings}
+              />
+            ))}
           </div>
           <div className="conference_grid"></div>
         </div>

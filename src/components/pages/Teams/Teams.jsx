@@ -3,8 +3,10 @@ import React, { useMemo, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import teamData from "../../../data/teamInfoData.json";
 import rosterData from "../../../data/teamRosters.json";
-import goalEvents from "../../../data/gameEvents.json";
-import scheduledGames from "../../../data/scheduledGames.json";
+// import goalEvents from "../../../data/gameEvents.json";
+// import scheduledGames from "../../../data/scheduledGames.json";
+import goalEvents from "../../../data/goalEvents.json";
+import scheduledGames from "../../../data/gameSchedule.json";
 import { useStandings } from "../../../context/StandingsContext";
 import { useStats } from "../../../context/StatsContext";
 import "./teamDetails.css";
@@ -137,8 +139,6 @@ const Team = ({ setTeamID }) => {
     setTeamID(teamId);
   }, []);
 
-  //   console.log(team)
-
   return (
     <div className="main_container">
       <div className="content">
@@ -150,27 +150,48 @@ const Team = ({ setTeamID }) => {
                 {team.mascot} | {team.city} | Est. {team.est}
               </p>
               <div className="team-stats">
-                <div className="team-record">
-                  <p>
-                    <span className="field-label"> Record:</span>{" "}
-                    {teamStandings.wins} - {teamStandings.losses} -{" "}
-                    {teamStandings.otLosses}
-                  </p>
-                  <p>
-                    <span className="field-label">Points:</span>{" "}
-                    {teamStandings.points}
-                  </p>
+                <div
+                  className="team-div"
+                  style={{ backgroundColor: `var(--color-${team.div})` }}
+                >
+                  <div
+                    className="logo-line"
+                    style={{
+                      borderRadius: "0 10px 0 10px",
+                    }}
+                  />
+                  <img src={`/${team.div}_icon.svg`} alt="" />
+                  <div
+                    className="logo-line"
+                    style={{
+                      borderRadius: "10px 0 10px 0",
+                    }}
+                  />
                 </div>
-                <div className="team-ranking">
-                  <p>
-                    <span className="field-label">Division Rank:</span>{" "}
-                    {divisionRank ?? "N/A"}
-                  </p>
-                  <p>
-                    <span className="field-label">Overall Rank: </span>
-                    {overallRank ?? "N/A"}
-                  </p>
+                <div className="team-stats-content">
+                  <div className="team-record">
+                    <p>
+                      <span className="field-label"> Record:</span>{" "}
+                      {teamStandings.wins} - {teamStandings.losses} -{" "}
+                      {teamStandings.otLosses}
+                    </p>
+                    <p>
+                      <span className="field-label">Points:</span>{" "}
+                      {teamStandings.points}
+                    </p>
+                  </div>
+                  <div className="team-ranking">
+                    <p>
+                      <span className="field-label">Division Rank:</span>{" "}
+                      {divisionRank ?? "N/A"}
+                    </p>
+                    <p>
+                      <span className="field-label">Overall Rank: </span>
+                      {overallRank ?? "N/A"}
+                    </p>
+                  </div>
                 </div>
+
                 {/* <div className="team-scoring">
                   <p>
                     <span className="field-label">Goals For:</span>{" "}
@@ -193,100 +214,35 @@ const Team = ({ setTeamID }) => {
               team={team.abrev}
             />
           </section>
-
           <section className="leaders-section">
-            <h2>Team Leaders</h2>
-            <div className="leader-grid">
-              <StatTable
-                title="Top Goals"
-                columns={["Name", "Goals"]}
-                data={topGoals}
-                renderRow={(row) => (
-                  <>
-                    <div className="stat-table-cell">
-                      {row.player.name.first} {row.player.name.last}
-                    </div>
-                    <div className="stat-table-cell">{row.goals}</div>
-                  </>
-                )}
+            <h1>Team Leaders</h1>
+            <div className="team-leaders-grid">
+              <ScoringLeaders
+                team={team}
+                roster={roster}
+                header="Skaters"
+                view="skaters"
               />
-              <StatTable
-                title="Top Assists"
-                columns={["Name", "Assists"]}
-                data={topAssists}
-                renderRow={(row) => (
-                  <>
-                    <div className="stat-table-cell">
-                      {row.player.name.first} {row.player.name.last}
-                    </div>
-                    <div className="stat-table-cell">{row.assists}</div>
-                  </>
-                )}
+              <ScoringLeaders
+                team={team}
+                roster={roster}
+                header="Forwards"
+                view="forwards"
               />
-              <StatTable
-                title="Top Points"
-                columns={["Name", "Points"]}
-                data={topPoints}
-                renderRow={(row) => (
-                  <>
-                    <div className="stat-table-cell">
-                      {row.player.name.first} {row.player.name.last}
-                    </div>
-                    <div className="stat-table-cell">{row.points}</div>
-                  </>
-                )}
+              <ScoringLeaders
+                team={team}
+                roster={roster}
+                header="Defensemen"
+                view="defense"
+              />
+              <ScoringLeaders
+                team={team}
+                roster={roster}
+                header="Goalies"
+                view="goalies"
               />
             </div>
           </section>
-
-          <section className="goalie-section">
-            <h2>Goalie Stats</h2>
-            <div className="leader-grid">
-              <StatTable
-                title="Top GAA"
-                columns={["Name", "GAA"]}
-                data={gaaLeaders}
-                renderRow={(row) => (
-                  <>
-                    <div className="stat-table-cell">
-                      {row.player.name.first} {row.player.name.last}
-                    </div>
-                    <div className="stat-table-cell">{row.gaa}</div>
-                  </>
-                )}
-              />
-              <StatTable
-                title="Save%"
-                columns={["Name", "Sv%"]}
-                data={svPctLeaders}
-                renderRow={(row) => (
-                  <>
-                    <div className="stat-table-cell">
-                      {row.player.name.first} {row.player.name.last}
-                    </div>
-                    <div className="stat-table-cell">{row.svPct}</div>
-                  </>
-                )}
-              />
-              <StatTable
-                title="Wins"
-                columns={["Name", "Wins"]}
-                data={winLeaders}
-                renderRow={(row) => (
-                  <>
-                    <div className="stat-table-cell">
-                      {row.player.name.first} {row.player.name.last}
-                    </div>
-                    <div className="stat-table-cell">{row.wins}</div>
-                  </>
-                )}
-              />
-            </div>
-          </section>
-          <div className="team-leaders-section">
-            <ScoringLeaders position={"Forward"} team={team} roster={roster} />
-            <ScoringLeaders position={"Defense"} team={team} roster={roster} />
-          </div>
         </div>
       </div>
     </div>

@@ -46,6 +46,7 @@
     font-weight: 600;
     font-size: 1.55rem;
     line-height: 1.5rem;
+    color: var(--color-primary);
 }
 
 .leader-team {

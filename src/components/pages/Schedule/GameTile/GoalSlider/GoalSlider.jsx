@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./goalSlider.css";
 // import goalData from "../../../../../data/goalEvents.json";
-import goalData from "../../../../../data/gameEvents.json";
+import goalData from "../../../../../data/goalEvents.json";
 import teamRosters from "../../../../../data/teamRosters.json";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
@@ -176,7 +176,7 @@ const GoalSlider = ({ gameId, game }) => {
                     </span>
                   </div>
                 </div>
-                <div className="team-logo">
+                <div className="team-logo__goalSlider">
                   <img src={teamLogo} alt="" />
                 </div>
               </div>

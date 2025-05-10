@@ -1,0 +1,6902 @@
+[
+  {
+    "date": "2025-12-21",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "3acf1ecc",
+      "shotsFor": 32,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-12-21_OHS_OLHS"
+  },
+  {
+    "date": "2026-02-08",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 31,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 30,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-02-08_OLHS_OHS"
+  },
+  {
+    "date": "2026-02-11",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "3acf1ecc",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 35,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-02-11_OHS_OBHS"
+  },
+  {
+    "date": "2025-11-23",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-11-23_OBHS_OHS"
+  },
+  {
+    "date": "2026-01-23",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 32,
+      "score": 1
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 30,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-01-23_OHS_UA"
+  },
+  {
+    "date": "2026-03-31",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 33,
+      "score": null
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "3acf1ecc",
+      "shotsFor": 35,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-31_UA_OHS"
+  },
+  {
+    "date": "2026-02-21",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-02-21_OHS_ST.C"
+  },
+  {
+    "date": "2025-12-03",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "3acf1ecc",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-12-03_ST.C_OHS"
+  },
+  {
+    "date": "2026-03-03",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 32,
+      "score": 7
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ced33875",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-03-03_OHS_NA"
+  },
+  {
+    "date": "2025-12-18",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 31,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-12-18_NA_OHS"
+  },
+  {
+    "date": "2026-03-24",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "56e2a63a",
+      "shotsFor": 31,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-24_OHS_MOE"
+  },
+  {
+    "date": "2025-12-15",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "SO Final",
+    "gameId": "2025-12-15_MOE_OHS"
+  },
+  {
+    "date": "2025-11-04",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-11-04_OLHS_OHS"
+  },
+  {
+    "date": "2026-02-15",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 30,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-02-15_OHS_OLHS"
+  },
+  {
+    "date": "2026-02-01",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-02-01_OLHS_OBHS"
+  },
+  {
+    "date": "2026-03-27",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 31,
+      "score": null
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 30,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-27_OBHS_OLHS"
+  },
+  {
+    "date": "2026-03-16",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 30,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-03-16_OLHS_UA"
+  },
+  {
+    "date": "2025-11-09",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-11-09_UA_OLHS"
+  },
+  {
+    "date": "2026-01-02",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-01-02_OLHS_ST.C"
+  },
+  {
+    "date": "2026-01-18",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 33,
+      "score": 3
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 30,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-01-18_ST.C_OLHS"
+  },
+  {
+    "date": "2025-11-11",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 31,
+      "score": 5
+    },
+    "status": "OT Final",
+    "gameId": "2025-11-11_OLHS_NA"
+  },
+  {
+    "date": "2026-01-21",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 31,
+      "score": 3
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 35,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-01-21_NA_OLHS"
+  },
+  {
+    "date": "2025-11-12",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-11-12_OLHS_MOE"
+  },
+  {
+    "date": "2025-11-03",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 32,
+      "score": 1
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-11-03_MOE_OLHS"
+  },
+  {
+    "date": "2026-01-14",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-01-14_OBHS_OHS"
+  },
+  {
+    "date": "2026-02-26",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "status": "OT Final",
+    "gameId": "2026-02-26_OHS_OBHS"
+  },
+  {
+    "date": "2025-11-12",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 30,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-11-12_OBHS_OLHS"
+  },
+  {
+    "date": "2025-12-09",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-12-09_OLHS_OBHS"
+  },
+  {
+    "date": "2026-03-22",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 31,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-22_OBHS_UA"
+  },
+  {
+    "date": "2025-11-24",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 35,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-11-24_UA_OBHS"
+  },
+  {
+    "date": "2025-12-09",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 33,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-12-09_OBHS_ST.C"
+  },
+  {
+    "date": "2026-01-12",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "c94abaa2",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-12_ST.C_OBHS"
+  },
+  {
+    "date": "2025-11-21",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 30,
+      "score": 1
+    },
+    "status": "SO Final",
+    "gameId": "2025-11-21_OBHS_NA"
+  },
+  {
+    "date": "2026-03-31",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 33,
+      "score": null
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 31,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-31_NA_OBHS"
+  },
+  {
+    "date": "2026-03-13",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 35,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-03-13_OBHS_MOE"
+  },
+  {
+    "date": "2026-02-22",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-02-22_MOE_OBHS"
+  },
+  {
+    "date": "2026-02-06",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 31,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "3acf1ecc",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-02-06_UA_OHS"
+  },
+  {
+    "date": "2026-02-09",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 31,
+      "score": 5
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-02-09_OHS_UA"
+  },
+  {
+    "date": "2025-11-03",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-11-03_UA_OLHS"
+  },
+  {
+    "date": "2026-03-21",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": null
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 30,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-21_OLHS_UA"
+  },
+  {
+    "date": "2025-11-11",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 35,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-11-11_UA_OBHS"
+  },
+  {
+    "date": "2025-11-21",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-11-21_OBHS_UA"
+  },
+  {
+    "date": "2025-12-11",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-12-11_UA_ST.C"
+  },
+  {
+    "date": "2026-01-15",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 32,
+      "score": 1
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-15_ST.C_UA"
+  },
+  {
+    "date": "2026-01-01",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-01-01_UA_NA"
+  },
+  {
+    "date": "2026-01-22",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 30,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-01-22_NA_UA"
+  },
+  {
+    "date": "2026-03-06",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-03-06_UA_MOE"
+  },
+  {
+    "date": "2026-01-13",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-01-13_MOE_UA"
+  },
+  {
+    "date": "2025-12-02",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 33,
+      "score": 8
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 33,
+      "score": 7
+    },
+    "status": "SO Final",
+    "gameId": "2025-12-02_ST.C_OHS"
+  },
+  {
+    "date": "2026-02-09",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 30,
+      "score": 6
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-02-09_OHS_ST.C"
+  },
+  {
+    "date": "2025-12-09",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 32,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-12-09_ST.C_OLHS"
+  },
+  {
+    "date": "2026-02-23",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 34,
+      "score": 5
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "c94abaa2",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-02-23_OLHS_ST.C"
+  },
+  {
+    "date": "2026-03-12",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-03-12_ST.C_OBHS"
+  },
+  {
+    "date": "2026-03-08",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "c94abaa2",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-03-08_OBHS_ST.C"
+  },
+  {
+    "date": "2025-11-16",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 34,
+      "score": 6
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 35,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-11-16_ST.C_UA"
+  },
+  {
+    "date": "2026-03-06",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "status": "SO Final",
+    "gameId": "2026-03-06_UA_ST.C"
+  },
+  {
+    "date": "2025-11-15",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 30,
+      "score": 3
+    },
+    "status": "OT Final",
+    "gameId": "2025-11-15_ST.C_NA"
+  },
+  {
+    "date": "2025-11-16",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ced33875",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "status": "SO Final",
+    "gameId": "2025-11-16_NA_ST.C"
+  },
+  {
+    "date": "2025-12-24",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "status": "SO Final",
+    "gameId": "2025-12-24_ST.C_MOE"
+  },
+  {
+    "date": "2025-11-02",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 33,
+      "score": 4
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 30,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-11-02_MOE_ST.C"
+  },
+  {
+    "date": "2026-01-21",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-01-21_NA_OHS"
+  },
+  {
+    "date": "2025-11-21",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-11-21_OHS_NA"
+  },
+  {
+    "date": "2026-03-04",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 33,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-03-04_NA_OLHS"
+  },
+  {
+    "date": "2026-02-20",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 34,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-02-20_OLHS_NA"
+  },
+  {
+    "date": "2026-02-15",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 35,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-02-15_NA_OBHS"
+  },
+  {
+    "date": "2026-02-26",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 30,
+      "score": 6
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ced33875",
+      "shotsFor": 32,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-02-26_OBHS_NA"
+  },
+  {
+    "date": "2025-12-12",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ced33875",
+      "shotsFor": 32,
+      "score": 7
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 30,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-12-12_NA_UA"
+  },
+  {
+    "date": "2026-01-21",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ced33875",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-21_UA_NA"
+  },
+  {
+    "date": "2025-12-15",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-12-15_NA_ST.C"
+  },
+  {
+    "date": "2025-12-26",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 30,
+      "score": 6
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ced33875",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "status": "OT Final",
+    "gameId": "2025-12-26_ST.C_NA"
+  },
+  {
+    "date": "2025-12-02",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-12-02_NA_MOE"
+  },
+  {
+    "date": "2026-03-26",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 35,
+      "score": null
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 31,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-26_MOE_NA"
+  },
+  {
+    "date": "2025-12-04",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-12-04_MOE_OHS"
+  },
+  {
+    "date": "2026-01-08",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "status": "SO Final",
+    "gameId": "2026-01-08_OHS_MOE"
+  },
+  {
+    "date": "2025-12-22",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-12-22_MOE_OLHS"
+  },
+  {
+    "date": "2026-01-02",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "56e2a63a",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-01-02_OLHS_MOE"
+  },
+  {
+    "date": "2026-03-01",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "status": "SO Final",
+    "gameId": "2026-03-01_MOE_OBHS"
+  },
+  {
+    "date": "2025-11-01",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 33,
+      "score": 7
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "status": "OT Final",
+    "gameId": "2025-11-01_OBHS_MOE"
+  },
+  {
+    "date": "2026-01-23",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "56e2a63a",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 34,
+      "score": 5
+    },
+    "status": "OT Final",
+    "gameId": "2026-01-23_MOE_UA"
+  },
+  {
+    "date": "2025-11-21",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-11-21_UA_MOE"
+  },
+  {
+    "date": "2026-02-13",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "56e2a63a",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-02-13_MOE_ST.C"
+  },
+  {
+    "date": "2025-12-11",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 33,
+      "score": 7
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-12-11_ST.C_MOE"
+  },
+  {
+    "date": "2025-11-30",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-11-30_MOE_NA"
+  },
+  {
+    "date": "2026-02-16",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-02-16_NA_MOE"
+  },
+  {
+    "date": "2026-02-17",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "81abfee9",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2026-02-17_DCHS_DJHS"
+  },
+  {
+    "date": "2025-11-04",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 30,
+      "score": 5
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-11-04_DJHS_DCHS"
+  },
+  {
+    "date": "2026-01-24",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "81abfee9",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "d6c7e818",
+      "shotsFor": 34,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-01-24_DCHS_OOHS"
+  },
+  {
+    "date": "2026-02-18",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2026-02-18_OOHS_DCHS"
+  },
+  {
+    "date": "2026-02-21",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": 1
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "status": "SO Final",
+    "gameId": "2026-02-21_DCHS_ST.X"
+  },
+  {
+    "date": "2026-01-20",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "31d4f7a6",
+      "shotsFor": 31,
+      "score": 3
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "status": "OT Final",
+    "gameId": "2026-01-20_ST.X_DCHS"
+  },
+  {
+    "date": "2026-02-28",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 33,
+      "score": 7
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-02-28_DJHS_DCHS"
+  },
+  {
+    "date": "2026-02-20",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 31,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-02-20_DCHS_DJHS"
+  },
+  {
+    "date": "2025-11-30",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 32,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-11-30_DJHS_OOHS"
+  },
+  {
+    "date": "2026-01-28",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 34,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-01-28_OOHS_DJHS"
+  },
+  {
+    "date": "2025-11-22",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "c474f4d3",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-11-22_DJHS_ST.X"
+  },
+  {
+    "date": "2026-02-28",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 31,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-02-28_ST.X_DJHS"
+  },
+  {
+    "date": "2026-01-08",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 32,
+      "score": 0
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 30,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-01-08_OOHS_DCHS"
+  },
+  {
+    "date": "2025-11-27",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-11-27_DCHS_OOHS"
+  },
+  {
+    "date": "2026-02-18",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 33,
+      "score": 7
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "c474f4d3",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-02-18_OOHS_DJHS"
+  },
+  {
+    "date": "2026-02-21",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 32,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2026-02-21_DJHS_OOHS"
+  },
+  {
+    "date": "2025-12-05",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-12-05_OOHS_ST.X"
+  },
+  {
+    "date": "2026-01-18",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-18_ST.X_OOHS"
+  },
+  {
+    "date": "2025-12-16",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 35,
+      "score": 7
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-12-16_ST.X_DCHS"
+  },
+  {
+    "date": "2025-11-07",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": 1
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 35,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-11-07_DCHS_ST.X"
+  },
+  {
+    "date": "2026-01-25",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "31d4f7a6",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 31,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-25_ST.X_DJHS"
+  },
+  {
+    "date": "2026-02-20",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 34,
+      "score": 6
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 35,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-02-20_DJHS_ST.X"
+  },
+  {
+    "date": "2025-12-15",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 31,
+      "score": 2
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "d6c7e818",
+      "shotsFor": 35,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-12-15_ST.X_OOHS"
+  },
+  {
+    "date": "2025-12-10",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "d6c7e818",
+      "shotsFor": 32,
+      "score": 5
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-12-10_OOHS_ST.X"
+  },
+  {
+    "date": "2026-01-22",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-01-22_WAT_WKHS"
+  },
+  {
+    "date": "2026-02-27",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "54ff94b4",
+      "shotsFor": 35,
+      "score": 1
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-02-27_WKHS_WAT"
+  },
+  {
+    "date": "2025-11-29",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-11-29_WAT_TWHS"
+  },
+  {
+    "date": "2026-02-20",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 32,
+      "score": 1
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "OT Final",
+    "gameId": "2026-02-20_TWHS_WAT"
+  },
+  {
+    "date": "2025-11-04",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 31,
+      "score": 2
+    },
+    "status": "OT Final",
+    "gameId": "2025-11-04_WAT_GLHS"
+  },
+  {
+    "date": "2025-11-02",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "483d8b0b",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-11-02_GLHS_WAT"
+  },
+  {
+    "date": "2025-11-26",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 30,
+      "score": 3
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "483d8b0b",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-11-26_WKHS_WAT"
+  },
+  {
+    "date": "2026-03-05",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "483d8b0b",
+      "shotsFor": 32,
+      "score": 1
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 30,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-03-05_WAT_WKHS"
+  },
+  {
+    "date": "2026-03-31",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 34,
+      "score": null
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 35,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-31_WKHS_TWHS"
+  },
+  {
+    "date": "2026-01-01",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "54ff94b4",
+      "shotsFor": 32,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-01-01_TWHS_WKHS"
+  },
+  {
+    "date": "2026-03-31",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 33,
+      "score": null
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "4700868e",
+      "shotsFor": 33,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-31_WKHS_GLHS"
+  },
+  {
+    "date": "2026-01-16",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "54ff94b4",
+      "shotsFor": 30,
+      "score": 1
+    },
+    "status": "SO Final",
+    "gameId": "2026-01-16_GLHS_WKHS"
+  },
+  {
+    "date": "2025-12-13",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-12-13_TWHS_WAT"
+  },
+  {
+    "date": "2025-12-31",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 35,
+      "score": 7
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-12-31_WAT_TWHS"
+  },
+  {
+    "date": "2026-01-21",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 35,
+      "score": 1
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-01-21_TWHS_WKHS"
+  },
+  {
+    "date": "2025-11-10",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 31,
+      "score": 2
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-11-10_WKHS_TWHS"
+  },
+  {
+    "date": "2026-03-01",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 30,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-03-01_TWHS_GLHS"
+  },
+  {
+    "date": "2026-03-28",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 31,
+      "score": null
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 31,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-28_GLHS_TWHS"
+  },
+  {
+    "date": "2026-02-24",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-02-24_GLHS_WAT"
+  },
+  {
+    "date": "2025-12-21",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 31,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-12-21_WAT_GLHS"
+  },
+  {
+    "date": "2026-02-27",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "54ff94b4",
+      "shotsFor": 33,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-02-27_GLHS_WKHS"
+  },
+  {
+    "date": "2026-02-05",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 30,
+      "score": 5
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-02-05_WKHS_GLHS"
+  },
+  {
+    "date": "2026-01-18",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "e7dc4fbf",
+      "shotsFor": 30,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-01-18_GLHS_TWHS"
+  },
+  {
+    "date": "2025-11-09",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-11-09_TWHS_GLHS"
+  },
+  {
+    "date": "2025-11-08",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "3acf1ecc",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-11-08_OHS_DCHS"
+  },
+  {
+    "date": "2026-01-21",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-01-21_OHS_DJHS"
+  },
+  {
+    "date": "2026-03-09",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 35,
+      "score": 6
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 32,
+      "score": 5
+    },
+    "status": "SO Final",
+    "gameId": "2026-03-09_OHS_OOHS"
+  },
+  {
+    "date": "2025-12-18",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "3acf1ecc",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "31d4f7a6",
+      "shotsFor": 35,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-12-18_OHS_ST.X"
+  },
+  {
+    "date": "2026-03-17",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 34,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-17_OLHS_DCHS"
+  },
+  {
+    "date": "2026-01-11",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-01-11_OLHS_DJHS"
+  },
+  {
+    "date": "2025-12-10",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 31,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 32,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-12-10_OLHS_OOHS"
+  },
+  {
+    "date": "2025-11-05",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "7c189b4a",
+      "shotsFor": 32,
+      "score": 5
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "status": "OT Final",
+    "gameId": "2025-11-05_OLHS_ST.X"
+  },
+  {
+    "date": "2025-12-28",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 31,
+      "score": 3
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "81abfee9",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "OT Final",
+    "gameId": "2025-12-28_OBHS_DCHS"
+  },
+  {
+    "date": "2026-03-14",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 32,
+      "score": 0
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-03-14_OBHS_DJHS"
+  },
+  {
+    "date": "2025-12-26",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 33,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-12-26_OBHS_OOHS"
+  },
+  {
+    "date": "2025-11-09",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 31,
+      "score": 5
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 33,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-11-09_OBHS_ST.X"
+  },
+  {
+    "date": "2026-01-23",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 34,
+      "score": 6
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-23_UA_DCHS"
+  },
+  {
+    "date": "2026-03-27",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 33,
+      "score": null
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 35,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-27_UA_DJHS"
+  },
+  {
+    "date": "2026-03-07",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 31,
+      "score": 4
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 35,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-03-07_UA_OOHS"
+  },
+  {
+    "date": "2025-11-10",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 30,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-11-10_UA_ST.X"
+  },
+  {
+    "date": "2025-11-08",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "81abfee9",
+      "shotsFor": 35,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-11-08_ST.C_DCHS"
+  },
+  {
+    "date": "2025-12-09",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "c94abaa2",
+      "shotsFor": 30,
+      "score": 7
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-12-09_ST.C_DJHS"
+  },
+  {
+    "date": "2025-12-03",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "c94abaa2",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 30,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-12-03_ST.C_OOHS"
+  },
+  {
+    "date": "2025-11-07",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-11-07_ST.C_ST.X"
+  },
+  {
+    "date": "2026-03-06",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 33,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-03-06_NA_DCHS"
+  },
+  {
+    "date": "2026-03-29",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 30,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-29_NA_DJHS"
+  },
+  {
+    "date": "2025-12-08",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 35,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 30,
+      "score": 6
+    },
+    "status": "SO Final",
+    "gameId": "2025-12-08_NA_OOHS"
+  },
+  {
+    "date": "2026-01-19",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "31d4f7a6",
+      "shotsFor": 31,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-01-19_NA_ST.X"
+  },
+  {
+    "date": "2026-02-10",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 31,
+      "score": 2
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-02-10_MOE_DCHS"
+  },
+  {
+    "date": "2025-11-27",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 31,
+      "score": 3
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "status": "OT Final",
+    "gameId": "2025-11-27_MOE_DJHS"
+  },
+  {
+    "date": "2025-12-24",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-12-24_MOE_OOHS"
+  },
+  {
+    "date": "2025-12-21",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 33,
+      "score": 3
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-12-21_MOE_ST.X"
+  },
+  {
+    "date": "2026-03-01",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 35,
+      "score": 6
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "status": "SO Final",
+    "gameId": "2026-03-01_OHS_WAT"
+  },
+  {
+    "date": "2026-01-12",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 35,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-01-12_OHS_WKHS"
+  },
+  {
+    "date": "2026-01-14",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 34,
+      "score": 8
+    },
+    "status": "SO Final",
+    "gameId": "2026-01-14_OHS_TWHS"
+  },
+  {
+    "date": "2026-02-08",
+    "home": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 33,
+      "score": 2
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-02-08_OHS_GLHS"
+  },
+  {
+    "date": "2026-02-18",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "483d8b0b",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-02-18_OLHS_WAT"
+  },
+  {
+    "date": "2026-02-10",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-02-10_OLHS_WKHS"
+  },
+  {
+    "date": "2025-11-25",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 34,
+      "score": 6
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-11-25_OLHS_TWHS"
+  },
+  {
+    "date": "2026-03-18",
+    "home": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 30,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-18_OLHS_GLHS"
+  },
+  {
+    "date": "2026-03-17",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 30,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-17_OBHS_WAT"
+  },
+  {
+    "date": "2025-11-26",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-11-26_OBHS_WKHS"
+  },
+  {
+    "date": "2026-03-20",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 33,
+      "score": null
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "e7dc4fbf",
+      "shotsFor": 32,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-20_OBHS_TWHS"
+  },
+  {
+    "date": "2025-11-29",
+    "home": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 34,
+      "score": 6
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-11-29_OBHS_GLHS"
+  },
+  {
+    "date": "2025-11-19",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 33,
+      "score": 4
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-11-19_UA_WAT"
+  },
+  {
+    "date": "2026-03-10",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 34,
+      "score": 6
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "54ff94b4",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "status": "SO Final",
+    "gameId": "2026-03-10_UA_WKHS"
+  },
+  {
+    "date": "2026-03-20",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 31,
+      "score": null
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 34,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-20_UA_TWHS"
+  },
+  {
+    "date": "2026-03-12",
+    "home": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 31,
+      "score": 4
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-03-12_UA_GLHS"
+  },
+  {
+    "date": "2025-12-31",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-12-31_ST.C_WAT"
+  },
+  {
+    "date": "2025-12-14",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-12-14_ST.C_WKHS"
+  },
+  {
+    "date": "2025-11-28",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 30,
+      "score": 1
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-11-28_ST.C_TWHS"
+  },
+  {
+    "date": "2026-02-23",
+    "home": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 32,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-02-23_ST.C_GLHS"
+  },
+  {
+    "date": "2026-01-21",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 35,
+      "score": 6
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 33,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-21_NA_WAT"
+  },
+  {
+    "date": "2026-01-02",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 30,
+      "score": 7
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-02_NA_WKHS"
+  },
+  {
+    "date": "2025-12-21",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-12-21_NA_TWHS"
+  },
+  {
+    "date": "2025-12-14",
+    "home": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-12-14_NA_GLHS"
+  },
+  {
+    "date": "2025-12-03",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 35,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-12-03_MOE_WAT"
+  },
+  {
+    "date": "2026-01-14",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-01-14_MOE_WKHS"
+  },
+  {
+    "date": "2026-03-24",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 33,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-24_MOE_TWHS"
+  },
+  {
+    "date": "2025-11-06",
+    "home": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 33,
+      "score": 3
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "4700868e",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-11-06_MOE_GLHS"
+  },
+  {
+    "date": "2026-01-28",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 33,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-01-28_DCHS_OHS"
+  },
+  {
+    "date": "2026-02-12",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 31,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-02-12_DCHS_OLHS"
+  },
+  {
+    "date": "2026-02-20",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": 1
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "SO Final",
+    "gameId": "2026-02-20_DCHS_OBHS"
+  },
+  {
+    "date": "2025-11-28",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 33,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-11-28_DCHS_UA"
+  },
+  {
+    "date": "2025-11-08",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 35,
+      "score": 1
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "c94abaa2",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "status": "SO Final",
+    "gameId": "2025-11-08_DCHS_ST.C"
+  },
+  {
+    "date": "2026-02-10",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-02-10_DCHS_NA"
+  },
+  {
+    "date": "2025-11-20",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 32,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-11-20_DCHS_MOE"
+  },
+  {
+    "date": "2025-12-15",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 33,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-12-15_DJHS_OHS"
+  },
+  {
+    "date": "2026-03-12",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-03-12_DJHS_OLHS"
+  },
+  {
+    "date": "2025-12-15",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 35,
+      "score": 6
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 31,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-12-15_DJHS_OBHS"
+  },
+  {
+    "date": "2026-01-09",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 35,
+      "score": 6
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 32,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-01-09_DJHS_UA"
+  },
+  {
+    "date": "2025-12-26",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-12-26_DJHS_ST.C"
+  },
+  {
+    "date": "2025-12-10",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ced33875",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-12-10_DJHS_NA"
+  },
+  {
+    "date": "2026-01-19",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 31,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-01-19_DJHS_MOE"
+  },
+  {
+    "date": "2026-01-03",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 30,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-01-03_OOHS_OHS"
+  },
+  {
+    "date": "2026-02-10",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "7c189b4a",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-02-10_OOHS_OLHS"
+  },
+  {
+    "date": "2025-12-31",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 31,
+      "score": 2
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 31,
+      "score": 3
+    },
+    "status": "OT Final",
+    "gameId": "2025-12-31_OOHS_OBHS"
+  },
+  {
+    "date": "2026-01-15",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-15_OOHS_UA"
+  },
+  {
+    "date": "2025-12-31",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "c94abaa2",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-12-31_OOHS_ST.C"
+  },
+  {
+    "date": "2026-03-27",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 32,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-27_OOHS_NA"
+  },
+  {
+    "date": "2026-02-18",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "d6c7e818",
+      "shotsFor": 33,
+      "score": 2
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-02-18_OOHS_MOE"
+  },
+  {
+    "date": "2025-12-31",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 33,
+      "score": 7
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-12-31_ST.X_OHS"
+  },
+  {
+    "date": "2025-12-23",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "31d4f7a6",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-12-23_ST.X_OLHS"
+  },
+  {
+    "date": "2025-11-27",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 31,
+      "score": 2
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 30,
+      "score": 1
+    },
+    "status": "OT Final",
+    "gameId": "2025-11-27_ST.X_OBHS"
+  },
+  {
+    "date": "2025-11-29",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-11-29_ST.X_UA"
+  },
+  {
+    "date": "2026-01-27",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 33,
+      "score": 3
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 35,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-01-27_ST.X_ST.C"
+  },
+  {
+    "date": "2025-12-19",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "31d4f7a6",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 34,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-12-19_ST.X_NA"
+  },
+  {
+    "date": "2025-12-14",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 34,
+      "score": 6
+    },
+    "status": "OT Final",
+    "gameId": "2025-12-14_ST.X_MOE"
+  },
+  {
+    "date": "2025-11-22",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 30,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-11-22_DCHS_WAT"
+  },
+  {
+    "date": "2026-03-02",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-03-02_DCHS_WKHS"
+  },
+  {
+    "date": "2025-12-13",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 30,
+      "score": 1
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 31,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-12-13_DCHS_TWHS"
+  },
+  {
+    "date": "2026-01-02",
+    "home": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "4700868e",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-01-02_DCHS_GLHS"
+  },
+  {
+    "date": "2025-12-30",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "483d8b0b",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-12-30_DJHS_WAT"
+  },
+  {
+    "date": "2025-12-01",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 35,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-12-01_DJHS_WKHS"
+  },
+  {
+    "date": "2026-01-06",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 33,
+      "score": 4
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-01-06_DJHS_TWHS"
+  },
+  {
+    "date": "2025-12-11",
+    "home": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 32,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-12-11_DJHS_GLHS"
+  },
+  {
+    "date": "2026-02-25",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 30,
+      "score": 5
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 33,
+      "score": 4
+    },
+    "status": "SO Final",
+    "gameId": "2026-02-25_OOHS_WAT"
+  },
+  {
+    "date": "2025-11-09",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-11-09_OOHS_WKHS"
+  },
+  {
+    "date": "2025-12-11",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 35,
+      "score": 2
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 35,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-12-11_OOHS_TWHS"
+  },
+  {
+    "date": "2026-03-30",
+    "home": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 33,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-30_OOHS_GLHS"
+  },
+  {
+    "date": "2026-03-31",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 31,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-31_ST.X_WAT"
+  },
+  {
+    "date": "2026-03-11",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "away": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-03-11_ST.X_WKHS"
+  },
+  {
+    "date": "2025-11-01",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "away": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 30,
+      "score": 6
+    },
+    "status": "OT Final",
+    "gameId": "2025-11-01_ST.X_TWHS"
+  },
+  {
+    "date": "2026-01-15",
+    "home": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "away": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-01-15_ST.X_GLHS"
+  },
+  {
+    "date": "2026-03-09",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-03-09_WAT_OHS"
+  },
+  {
+    "date": "2026-02-22",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "7c189b4a",
+      "shotsFor": 34,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-02-22_WAT_OLHS"
+  },
+  {
+    "date": "2025-11-19",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 33,
+      "score": 6
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-11-19_WAT_OBHS"
+  },
+  {
+    "date": "2026-01-07",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "483d8b0b",
+      "shotsFor": 30,
+      "score": 7
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 33,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-01-07_WAT_UA"
+  },
+  {
+    "date": "2025-12-09",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 34,
+      "score": 5
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "c94abaa2",
+      "shotsFor": 31,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-12-09_WAT_ST.C"
+  },
+  {
+    "date": "2026-03-05",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "483d8b0b",
+      "shotsFor": 32,
+      "score": 4
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 30,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2026-03-05_WAT_NA"
+  },
+  {
+    "date": "2026-03-27",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 34,
+      "score": null
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 31,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-27_WAT_MOE"
+  },
+  {
+    "date": "2026-03-02",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 30,
+      "score": 1
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 35,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-03-02_WKHS_OHS"
+  },
+  {
+    "date": "2025-11-10",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "54ff94b4",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-11-10_WKHS_OLHS"
+  },
+  {
+    "date": "2026-01-24",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-01-24_WKHS_OBHS"
+  },
+  {
+    "date": "2025-12-16",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 32,
+      "score": 3
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 30,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2025-12-16_WKHS_UA"
+  },
+  {
+    "date": "2025-12-24",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2025-12-24_WKHS_ST.C"
+  },
+  {
+    "date": "2026-01-30",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-01-30_WKHS_NA"
+  },
+  {
+    "date": "2026-01-04",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 33,
+      "score": 2
+    },
+    "status": "OT Final",
+    "gameId": "2026-01-04_WKHS_MOE"
+  },
+  {
+    "date": "2025-12-11",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-12-11_TWHS_OHS"
+  },
+  {
+    "date": "2025-12-28",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 32,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 32,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2025-12-28_TWHS_OLHS"
+  },
+  {
+    "date": "2025-12-15",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 30,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "69dba258",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-12-15_TWHS_OBHS"
+  },
+  {
+    "date": "2025-11-22",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "2c704bc6",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-11-22_TWHS_UA"
+  },
+  {
+    "date": "2026-03-21",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "e2568ff2",
+      "shotsFor": 31,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-21_TWHS_ST.C"
+  },
+  {
+    "date": "2026-02-07",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "e7dc4fbf",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 34,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2026-02-07_TWHS_NA"
+  },
+  {
+    "date": "2026-01-09",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 31,
+      "score": 5
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 30,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-01-09_TWHS_MOE"
+  },
+  {
+    "date": "2026-03-28",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Olentangy",
+      "logo": "/OHS_Logo.svg",
+      "abrev": "OHS",
+      "mascot": "Braves",
+      "div": "red",
+      "startingGoalie": "b120de27",
+      "shotsFor": 33,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-28_GLHS_OHS"
+  },
+  {
+    "date": "2025-12-27",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 30,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy Liberty",
+      "logo": "/OLHS_Logo.svg",
+      "abrev": "OLHS",
+      "mascot": "Patriots",
+      "div": "red",
+      "startingGoalie": "a59b30fc",
+      "shotsFor": 31,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-12-27_GLHS_OLHS"
+  },
+  {
+    "date": "2026-02-19",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 30,
+      "score": 1
+    },
+    "away": {
+      "name": "Olentangy Berlin",
+      "logo": "/OBHS_Logo.svg",
+      "abrev": "OBHS",
+      "mascot": "Bears",
+      "div": "red",
+      "startingGoalie": "131bc627",
+      "shotsFor": 33,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-02-19_GLHS_OBHS"
+  },
+  {
+    "date": "2026-03-27",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Upper Arlington",
+      "logo": "/UA_Logo.svg",
+      "abrev": "UA",
+      "mascot": "Golden Bears",
+      "div": "red",
+      "startingGoalie": "6636abf7",
+      "shotsFor": 33,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-27_GLHS_UA"
+  },
+  {
+    "date": "2026-02-13",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 33,
+      "score": 1
+    },
+    "away": {
+      "name": "Saint Charles Prep",
+      "logo": "/SC_Logo.svg",
+      "abrev": "ST.C",
+      "mascot": "Cardinals",
+      "div": "red",
+      "startingGoalie": "c94abaa2",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2026-02-13_GLHS_ST.C"
+  },
+  {
+    "date": "2025-11-21",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "away": {
+      "name": "New Albany",
+      "logo": "/NA_Logo.svg",
+      "abrev": "NA",
+      "mascot": "Eagles",
+      "div": "red",
+      "startingGoalie": "ecd96f75",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2025-11-21_GLHS_NA"
+  },
+  {
+    "date": "2025-11-10",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 33,
+      "score": 2
+    },
+    "away": {
+      "name": "Archbishop Moeller",
+      "logo": "/MOE_Logo.svg",
+      "abrev": "MOE",
+      "mascot": "Crusaders",
+      "div": "red",
+      "startingGoalie": "aa4197a8",
+      "shotsFor": 32,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2025-11-10_GLHS_MOE"
+  },
+  {
+    "date": "2025-12-21",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 31,
+      "score": 6
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-12-21_WAT_DCHS"
+  },
+  {
+    "date": "2025-12-21",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 35,
+      "score": 0
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2025-12-21_WAT_DJHS"
+  },
+  {
+    "date": "2026-01-31",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 35,
+      "score": 4
+    },
+    "status": "Final",
+    "gameId": "2026-01-31_WAT_OOHS"
+  },
+  {
+    "date": "2026-03-23",
+    "home": {
+      "name": "Archbishop Watterson",
+      "logo": "/BW_Logo.svg",
+      "abrev": "WAT",
+      "mascot": "Eagles",
+      "div": "blue",
+      "startingGoalie": "1fb12844",
+      "shotsFor": 34,
+      "score": null
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 32,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-23_WAT_ST.X"
+  },
+  {
+    "date": "2026-01-24",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 34,
+      "score": 6
+    },
+    "status": "Final",
+    "gameId": "2026-01-24_WKHS_DCHS"
+  },
+  {
+    "date": "2025-11-23",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 34,
+      "score": 4
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 35,
+      "score": 1
+    },
+    "status": "Final",
+    "gameId": "2025-11-23_WKHS_DJHS"
+  },
+  {
+    "date": "2026-01-15",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 33,
+      "score": 4
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 32,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-01-15_WKHS_OOHS"
+  },
+  {
+    "date": "2026-02-18",
+    "home": {
+      "name": "Worthington Kilbourne",
+      "logo": "/WK_Logo.svg",
+      "abrev": "WKHS",
+      "mascot": "Wolves",
+      "div": "blue",
+      "startingGoalie": "5fe066c9",
+      "shotsFor": 35,
+      "score": 3
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "31d4f7a6",
+      "shotsFor": 34,
+      "score": 5
+    },
+    "status": "Final",
+    "gameId": "2026-02-18_WKHS_ST.X"
+  },
+  {
+    "date": "2026-03-18",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 32,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-18_TWHS_DCHS"
+  },
+  {
+    "date": "2026-03-31",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 30,
+      "score": null
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 30,
+      "score": null
+    },
+    "status": "Scheduled",
+    "gameId": "2026-03-31_TWHS_DJHS"
+  },
+  {
+    "date": "2026-02-11",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 34,
+      "score": 3
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 33,
+      "score": 0
+    },
+    "status": "Final",
+    "gameId": "2026-02-11_TWHS_OOHS"
+  },
+  {
+    "date": "2026-03-03",
+    "home": {
+      "name": "Worthington Thomas",
+      "logo": "/TW_Logo.svg",
+      "abrev": "TWHS",
+      "mascot": "Cardinals",
+      "div": "blue",
+      "startingGoalie": "a7aa9896",
+      "shotsFor": 32,
+      "score": 2
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 34,
+      "score": 7
+    },
+    "status": "Final",
+    "gameId": "2026-03-03_TWHS_ST.X"
+  },
+  {
+    "date": "2026-03-11",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 31,
+      "score": 2
+    },
+    "away": {
+      "name": "Dublin Coffman",
+      "logo": "/DC_Logo.svg",
+      "abrev": "DCHS",
+      "mascot": "Shamrocks",
+      "div": "white",
+      "startingGoalie": "d302c54c",
+      "shotsFor": 33,
+      "score": 3
+    },
+    "status": "OT Final",
+    "gameId": "2026-03-11_GLHS_DCHS"
+  },
+  {
+    "date": "2025-12-11",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 34,
+      "score": 0
+    },
+    "away": {
+      "name": "Dublin Jerome",
+      "logo": "/DJ_Logo.svg",
+      "abrev": "DJHS",
+      "mascot": "Celtics",
+      "div": "white",
+      "startingGoalie": "ee69b48e",
+      "shotsFor": 30,
+      "score": 2
+    },
+    "status": "Final",
+    "gameId": "2025-12-11_GLHS_DJHS"
+  },
+  {
+    "date": "2026-03-02",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 35,
+      "score": 5
+    },
+    "away": {
+      "name": "Olentangy Orange",
+      "logo": "/OOHS_Logo.svg",
+      "abrev": "OOHS",
+      "mascot": "Pioneers",
+      "div": "white",
+      "startingGoalie": "c1f8509c",
+      "shotsFor": 31,
+      "score": 3
+    },
+    "status": "Final",
+    "gameId": "2026-03-02_GLHS_OOHS"
+  },
+  {
+    "date": "2026-03-10",
+    "home": {
+      "name": "Gahanna Lincoln",
+      "logo": "/GAH_Logo.svg",
+      "abrev": "GLHS",
+      "mascot": "Lions",
+      "div": "blue",
+      "startingGoalie": "54427fa4",
+      "shotsFor": 31,
+      "score": 5
+    },
+    "away": {
+      "name": "St.Xavier",
+      "logo": "/STX_Logo.svg",
+      "abrev": "ST.X",
+      "mascot": "Bombers",
+      "div": "white",
+      "startingGoalie": "fe1e57e2",
+      "shotsFor": 30,
+      "score": 4
+    },
+    "status": "OT Final",
+    "gameId": "2026-03-10_GLHS_ST.X"
+  }
+]

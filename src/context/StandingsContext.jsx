@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useMemo } from "react";
-import games from "../data/scheduledGames.json";
+// import games from "../data/scheduledGames.json";
+import games from "../data/gameSchedule.json";
 import teams from "../data/teamInfoData.json";
 
 const StandingsContext = createContext();
@@ -83,7 +84,7 @@ export const StandingsProvider = ({ children }) => {
       });
 
       // Skip incomplete games
-      if (!["Final", "OT", "SO"].includes(status)) return;
+      if (!["Final", "OT Final", "SO Final"].includes(status)) return;
 
       // Update GP and goals
       standings[homeId].gamesPlayed += 1;
@@ -100,7 +101,7 @@ export const StandingsProvider = ({ children }) => {
         standings[homeId].wins += 1;
         standings[homeId].points += 2;
 
-        if (status === "OT" || status === "SO") {
+        if (status === "OT Final" || status === "SO Final") {
           standings[awayId].otLosses += 1;
           standings[awayId].points += 1;
         } else {
@@ -110,7 +111,7 @@ export const StandingsProvider = ({ children }) => {
         standings[awayId].wins += 1;
         standings[awayId].points += 2;
 
-        if (status === "OT" || status === "SO") {
+        if (status === "OT Final" || status === "SO Final") {
           standings[homeId].otLosses += 1;
           standings[homeId].points += 1;
         } else {

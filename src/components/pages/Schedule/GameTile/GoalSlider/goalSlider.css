@@ -99,7 +99,7 @@
     z-index: 1;
 }
 
-.team-logo {
+.team-logo__goalSlider {
     position: absolute;
     display: flex;
     align-items: center;

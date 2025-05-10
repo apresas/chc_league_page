@@ -4,7 +4,8 @@ import DateTile from "./DateTiles/DateTile";
 import GameTile from "./GameTile/gameTile";
 import DatePicker from "./DatePickers/DatePicker";
 // import gameData from "../../../data/gamesData.json";
-import gameData from "../../../data/scheduledGames.json";
+// import gameData from "../../../data/scheduledGames.json";
+import gameData from "../../../data/gameSchedule.json";
 import { useDate } from "../../../context/DateContext";
 
 function Schedule() {
@@ -19,7 +20,7 @@ function Schedule() {
     const weekDates = selectedWeek.map(({ year, month, day }) =>
       new Date(year, month, day).toLocaleDateString("en-CA")
     );
-  
+
     if (!expandedDate) {
       if (weekDates.includes(today)) {
         setExpandedDate(today);
@@ -28,7 +29,6 @@ function Schedule() {
       }
     }
   }, [selectedWeek]);
-
 
   useEffect(() => {
     const grouped = {};
@@ -56,7 +56,6 @@ function Schedule() {
           {selectedWeek.map(({ i, year, month, day }) => {
             const date = new Date(year, month, day).toLocaleDateString("en-CA");
             const count = gamesByDate[date]?.length || 0;
-
             return (
               <DateTile
                 key={date}

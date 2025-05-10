@@ -3,7 +3,12 @@
     /* align-items: center;
     justify-content: center; */
     flex-direction: column;
-    width: 50%;
+    /* width: 50%; */
+}
+
+.scoring-header {
+    margin-bottom: 0;
+    color: var(--color-primary);
 }
 
 .scoring-controls {
@@ -20,6 +25,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     text-align: center;
+    user-select: none;
     /* display: flex;
     justify-content: space-between; */
 }
@@ -32,6 +38,7 @@
     position: relative;
     font-weight: 500;
     color: var(--color-ui-grey);
+    cursor: pointer;
 }
 
 .btn-selected {
@@ -63,7 +70,7 @@
     width: 100%;
 }
 
-.scoring-grid{
+.scoring-grid__scoringLeaders{
     display: grid;
     grid-template-columns: 4fr 4fr;
 }

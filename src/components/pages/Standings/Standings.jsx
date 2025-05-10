@@ -13,7 +13,7 @@ function Standings() {
         <StandingsTable title="White Standings" teams={sortedDivisions["white"]} divLogo="/White_Div_Icon.svg" />
         <StandingsTable title="Blue Standings" teams={sortedDivisions["blue"]} divLogo="/blue_division_icon2.svg" />
 
-        <StandingsTable title="Overall Standings" teams={overall} divLogo="/CHC_Logo.svg"/>
+        <StandingsTable title="League Standings" teams={overall} divLogo="/CHC_Logo.svg"/>
       </div>
     </div>
   );
