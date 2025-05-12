@@ -10,6 +10,69 @@
     font-family: var(--font-header);
   }
 
+
+  .controls__gameSummary {
+    display: flex;
+    gap: 1rem;
+    /* padding: 1rem 0; */
+    border-bottom: 1px solid lightgrey;
+    margin-top: 1.5rem;
+}
+
+.controls-btns__gameSummary {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+    user-select: none;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.control-btn__gameSummary {
+    all: unset;
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    transition: var(--transition-main);
+    position: relative;
+    font-weight: 500;
+    color: var(--color-ui-grey);
+    cursor: pointer;
+}
+
+.btn-selected__gameSummary {
+    position: relative;
+    font-weight: 600;
+    color: var(--color-ui-black);
+}
+
+
+
+.control-btn__gameSummary::after {
+    content: "";
+    position: absolute;
+    bottom: -1.5px;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--color-ui-blue);
+    opacity: 0;
+    transition: var(--transition-main);
+
+    /* box-shadow: 0 3px 0 0 var(--color-ui-blue); */
+}
+
+.btn-selected__gameSummary:after {
+    opacity: 1;
+    width: 100%;
+}
+
+
+
+
   .summary-main h1{
     margin-bottom: 1rem;
   }
@@ -203,7 +266,12 @@
   
   .no-events {
     text-align: center;
-    color: #bbbbbb;
+    padding: 2rem 1rem;
+    background-color: var(--color-ui-lightgrey);
+    border: 1px solid lightgrey;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
   }
 
   /* Head to Head */
@@ -226,11 +294,32 @@
     padding: 20px;
     border-radius: 8px;
   } */
+
+  .head-to-head-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .head-to-head-header h1{
+    margin: 0;
+  }
+
+  .series-record {
+    font-weight: 600;
+    color: var(--color-ui-grey);
+    font-size: 1.05rem;
+  }
   
   .head-to-head-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 0.5rem;
+  }
+
+  .head-to-head-link {
+    text-decoration: none;
   }
   
   .head-to-head-tile {
@@ -238,20 +327,17 @@
     padding: 1rem;
     border-radius: 5px;
     display: flex;
+    gap: 0.5rem;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     border: 1px solid lightgrey;
     color: var(--color-ui-black);
   }
   
-  .match-date {
-    font-weight: bold;
-    color: #ffa502;
-  }
-  
   .match-teams {
-    margin: 5px 0;
-    /* color: #ffffff; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem; */
   }
   
   .match-score {
@@ -259,14 +345,81 @@
     color: #2ed573;
   }
   
-  .match-status {
+  .match-status, .match-date {
     font-size: 0.9rem;
-    color: #bbbbbb;
+    color: var(--color-ui-black);
   }
   
   .no-matches {
     text-align: center;
     color: #bbbbbb;
+  }
+
+  .team__headToHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    width: 100%;
+  }
+
+
+  .score__headToHead {
+    font-size: 2rem;
+  }
+
+  .vs__headToHead {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+  }
+
+  .vs__headToHead {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgrey;
+  }
+
+  .vs__headToHead span {
+    background-color: white;
+    padding: 0 0.5rem;
+    z-index: 1;
+  }
+
+  .vs__headToHead::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: lightgrey;
+    right: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .team-name__headToHead {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+
+  .team-name__headToHead img {
+    width: 3rem;
+    aspect-ratio: 1/1;
+  }
+
+  .header__headToHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   
   

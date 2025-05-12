@@ -2,12 +2,15 @@ import React, { useRef, useEffect } from "react";
 import "./gameTile.css";
 import TeamScoreTile from "./TeamScoreTile/TeamScoreTile";
 import GoalSlider from "./GoalSlider/GoalSlider";
+import { Link } from "react-router-dom";
 
 
 function gameTile({ game, index }) {
   const { home, away, status } = game;
 
   const tileRef = useRef();
+
+  console.log(game)
 
   useEffect(() => {
     const el = tileRef.current;
@@ -37,7 +40,9 @@ function gameTile({ game, index }) {
           game={game}
         />
       </div>
-      <button className="gameTile_btn">Gamecenter</button>
+      <Link to={`/gamecenter/${game.gameId}`} className="link"> 
+      <button className="gameTile_btn">Gamecenter</button> 
+      </Link>
     </div>
   );
 }

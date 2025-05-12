@@ -1,0 +1,5798 @@
+[
+  {
+    "gameId": "2025-12-21_OHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 36,
+      "faceoffLosses": 29,
+      "hits": 12,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 26,
+      "faceoffLosses": 22,
+      "hits": 15,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2026-02-08_OLHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 31,
+      "faceoffLosses": 36,
+      "hits": 21,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 29,
+      "faceoffLosses": 33,
+      "hits": 20,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-02-11_OHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 34,
+      "faceoffLosses": 22,
+      "hits": 14,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 20,
+      "hits": 29,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2025-11-23_OBHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 40,
+      "faceoffLosses": 28,
+      "hits": 25,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 30,
+      "faceoffLosses": 30,
+      "hits": 25,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2026-01-23_OHS_UA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 40,
+      "faceoffLosses": 21,
+      "hits": 14,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 24,
+      "faceoffLosses": 24,
+      "hits": 25,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2026-03-31_UA_OHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 21,
+      "faceoffLosses": 27,
+      "hits": 17,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 21,
+      "faceoffLosses": 26,
+      "hits": 29,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2026-02-21_OHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 13,
+      "faceoffWins": 34,
+      "faceoffLosses": 23,
+      "hits": 18,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 28,
+      "faceoffLosses": 22,
+      "hits": 21,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2025-12-03_ST.C_OHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 34,
+      "faceoffLosses": 27,
+      "hits": 28,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 33,
+      "faceoffLosses": 26,
+      "hits": 18,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-03-03_OHS_NA",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 40,
+      "hits": 20,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 29,
+      "faceoffLosses": 29,
+      "hits": 30,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2025-12-18_NA_OHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 21,
+      "faceoffLosses": 33,
+      "hits": 14,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 34,
+      "faceoffLosses": 36,
+      "hits": 26,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-03-24_OHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 26,
+      "faceoffLosses": 37,
+      "hits": 12,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 31,
+      "faceoffLosses": 40,
+      "hits": 17,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-12-15_MOE_OHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 32,
+      "faceoffLosses": 34,
+      "hits": 26,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 36,
+      "faceoffLosses": 20,
+      "hits": 15,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2025-11-04_OLHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 23,
+      "faceoffLosses": 32,
+      "hits": 28,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 24,
+      "faceoffLosses": 30,
+      "hits": 19,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-02-15_OHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 26,
+      "faceoffLosses": 24,
+      "hits": 22,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 23,
+      "faceoffLosses": 25,
+      "hits": 26,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-02-01_OLHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 38,
+      "faceoffLosses": 26,
+      "hits": 10,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 21,
+      "faceoffLosses": 36,
+      "hits": 21,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-03-27_OBHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 21,
+      "faceoffLosses": 29,
+      "hits": 26,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 33,
+      "faceoffLosses": 35,
+      "hits": 19,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-03-16_OLHS_UA",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 23,
+      "faceoffLosses": 24,
+      "hits": 29,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 35,
+      "faceoffLosses": 26,
+      "hits": 22,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2025-11-09_UA_OLHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 23,
+      "faceoffLosses": 24,
+      "hits": 12,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 22,
+      "faceoffLosses": 29,
+      "hits": 16,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-01-02_OLHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 22,
+      "hits": 17,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 35,
+      "faceoffLosses": 32,
+      "hits": 13,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-01-18_ST.C_OLHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 24,
+      "faceoffLosses": 37,
+      "hits": 18,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 34,
+      "faceoffLosses": 22,
+      "hits": 26,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-11-11_OLHS_NA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 26,
+      "faceoffLosses": 32,
+      "hits": 30,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 36,
+      "faceoffLosses": 21,
+      "hits": 24,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-01-21_NA_OLHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 23,
+      "faceoffLosses": 40,
+      "hits": 19,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 30,
+      "faceoffLosses": 26,
+      "hits": 28,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2025-11-12_OLHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 9,
+      "faceoffWins": 36,
+      "faceoffLosses": 20,
+      "hits": 26,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 20,
+      "faceoffLosses": 32,
+      "hits": 16,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-11-03_MOE_OLHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 31,
+      "faceoffLosses": 25,
+      "hits": 22,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 22,
+      "faceoffLosses": 31,
+      "hits": 13,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-01-14_OBHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 33,
+      "faceoffLosses": 28,
+      "hits": 16,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 38,
+      "faceoffLosses": 21,
+      "hits": 24,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2026-02-26_OHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 11,
+      "faceoffWins": 26,
+      "faceoffLosses": 35,
+      "hits": 12,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 39,
+      "faceoffLosses": 23,
+      "hits": 29,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2025-11-12_OBHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 27,
+      "faceoffLosses": 22,
+      "hits": 19,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 40,
+      "faceoffLosses": 21,
+      "hits": 14,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2025-12-09_OLHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 30,
+      "faceoffLosses": 31,
+      "hits": 27,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 28,
+      "faceoffLosses": 39,
+      "hits": 26,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-03-22_OBHS_UA",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 15,
+      "faceoffWins": 29,
+      "faceoffLosses": 24,
+      "hits": 15,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 7,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 35,
+      "faceoffLosses": 37,
+      "hits": 19,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-11-24_UA_OBHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 22,
+      "faceoffLosses": 22,
+      "hits": 12,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 30,
+      "hits": 11,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2025-12-09_OBHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 30,
+      "faceoffLosses": 22,
+      "hits": 21,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 33,
+      "faceoffLosses": 35,
+      "hits": 14,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2026-01-12_ST.C_OBHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 29,
+      "faceoffLosses": 34,
+      "hits": 15,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 30,
+      "faceoffLosses": 37,
+      "hits": 25,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2025-11-21_OBHS_NA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 29,
+      "faceoffLosses": 33,
+      "hits": 15,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 27,
+      "faceoffLosses": 26,
+      "hits": 10,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-03-31_NA_OBHS",
+    "home": {
+      "powerPlayOpportunities": 7,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 21,
+      "faceoffLosses": 28,
+      "hits": 24,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 15,
+      "faceoffWins": 20,
+      "faceoffLosses": 39,
+      "hits": 12,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-03-13_OBHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 29,
+      "faceoffLosses": 39,
+      "hits": 23,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 34,
+      "faceoffLosses": 22,
+      "hits": 18,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2026-02-22_MOE_OBHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 15,
+      "faceoffWins": 36,
+      "faceoffLosses": 25,
+      "hits": 22,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 7,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 33,
+      "faceoffLosses": 22,
+      "hits": 16,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-02-06_UA_OHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 24,
+      "faceoffLosses": 31,
+      "hits": 24,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 24,
+      "faceoffLosses": 34,
+      "hits": 17,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-02-09_OHS_UA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 34,
+      "faceoffLosses": 22,
+      "hits": 17,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 25,
+      "faceoffLosses": 35,
+      "hits": 26,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-11-03_UA_OLHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 39,
+      "faceoffLosses": 20,
+      "hits": 13,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 22,
+      "faceoffLosses": 34,
+      "hits": 13,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2026-03-21_OLHS_UA",
+    "home": {
+      "powerPlayOpportunities": 8,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 40,
+      "faceoffLosses": 22,
+      "hits": 23,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 16,
+      "faceoffWins": 29,
+      "faceoffLosses": 30,
+      "hits": 23,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-11-11_UA_OBHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 16,
+      "faceoffWins": 35,
+      "faceoffLosses": 31,
+      "hits": 12,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 8,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 32,
+      "faceoffLosses": 22,
+      "hits": 10,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2025-11-21_OBHS_UA",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 23,
+      "faceoffLosses": 26,
+      "hits": 26,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 24,
+      "faceoffLosses": 36,
+      "hits": 16,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-12-11_UA_ST.C",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 28,
+      "faceoffLosses": 31,
+      "hits": 30,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 24,
+      "faceoffLosses": 31,
+      "hits": 14,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-01-15_ST.C_UA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 35,
+      "faceoffLosses": 39,
+      "hits": 20,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 37,
+      "hits": 24,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2026-01-01_UA_NA",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 31,
+      "faceoffLosses": 35,
+      "hits": 17,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 35,
+      "faceoffLosses": 39,
+      "hits": 15,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-01-22_NA_UA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 21,
+      "faceoffLosses": 21,
+      "hits": 17,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 32,
+      "faceoffLosses": 40,
+      "hits": 26,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-03-06_UA_MOE",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 34,
+      "faceoffLosses": 28,
+      "hits": 15,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 36,
+      "faceoffLosses": 25,
+      "hits": 17,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-01-13_MOE_UA",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 20,
+      "faceoffLosses": 38,
+      "hits": 23,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 27,
+      "faceoffLosses": 22,
+      "hits": 26,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2025-12-02_ST.C_OHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 22,
+      "faceoffLosses": 24,
+      "hits": 20,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 36,
+      "faceoffLosses": 40,
+      "hits": 27,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-02-09_OHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 26,
+      "faceoffLosses": 26,
+      "hits": 29,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 28,
+      "faceoffLosses": 39,
+      "hits": 27,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2025-12-09_ST.C_OLHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 20,
+      "faceoffLosses": 39,
+      "hits": 14,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 25,
+      "faceoffLosses": 35,
+      "hits": 16,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2026-02-23_OLHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 22,
+      "faceoffLosses": 22,
+      "hits": 19,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 22,
+      "faceoffLosses": 38,
+      "hits": 23,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2026-03-12_ST.C_OBHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 22,
+      "faceoffLosses": 31,
+      "hits": 17,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 24,
+      "faceoffLosses": 22,
+      "hits": 21,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-03-08_OBHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 40,
+      "faceoffLosses": 38,
+      "hits": 18,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 12,
+      "faceoffWins": 31,
+      "faceoffLosses": 39,
+      "hits": 26,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2025-11-16_ST.C_UA",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 20,
+      "hits": 21,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 35,
+      "faceoffLosses": 35,
+      "hits": 30,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-03-06_UA_ST.C",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 39,
+      "faceoffLosses": 36,
+      "hits": 23,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 26,
+      "faceoffLosses": 27,
+      "hits": 10,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2025-11-15_ST.C_NA",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 32,
+      "faceoffLosses": 27,
+      "hits": 14,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 22,
+      "faceoffLosses": 25,
+      "hits": 28,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2025-11-16_NA_ST.C",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 37,
+      "faceoffLosses": 32,
+      "hits": 22,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 38,
+      "faceoffLosses": 30,
+      "hits": 15,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2025-12-24_ST.C_MOE",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 31,
+      "faceoffLosses": 39,
+      "hits": 26,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 22,
+      "faceoffLosses": 40,
+      "hits": 26,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2025-11-02_MOE_ST.C",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 15,
+      "faceoffWins": 28,
+      "faceoffLosses": 39,
+      "hits": 15,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 7,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 20,
+      "faceoffLosses": 23,
+      "hits": 19,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2026-01-21_NA_OHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 24,
+      "faceoffLosses": 25,
+      "hits": 13,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 23,
+      "faceoffLosses": 26,
+      "hits": 23,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-11-21_OHS_NA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 34,
+      "faceoffLosses": 20,
+      "hits": 11,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 26,
+      "faceoffLosses": 26,
+      "hits": 18,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-03-04_NA_OLHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 15,
+      "faceoffWins": 26,
+      "faceoffLosses": 31,
+      "hits": 27,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 7,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 25,
+      "faceoffLosses": 21,
+      "hits": 26,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2026-02-20_OLHS_NA",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 33,
+      "faceoffLosses": 30,
+      "hits": 15,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 28,
+      "faceoffLosses": 21,
+      "hits": 13,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-02-15_NA_OBHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 27,
+      "faceoffLosses": 23,
+      "hits": 28,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 39,
+      "faceoffLosses": 32,
+      "hits": 28,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-02-26_OBHS_NA",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 37,
+      "faceoffLosses": 34,
+      "hits": 10,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 29,
+      "faceoffLosses": 35,
+      "hits": 16,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-12-12_NA_UA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 24,
+      "faceoffLosses": 29,
+      "hits": 24,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 38,
+      "faceoffLosses": 22,
+      "hits": 12,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-01-21_UA_NA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 30,
+      "faceoffLosses": 21,
+      "hits": 29,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 22,
+      "faceoffLosses": 36,
+      "hits": 30,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-12-15_NA_ST.C",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 32,
+      "faceoffLosses": 36,
+      "hits": 20,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 39,
+      "faceoffLosses": 20,
+      "hits": 14,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2025-12-26_ST.C_NA",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 39,
+      "hits": 28,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 33,
+      "faceoffLosses": 30,
+      "hits": 23,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2025-12-02_NA_MOE",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 20,
+      "faceoffLosses": 20,
+      "hits": 28,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 28,
+      "faceoffLosses": 34,
+      "hits": 21,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-03-26_MOE_NA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 37,
+      "faceoffLosses": 20,
+      "hits": 14,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 28,
+      "faceoffLosses": 36,
+      "hits": 20,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-12-04_MOE_OHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 21,
+      "faceoffLosses": 24,
+      "hits": 16,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 38,
+      "faceoffLosses": 30,
+      "hits": 27,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-01-08_OHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 30,
+      "faceoffLosses": 36,
+      "hits": 19,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 31,
+      "faceoffLosses": 21,
+      "hits": 18,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2025-12-22_MOE_OLHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 33,
+      "faceoffLosses": 28,
+      "hits": 13,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 33,
+      "faceoffLosses": 22,
+      "hits": 29,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2026-01-02_OLHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 40,
+      "faceoffLosses": 31,
+      "hits": 19,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 35,
+      "faceoffLosses": 39,
+      "hits": 21,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-03-01_MOE_OBHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 40,
+      "hits": 18,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 20,
+      "faceoffLosses": 39,
+      "hits": 10,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2025-11-01_OBHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 25,
+      "faceoffLosses": 32,
+      "hits": 13,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 30,
+      "faceoffLosses": 28,
+      "hits": 19,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-01-23_MOE_UA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 28,
+      "faceoffLosses": 20,
+      "hits": 17,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 25,
+      "faceoffLosses": 20,
+      "hits": 18,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-11-21_UA_MOE",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 27,
+      "faceoffLosses": 40,
+      "hits": 28,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 38,
+      "faceoffLosses": 27,
+      "hits": 29,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-02-13_MOE_ST.C",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 40,
+      "faceoffLosses": 23,
+      "hits": 12,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 33,
+      "faceoffLosses": 22,
+      "hits": 24,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2025-12-11_ST.C_MOE",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 22,
+      "faceoffLosses": 31,
+      "hits": 22,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 33,
+      "faceoffLosses": 39,
+      "hits": 24,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-11-30_MOE_NA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 37,
+      "faceoffLosses": 29,
+      "hits": 13,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 24,
+      "faceoffLosses": 30,
+      "hits": 29,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-02-16_NA_MOE",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 30,
+      "hits": 29,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 39,
+      "faceoffLosses": 34,
+      "hits": 25,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-02-17_DCHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 15,
+      "faceoffWins": 27,
+      "faceoffLosses": 40,
+      "hits": 22,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 7,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 12,
+      "faceoffWins": 36,
+      "faceoffLosses": 27,
+      "hits": 12,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2025-11-04_DJHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 26,
+      "faceoffLosses": 38,
+      "hits": 19,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 21,
+      "faceoffLosses": 31,
+      "hits": 10,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-01-24_DCHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 26,
+      "faceoffLosses": 35,
+      "hits": 18,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 26,
+      "faceoffLosses": 21,
+      "hits": 12,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-02-18_OOHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 35,
+      "faceoffLosses": 34,
+      "hits": 15,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 23,
+      "faceoffLosses": 28,
+      "hits": 17,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2026-02-21_DCHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 26,
+      "faceoffLosses": 24,
+      "hits": 24,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 27,
+      "faceoffLosses": 25,
+      "hits": 27,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2026-01-20_ST.X_DCHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 7,
+      "faceoffWins": 23,
+      "faceoffLosses": 24,
+      "hits": 29,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 40,
+      "faceoffLosses": 30,
+      "hits": 24,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-02-28_DJHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 21,
+      "faceoffLosses": 38,
+      "hits": 28,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 35,
+      "hits": 18,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-02-20_DCHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 29,
+      "faceoffLosses": 29,
+      "hits": 21,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 38,
+      "faceoffLosses": 38,
+      "hits": 13,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-11-30_DJHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 29,
+      "faceoffLosses": 28,
+      "hits": 26,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 34,
+      "faceoffLosses": 25,
+      "hits": 10,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-01-28_OOHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 9,
+      "faceoffWins": 23,
+      "faceoffLosses": 30,
+      "hits": 10,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 24,
+      "faceoffLosses": 21,
+      "hits": 14,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2025-11-22_DJHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 40,
+      "faceoffLosses": 25,
+      "hits": 21,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 28,
+      "faceoffLosses": 31,
+      "hits": 18,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-02-28_ST.X_DJHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 22,
+      "faceoffLosses": 30,
+      "hits": 11,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 21,
+      "hits": 27,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2026-01-08_OOHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 15,
+      "faceoffWins": 25,
+      "faceoffLosses": 24,
+      "hits": 15,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 7,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 22,
+      "faceoffLosses": 34,
+      "hits": 25,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2025-11-27_DCHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 37,
+      "faceoffLosses": 40,
+      "hits": 21,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 22,
+      "faceoffLosses": 28,
+      "hits": 30,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-02-18_OOHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 21,
+      "faceoffLosses": 30,
+      "hits": 14,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 7,
+      "faceoffWins": 39,
+      "faceoffLosses": 28,
+      "hits": 21,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-02-21_DJHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 34,
+      "faceoffLosses": 33,
+      "hits": 17,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 33,
+      "faceoffLosses": 39,
+      "hits": 26,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2025-12-05_OOHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 28,
+      "faceoffLosses": 39,
+      "hits": 16,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 23,
+      "faceoffLosses": 31,
+      "hits": 12,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2026-01-18_ST.X_OOHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 27,
+      "faceoffLosses": 29,
+      "hits": 28,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 30,
+      "faceoffLosses": 21,
+      "hits": 20,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-12-16_ST.X_DCHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 37,
+      "faceoffLosses": 33,
+      "hits": 28,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 28,
+      "faceoffLosses": 39,
+      "hits": 13,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2025-11-07_DCHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 40,
+      "faceoffLosses": 20,
+      "hits": 30,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 32,
+      "faceoffLosses": 28,
+      "hits": 11,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-01-25_ST.X_DJHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 34,
+      "faceoffLosses": 36,
+      "hits": 30,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 40,
+      "faceoffLosses": 28,
+      "hits": 23,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-02-20_DJHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 32,
+      "faceoffLosses": 25,
+      "hits": 27,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 26,
+      "faceoffLosses": 27,
+      "hits": 25,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-12-15_ST.X_OOHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 13,
+      "faceoffWins": 33,
+      "faceoffLosses": 39,
+      "hits": 30,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 35,
+      "faceoffLosses": 22,
+      "hits": 23,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2025-12-10_OOHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 23,
+      "faceoffLosses": 33,
+      "hits": 15,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 37,
+      "faceoffLosses": 36,
+      "hits": 15,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-01-22_WAT_WKHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 22,
+      "faceoffLosses": 25,
+      "hits": 18,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 21,
+      "faceoffLosses": 24,
+      "hits": 13,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-02-27_WKHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 21,
+      "faceoffLosses": 35,
+      "hits": 13,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 35,
+      "faceoffLosses": 29,
+      "hits": 27,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-11-29_WAT_TWHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 32,
+      "faceoffLosses": 20,
+      "hits": 22,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 13,
+      "faceoffWins": 23,
+      "faceoffLosses": 36,
+      "hits": 17,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-02-20_TWHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 40,
+      "faceoffLosses": 32,
+      "hits": 23,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 29,
+      "faceoffLosses": 37,
+      "hits": 17,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2025-11-04_WAT_GLHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 34,
+      "faceoffLosses": 22,
+      "hits": 15,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 36,
+      "faceoffLosses": 30,
+      "hits": 16,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-11-02_GLHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 29,
+      "faceoffLosses": 24,
+      "hits": 12,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 20,
+      "faceoffLosses": 26,
+      "hits": 24,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2025-11-26_WKHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 22,
+      "faceoffLosses": 35,
+      "hits": 20,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 20,
+      "faceoffLosses": 38,
+      "hits": 30,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2026-03-05_WAT_WKHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 20,
+      "faceoffLosses": 24,
+      "hits": 24,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 32,
+      "faceoffLosses": 23,
+      "hits": 12,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2026-03-31_WKHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 29,
+      "faceoffLosses": 22,
+      "hits": 24,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 26,
+      "faceoffLosses": 24,
+      "hits": 29,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2026-01-01_TWHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 13,
+      "faceoffWins": 20,
+      "faceoffLosses": 30,
+      "hits": 21,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 23,
+      "faceoffLosses": 33,
+      "hits": 17,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2026-03-31_WKHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 24,
+      "faceoffLosses": 29,
+      "hits": 11,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 35,
+      "hits": 27,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-01-16_GLHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 36,
+      "faceoffLosses": 27,
+      "hits": 17,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 33,
+      "faceoffLosses": 21,
+      "hits": 10,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2025-12-13_TWHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 24,
+      "faceoffLosses": 22,
+      "hits": 30,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 40,
+      "faceoffLosses": 31,
+      "hits": 27,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2025-12-31_WAT_TWHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 39,
+      "faceoffLosses": 35,
+      "hits": 26,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 25,
+      "faceoffLosses": 26,
+      "hits": 19,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-01-21_TWHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 40,
+      "faceoffLosses": 40,
+      "hits": 17,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 31,
+      "faceoffLosses": 37,
+      "hits": 28,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-11-10_WKHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 29,
+      "faceoffLosses": 20,
+      "hits": 18,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 32,
+      "faceoffLosses": 27,
+      "hits": 13,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-03-01_TWHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 37,
+      "faceoffLosses": 34,
+      "hits": 10,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 24,
+      "faceoffLosses": 39,
+      "hits": 28,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-03-28_GLHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 31,
+      "faceoffLosses": 36,
+      "hits": 21,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 9,
+      "faceoffWins": 23,
+      "faceoffLosses": 38,
+      "hits": 28,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-02-24_GLHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 21,
+      "faceoffLosses": 40,
+      "hits": 16,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 34,
+      "faceoffLosses": 35,
+      "hits": 24,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-12-21_WAT_GLHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 31,
+      "faceoffLosses": 40,
+      "hits": 26,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 12,
+      "faceoffWins": 37,
+      "faceoffLosses": 24,
+      "hits": 17,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-02-27_GLHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 25,
+      "hits": 28,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 28,
+      "faceoffLosses": 39,
+      "hits": 20,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-02-05_WKHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 24,
+      "faceoffLosses": 30,
+      "hits": 12,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 23,
+      "hits": 13,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2026-01-18_GLHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 40,
+      "hits": 17,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 32,
+      "faceoffLosses": 38,
+      "hits": 19,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2025-11-09_TWHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 37,
+      "faceoffLosses": 27,
+      "hits": 20,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 39,
+      "faceoffLosses": 23,
+      "hits": 26,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2025-11-08_OHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 21,
+      "faceoffLosses": 36,
+      "hits": 25,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 39,
+      "faceoffLosses": 29,
+      "hits": 23,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-01-21_OHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 35,
+      "faceoffLosses": 24,
+      "hits": 10,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 24,
+      "faceoffLosses": 28,
+      "hits": 15,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-03-09_OHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 28,
+      "faceoffLosses": 28,
+      "hits": 22,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 23,
+      "faceoffLosses": 22,
+      "hits": 10,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-12-18_OHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 27,
+      "faceoffLosses": 34,
+      "hits": 26,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 32,
+      "faceoffLosses": 38,
+      "hits": 28,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-03-17_OLHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 37,
+      "faceoffLosses": 23,
+      "hits": 19,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 24,
+      "faceoffLosses": 31,
+      "hits": 10,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-01-11_OLHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 20,
+      "hits": 12,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 38,
+      "faceoffLosses": 38,
+      "hits": 14,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-12-10_OLHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 37,
+      "faceoffLosses": 24,
+      "hits": 10,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 33,
+      "faceoffLosses": 25,
+      "hits": 12,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2025-11-05_OLHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 11,
+      "faceoffWins": 31,
+      "faceoffLosses": 28,
+      "hits": 21,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 21,
+      "faceoffLosses": 31,
+      "hits": 14,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2025-12-28_OBHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 22,
+      "faceoffLosses": 30,
+      "hits": 29,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 38,
+      "faceoffLosses": 26,
+      "hits": 29,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-03-14_OBHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 22,
+      "faceoffLosses": 29,
+      "hits": 12,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 23,
+      "faceoffLosses": 32,
+      "hits": 15,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2025-12-26_OBHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 21,
+      "faceoffLosses": 39,
+      "hits": 29,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 34,
+      "faceoffLosses": 39,
+      "hits": 10,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2025-11-09_OBHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 31,
+      "faceoffLosses": 39,
+      "hits": 24,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 22,
+      "faceoffLosses": 23,
+      "hits": 17,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-01-23_UA_DCHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 29,
+      "faceoffLosses": 23,
+      "hits": 13,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 33,
+      "faceoffLosses": 39,
+      "hits": 24,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-03-27_UA_DJHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 37,
+      "faceoffLosses": 34,
+      "hits": 16,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 26,
+      "hits": 28,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-03-07_UA_OOHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 38,
+      "faceoffLosses": 30,
+      "hits": 24,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 35,
+      "faceoffLosses": 39,
+      "hits": 15,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2025-11-10_UA_ST.X",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 15,
+      "faceoffWins": 25,
+      "faceoffLosses": 23,
+      "hits": 23,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 7,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 23,
+      "faceoffLosses": 34,
+      "hits": 19,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2025-11-08_ST.C_DCHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 13,
+      "faceoffWins": 20,
+      "faceoffLosses": 29,
+      "hits": 14,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 25,
+      "faceoffLosses": 21,
+      "hits": 25,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2025-12-09_ST.C_DJHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 21,
+      "faceoffLosses": 27,
+      "hits": 20,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 36,
+      "hits": 24,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2025-12-03_ST.C_OOHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 23,
+      "faceoffLosses": 30,
+      "hits": 14,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 27,
+      "faceoffLosses": 38,
+      "hits": 15,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2025-11-07_ST.C_ST.X",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 30,
+      "faceoffLosses": 26,
+      "hits": 26,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 27,
+      "faceoffLosses": 27,
+      "hits": 15,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2026-03-06_NA_DCHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 12,
+      "faceoffWins": 32,
+      "faceoffLosses": 23,
+      "hits": 14,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 24,
+      "hits": 15,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-03-29_NA_DJHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 23,
+      "faceoffLosses": 24,
+      "hits": 24,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 22,
+      "faceoffLosses": 33,
+      "hits": 28,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2025-12-08_NA_OOHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 39,
+      "faceoffLosses": 32,
+      "hits": 25,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 22,
+      "faceoffLosses": 31,
+      "hits": 25,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-01-19_NA_ST.X",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 34,
+      "faceoffLosses": 25,
+      "hits": 19,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 24,
+      "faceoffLosses": 21,
+      "hits": 28,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-02-10_MOE_DCHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 29,
+      "faceoffLosses": 29,
+      "hits": 11,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 25,
+      "faceoffLosses": 28,
+      "hits": 26,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2025-11-27_MOE_DJHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 20,
+      "faceoffLosses": 39,
+      "hits": 26,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 22,
+      "hits": 29,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-12-24_MOE_OOHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 36,
+      "faceoffLosses": 40,
+      "hits": 18,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 31,
+      "faceoffLosses": 27,
+      "hits": 24,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2025-12-21_MOE_ST.X",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 28,
+      "faceoffLosses": 40,
+      "hits": 18,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 36,
+      "faceoffLosses": 35,
+      "hits": 15,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-03-01_OHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 27,
+      "faceoffLosses": 32,
+      "hits": 17,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 31,
+      "faceoffLosses": 35,
+      "hits": 10,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-01-12_OHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 22,
+      "faceoffLosses": 30,
+      "hits": 18,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 36,
+      "faceoffLosses": 25,
+      "hits": 12,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-01-14_OHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 22,
+      "faceoffLosses": 33,
+      "hits": 29,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 39,
+      "hits": 24,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2026-02-08_OHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 35,
+      "faceoffLosses": 22,
+      "hits": 18,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 33,
+      "faceoffLosses": 22,
+      "hits": 24,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-02-18_OLHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 37,
+      "faceoffLosses": 33,
+      "hits": 21,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 25,
+      "faceoffLosses": 26,
+      "hits": 18,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-02-10_OLHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 20,
+      "faceoffLosses": 30,
+      "hits": 21,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 37,
+      "faceoffLosses": 29,
+      "hits": 29,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2025-11-25_OLHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 20,
+      "faceoffLosses": 20,
+      "hits": 27,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 20,
+      "faceoffLosses": 39,
+      "hits": 24,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-03-18_OLHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 7,
+      "faceoffWins": 21,
+      "faceoffLosses": 23,
+      "hits": 23,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 20,
+      "faceoffLosses": 28,
+      "hits": 19,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-03-17_OBHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 35,
+      "faceoffLosses": 23,
+      "hits": 28,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 23,
+      "faceoffLosses": 37,
+      "hits": 24,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-11-26_OBHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 38,
+      "faceoffLosses": 21,
+      "hits": 17,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 33,
+      "faceoffLosses": 34,
+      "hits": 17,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-03-20_OBHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 37,
+      "faceoffLosses": 20,
+      "hits": 19,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 27,
+      "faceoffLosses": 34,
+      "hits": 15,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2025-11-29_OBHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 21,
+      "faceoffLosses": 36,
+      "hits": 26,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 12,
+      "faceoffWins": 24,
+      "faceoffLosses": 21,
+      "hits": 16,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2025-11-19_UA_WAT",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 27,
+      "faceoffLosses": 23,
+      "hits": 14,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 31,
+      "faceoffLosses": 25,
+      "hits": 14,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2026-03-10_UA_WKHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 31,
+      "faceoffLosses": 37,
+      "hits": 28,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 36,
+      "faceoffLosses": 22,
+      "hits": 16,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-03-20_UA_TWHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 37,
+      "faceoffLosses": 34,
+      "hits": 29,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 37,
+      "faceoffLosses": 28,
+      "hits": 15,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2026-03-12_UA_GLHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 35,
+      "faceoffLosses": 22,
+      "hits": 13,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 26,
+      "faceoffLosses": 32,
+      "hits": 24,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2025-12-31_ST.C_WAT",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 34,
+      "faceoffLosses": 30,
+      "hits": 12,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 26,
+      "faceoffLosses": 33,
+      "hits": 22,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2025-12-14_ST.C_WKHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 32,
+      "faceoffLosses": 37,
+      "hits": 10,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 30,
+      "faceoffLosses": 38,
+      "hits": 12,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2025-11-28_ST.C_TWHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 36,
+      "faceoffLosses": 29,
+      "hits": 21,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 25,
+      "faceoffLosses": 39,
+      "hits": 29,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-02-23_ST.C_GLHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 31,
+      "faceoffLosses": 24,
+      "hits": 10,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 38,
+      "faceoffLosses": 24,
+      "hits": 10,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-01-21_NA_WAT",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 22,
+      "faceoffLosses": 28,
+      "hits": 19,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 32,
+      "faceoffLosses": 26,
+      "hits": 13,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-01-02_NA_WKHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 37,
+      "faceoffLosses": 32,
+      "hits": 19,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 13,
+      "faceoffWins": 24,
+      "faceoffLosses": 25,
+      "hits": 14,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2025-12-21_NA_TWHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 23,
+      "faceoffLosses": 40,
+      "hits": 12,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 33,
+      "faceoffLosses": 33,
+      "hits": 11,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2025-12-14_NA_GLHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 28,
+      "faceoffLosses": 39,
+      "hits": 23,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 30,
+      "faceoffLosses": 27,
+      "hits": 30,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-12-03_MOE_WAT",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 32,
+      "faceoffLosses": 23,
+      "hits": 23,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 37,
+      "faceoffLosses": 22,
+      "hits": 30,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-01-14_MOE_WKHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 39,
+      "faceoffLosses": 24,
+      "hits": 28,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 30,
+      "faceoffLosses": 28,
+      "hits": 28,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-03-24_MOE_TWHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 40,
+      "faceoffLosses": 32,
+      "hits": 29,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 29,
+      "faceoffLosses": 38,
+      "hits": 28,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2025-11-06_MOE_GLHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 27,
+      "faceoffLosses": 39,
+      "hits": 15,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 26,
+      "faceoffLosses": 31,
+      "hits": 19,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-01-28_DCHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 26,
+      "faceoffLosses": 22,
+      "hits": 13,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 23,
+      "faceoffLosses": 21,
+      "hits": 20,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-02-12_DCHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 28,
+      "faceoffLosses": 35,
+      "hits": 17,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 28,
+      "faceoffLosses": 22,
+      "hits": 30,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-02-20_DCHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 35,
+      "faceoffLosses": 33,
+      "hits": 26,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 25,
+      "faceoffLosses": 38,
+      "hits": 30,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2025-11-28_DCHS_UA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 38,
+      "faceoffLosses": 30,
+      "hits": 14,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 25,
+      "faceoffLosses": 20,
+      "hits": 18,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2025-11-08_DCHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 28,
+      "faceoffLosses": 24,
+      "hits": 14,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 24,
+      "faceoffLosses": 24,
+      "hits": 29,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2026-02-10_DCHS_NA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 12,
+      "faceoffWins": 24,
+      "faceoffLosses": 21,
+      "hits": 14,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 25,
+      "faceoffLosses": 35,
+      "hits": 28,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2025-11-20_DCHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 35,
+      "faceoffLosses": 27,
+      "hits": 19,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 38,
+      "faceoffLosses": 39,
+      "hits": 20,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-12-15_DJHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 40,
+      "faceoffLosses": 23,
+      "hits": 23,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 30,
+      "faceoffLosses": 23,
+      "hits": 19,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-03-12_DJHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 27,
+      "faceoffLosses": 22,
+      "hits": 12,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 24,
+      "faceoffLosses": 38,
+      "hits": 26,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2025-12-15_DJHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 30,
+      "hits": 19,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 26,
+      "faceoffLosses": 24,
+      "hits": 16,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-01-09_DJHS_UA",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 21,
+      "faceoffLosses": 25,
+      "hits": 18,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 20,
+      "faceoffLosses": 30,
+      "hits": 29,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2025-12-26_DJHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 28,
+      "faceoffLosses": 24,
+      "hits": 17,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 23,
+      "faceoffLosses": 39,
+      "hits": 15,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2025-12-10_DJHS_NA",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 40,
+      "faceoffLosses": 38,
+      "hits": 28,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 31,
+      "faceoffLosses": 36,
+      "hits": 17,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-01-19_DJHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 38,
+      "faceoffLosses": 26,
+      "hits": 23,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 26,
+      "faceoffLosses": 20,
+      "hits": 19,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-01-03_OOHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 8,
+      "faceoffWins": 32,
+      "faceoffLosses": 26,
+      "hits": 12,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 31,
+      "faceoffLosses": 35,
+      "hits": 24,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-02-10_OOHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 37,
+      "hits": 11,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 38,
+      "faceoffLosses": 24,
+      "hits": 10,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2025-12-31_OOHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 35,
+      "faceoffLosses": 40,
+      "hits": 20,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 25,
+      "faceoffLosses": 40,
+      "hits": 11,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-01-15_OOHS_UA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 25,
+      "faceoffLosses": 38,
+      "hits": 12,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 20,
+      "faceoffLosses": 23,
+      "hits": 22,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2025-12-31_OOHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 28,
+      "faceoffLosses": 40,
+      "hits": 13,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 12,
+      "faceoffWins": 28,
+      "faceoffLosses": 35,
+      "hits": 21,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-03-27_OOHS_NA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 27,
+      "faceoffLosses": 22,
+      "hits": 12,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 26,
+      "faceoffLosses": 38,
+      "hits": 16,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-02-18_OOHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 38,
+      "faceoffLosses": 27,
+      "hits": 29,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 36,
+      "faceoffLosses": 31,
+      "hits": 25,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2025-12-31_ST.X_OHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 26,
+      "faceoffLosses": 33,
+      "hits": 15,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 21,
+      "faceoffLosses": 32,
+      "hits": 24,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2025-12-23_ST.X_OLHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 38,
+      "faceoffLosses": 33,
+      "hits": 21,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 32,
+      "faceoffLosses": 23,
+      "hits": 30,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2025-11-27_ST.X_OBHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 38,
+      "faceoffLosses": 22,
+      "hits": 22,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 23,
+      "faceoffLosses": 34,
+      "hits": 22,
+      "blockedShots": 8
+    }
+  },
+  {
+    "gameId": "2025-11-29_ST.X_UA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 40,
+      "faceoffLosses": 39,
+      "hits": 10,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 30,
+      "faceoffLosses": 31,
+      "hits": 11,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-01-27_ST.X_ST.C",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 35,
+      "faceoffLosses": 37,
+      "hits": 18,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 24,
+      "faceoffLosses": 29,
+      "hits": 16,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2025-12-19_ST.X_NA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 24,
+      "faceoffLosses": 20,
+      "hits": 23,
+      "blockedShots": 6
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 27,
+      "faceoffLosses": 27,
+      "hits": 13,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2025-12-14_ST.X_MOE",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 31,
+      "faceoffLosses": 40,
+      "hits": 29,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 26,
+      "faceoffLosses": 37,
+      "hits": 28,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2025-11-22_DCHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 40,
+      "faceoffLosses": 25,
+      "hits": 22,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 36,
+      "faceoffLosses": 37,
+      "hits": 28,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-03-02_DCHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 36,
+      "faceoffLosses": 33,
+      "hits": 17,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 21,
+      "faceoffLosses": 33,
+      "hits": 28,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2025-12-13_DCHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 31,
+      "faceoffLosses": 28,
+      "hits": 11,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 40,
+      "faceoffLosses": 28,
+      "hits": 19,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-01-02_DCHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 9,
+      "faceoffWins": 23,
+      "faceoffLosses": 37,
+      "hits": 16,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 20,
+      "faceoffLosses": 37,
+      "hits": 26,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2025-12-30_DJHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 27,
+      "faceoffLosses": 31,
+      "hits": 12,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 28,
+      "faceoffLosses": 33,
+      "hits": 17,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2025-12-01_DJHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 24,
+      "faceoffLosses": 26,
+      "hits": 28,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 33,
+      "faceoffLosses": 40,
+      "hits": 13,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-01-06_DJHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 40,
+      "faceoffLosses": 32,
+      "hits": 15,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 33,
+      "faceoffLosses": 23,
+      "hits": 12,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2025-12-11_DJHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 40,
+      "faceoffLosses": 24,
+      "hits": 15,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 21,
+      "hits": 27,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-02-25_OOHS_WAT",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 12,
+      "faceoffWins": 21,
+      "faceoffLosses": 38,
+      "hits": 25,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 37,
+      "faceoffLosses": 39,
+      "hits": 20,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-11-09_OOHS_WKHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 12,
+      "faceoffWins": 38,
+      "faceoffLosses": 27,
+      "hits": 10,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 10,
+      "faceoffWins": 31,
+      "faceoffLosses": 21,
+      "hits": 22,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-12-11_OOHS_TWHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 36,
+      "faceoffLosses": 30,
+      "hits": 22,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 39,
+      "faceoffLosses": 30,
+      "hits": 18,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-03-30_OOHS_GLHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 31,
+      "faceoffLosses": 35,
+      "hits": 26,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 31,
+      "faceoffLosses": 23,
+      "hits": 17,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2026-03-31_ST.X_WAT",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 34,
+      "faceoffLosses": 36,
+      "hits": 22,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 39,
+      "faceoffLosses": 22,
+      "hits": 21,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2026-03-11_ST.X_WKHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 13,
+      "faceoffWins": 22,
+      "faceoffLosses": 27,
+      "hits": 19,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 29,
+      "faceoffLosses": 38,
+      "hits": 15,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-11-01_ST.X_TWHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 29,
+      "faceoffLosses": 33,
+      "hits": 18,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 40,
+      "faceoffLosses": 33,
+      "hits": 11,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2026-01-15_ST.X_GLHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 20,
+      "faceoffLosses": 29,
+      "hits": 19,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 32,
+      "hits": 16,
+      "blockedShots": 5
+    }
+  },
+  {
+    "gameId": "2026-03-09_WAT_OHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 20,
+      "hits": 16,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 39,
+      "faceoffLosses": 22,
+      "hits": 28,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2026-02-22_WAT_OLHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 31,
+      "faceoffLosses": 21,
+      "hits": 22,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 33,
+      "faceoffLosses": 26,
+      "hits": 27,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2025-11-19_WAT_OBHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 37,
+      "faceoffLosses": 30,
+      "hits": 17,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 23,
+      "faceoffLosses": 30,
+      "hits": 30,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-01-07_WAT_UA",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 34,
+      "faceoffLosses": 33,
+      "hits": 22,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 36,
+      "faceoffLosses": 26,
+      "hits": 17,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-12-09_WAT_ST.C",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 21,
+      "faceoffLosses": 22,
+      "hits": 16,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 35,
+      "faceoffLosses": 35,
+      "hits": 16,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-03-05_WAT_NA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 29,
+      "faceoffLosses": 25,
+      "hits": 24,
+      "blockedShots": 11
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 29,
+      "faceoffLosses": 30,
+      "hits": 11,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-03-27_WAT_MOE",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 25,
+      "faceoffLosses": 37,
+      "hits": 21,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 38,
+      "faceoffLosses": 26,
+      "hits": 29,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2026-03-02_WKHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 36,
+      "faceoffLosses": 33,
+      "hits": 11,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 23,
+      "faceoffLosses": 34,
+      "hits": 17,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2025-11-10_WKHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 40,
+      "faceoffLosses": 34,
+      "hits": 29,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 31,
+      "faceoffLosses": 40,
+      "hits": 15,
+      "blockedShots": 9
+    }
+  },
+  {
+    "gameId": "2026-01-24_WKHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 38,
+      "faceoffLosses": 37,
+      "hits": 13,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 27,
+      "faceoffLosses": 31,
+      "hits": 27,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2025-12-16_WKHS_UA",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 39,
+      "faceoffLosses": 23,
+      "hits": 29,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 20,
+      "faceoffLosses": 36,
+      "hits": 23,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2025-12-24_WKHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 26,
+      "faceoffLosses": 23,
+      "hits": 29,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 33,
+      "faceoffLosses": 27,
+      "hits": 23,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-01-30_WKHS_NA",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 20,
+      "faceoffLosses": 23,
+      "hits": 20,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 28,
+      "faceoffLosses": 26,
+      "hits": 21,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-01-04_WKHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 11,
+      "faceoffWins": 21,
+      "faceoffLosses": 34,
+      "hits": 27,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 26,
+      "faceoffLosses": 23,
+      "hits": 11,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2025-12-11_TWHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 31,
+      "hits": 12,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 34,
+      "hits": 23,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2025-12-28_TWHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 33,
+      "faceoffLosses": 38,
+      "hits": 19,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 20,
+      "faceoffLosses": 30,
+      "hits": 20,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2025-12-15_TWHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 27,
+      "faceoffLosses": 32,
+      "hits": 26,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 40,
+      "faceoffLosses": 30,
+      "hits": 16,
+      "blockedShots": 10
+    }
+  },
+  {
+    "gameId": "2025-11-22_TWHS_UA",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 31,
+      "faceoffLosses": 21,
+      "hits": 21,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 22,
+      "faceoffLosses": 22,
+      "hits": 18,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-03-21_TWHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 9,
+      "faceoffWins": 34,
+      "faceoffLosses": 24,
+      "hits": 14,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 30,
+      "faceoffLosses": 40,
+      "hits": 11,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-02-07_TWHS_NA",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 12,
+      "faceoffWins": 32,
+      "faceoffLosses": 40,
+      "hits": 22,
+      "blockedShots": 15
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 10,
+      "faceoffWins": 31,
+      "faceoffLosses": 39,
+      "hits": 29,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-01-09_TWHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 26,
+      "faceoffLosses": 23,
+      "hits": 24,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 40,
+      "faceoffLosses": 26,
+      "hits": 16,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-03-28_GLHS_OHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 22,
+      "faceoffLosses": 39,
+      "hits": 26,
+      "blockedShots": 5
+    },
+    "away": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 39,
+      "faceoffLosses": 20,
+      "hits": 26,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2025-12-27_GLHS_OLHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 22,
+      "faceoffLosses": 27,
+      "hits": 15,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 13,
+      "faceoffWins": 40,
+      "faceoffLosses": 29,
+      "hits": 24,
+      "blockedShots": 7
+    }
+  },
+  {
+    "gameId": "2026-02-19_GLHS_OBHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 39,
+      "faceoffLosses": 24,
+      "hits": 28,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 27,
+      "faceoffLosses": 40,
+      "hits": 14,
+      "blockedShots": 17
+    }
+  },
+  {
+    "gameId": "2026-03-27_GLHS_UA",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 27,
+      "faceoffLosses": 38,
+      "hits": 26,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 36,
+      "faceoffLosses": 26,
+      "hits": 20,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-02-13_GLHS_ST.C",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 8,
+      "faceoffWins": 24,
+      "faceoffLosses": 35,
+      "hits": 25,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 6,
+      "faceoffWins": 27,
+      "faceoffLosses": 35,
+      "hits": 22,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2025-11-21_GLHS_NA",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 36,
+      "faceoffLosses": 20,
+      "hits": 19,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 33,
+      "faceoffLosses": 40,
+      "hits": 12,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2025-11-10_GLHS_MOE",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 36,
+      "faceoffLosses": 28,
+      "hits": 22,
+      "blockedShots": 12
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 38,
+      "faceoffLosses": 22,
+      "hits": 14,
+      "blockedShots": 11
+    }
+  },
+  {
+    "gameId": "2025-12-21_WAT_DCHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 25,
+      "faceoffLosses": 32,
+      "hits": 12,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 12,
+      "faceoffWins": 34,
+      "faceoffLosses": 32,
+      "hits": 26,
+      "blockedShots": 12
+    }
+  },
+  {
+    "gameId": "2025-12-21_WAT_DJHS",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 32,
+      "faceoffLosses": 22,
+      "hits": 16,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 22,
+      "faceoffLosses": 30,
+      "hits": 24,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-01-31_WAT_OOHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 20,
+      "faceoffLosses": 28,
+      "hits": 25,
+      "blockedShots": 9
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 6,
+      "faceoffWins": 36,
+      "faceoffLosses": 30,
+      "hits": 30,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-03-23_WAT_ST.X",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 20,
+      "faceoffLosses": 26,
+      "hits": 24,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 21,
+      "faceoffLosses": 25,
+      "hits": 13,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-01-24_WKHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 40,
+      "faceoffLosses": 40,
+      "hits": 25,
+      "blockedShots": 20
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 38,
+      "faceoffLosses": 28,
+      "hits": 24,
+      "blockedShots": 14
+    }
+  },
+  {
+    "gameId": "2025-11-23_WKHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 32,
+      "faceoffLosses": 29,
+      "hits": 16,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 34,
+      "faceoffLosses": 29,
+      "hits": 12,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-01-15_WKHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 36,
+      "faceoffLosses": 35,
+      "hits": 28,
+      "blockedShots": 7
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 29,
+      "faceoffLosses": 34,
+      "hits": 13,
+      "blockedShots": 6
+    }
+  },
+  {
+    "gameId": "2026-02-18_WKHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 7,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 31,
+      "faceoffLosses": 27,
+      "hits": 16,
+      "blockedShots": 17
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 15,
+      "faceoffWins": 21,
+      "faceoffLosses": 24,
+      "hits": 12,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-03-18_TWHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 10,
+      "faceoffWins": 36,
+      "faceoffLosses": 37,
+      "hits": 19,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 23,
+      "faceoffLosses": 31,
+      "hits": 15,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2026-03-31_TWHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 28,
+      "faceoffLosses": 29,
+      "hits": 28,
+      "blockedShots": 16
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 6,
+      "faceoffWins": 40,
+      "faceoffLosses": 33,
+      "hits": 23,
+      "blockedShots": 16
+    }
+  },
+  {
+    "gameId": "2026-02-11_TWHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 4,
+      "faceoffWins": 22,
+      "faceoffLosses": 36,
+      "hits": 16,
+      "blockedShots": 8
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 4,
+      "faceoffWins": 22,
+      "faceoffLosses": 35,
+      "hits": 10,
+      "blockedShots": 19
+    }
+  },
+  {
+    "gameId": "2026-03-03_TWHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 40,
+      "faceoffLosses": 35,
+      "hits": 18,
+      "blockedShots": 18
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 23,
+      "faceoffLosses": 32,
+      "hits": 25,
+      "blockedShots": 20
+    }
+  },
+  {
+    "gameId": "2026-03-11_GLHS_DCHS",
+    "home": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 1,
+      "penaltyMinutes": 4,
+      "faceoffWins": 27,
+      "faceoffLosses": 28,
+      "hits": 17,
+      "blockedShots": 14
+    },
+    "away": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 39,
+      "faceoffLosses": 22,
+      "hits": 23,
+      "blockedShots": 13
+    }
+  },
+  {
+    "gameId": "2025-12-11_GLHS_DJHS",
+    "home": {
+      "powerPlayOpportunities": 6,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 8,
+      "faceoffWins": 34,
+      "faceoffLosses": 20,
+      "hits": 12,
+      "blockedShots": 19
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 0,
+      "penaltyMinutes": 12,
+      "faceoffWins": 20,
+      "faceoffLosses": 26,
+      "hits": 21,
+      "blockedShots": 15
+    }
+  },
+  {
+    "gameId": "2026-03-02_GLHS_OOHS",
+    "home": {
+      "powerPlayOpportunities": 2,
+      "powerPlayGoals": 2,
+      "penaltyMinutes": 8,
+      "faceoffWins": 26,
+      "faceoffLosses": 38,
+      "hits": 19,
+      "blockedShots": 10
+    },
+    "away": {
+      "powerPlayOpportunities": 4,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 4,
+      "faceoffWins": 22,
+      "faceoffLosses": 40,
+      "hits": 10,
+      "blockedShots": 18
+    }
+  },
+  {
+    "gameId": "2026-03-10_GLHS_ST.X",
+    "home": {
+      "powerPlayOpportunities": 5,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 6,
+      "faceoffWins": 35,
+      "faceoffLosses": 33,
+      "hits": 29,
+      "blockedShots": 13
+    },
+    "away": {
+      "powerPlayOpportunities": 3,
+      "powerPlayGoals": 3,
+      "penaltyMinutes": 10,
+      "faceoffWins": 31,
+      "faceoffLosses": 25,
+      "hits": 20,
+      "blockedShots": 5
+    }
+  }
+]

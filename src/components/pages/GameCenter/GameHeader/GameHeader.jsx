@@ -4,7 +4,7 @@ import "./GameHeader.css";
 const GameHeader = ({ game, homeTeam, awayTeam }) => {
   const { date, status, home, away } = game;
 
-  console.log(game)
+//   console.log(game)
 
   const formatDate = (dateString) => {
     const dateObj = new Date(dateString);

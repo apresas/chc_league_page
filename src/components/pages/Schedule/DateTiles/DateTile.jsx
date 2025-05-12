@@ -5,7 +5,6 @@ import { FaRegCalendar } from "react-icons/fa";
 function DateTile({ date, gameCount, onClick, isSelected }) {
     const isClickable = gameCount > 0;
 
-    console.log(gameCount)
 
   return (
     <div

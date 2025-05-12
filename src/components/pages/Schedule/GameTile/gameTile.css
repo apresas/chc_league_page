@@ -118,3 +118,8 @@
     color: white;
     transform: scale(1.02) translateY(-0.25rem);
 }
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}

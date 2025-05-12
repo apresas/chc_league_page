@@ -84,7 +84,7 @@ const StandingsTable = ({ title, teams, divLogo }) => {
           return (
             <div key={team.teamId || idx} className="standings-row">
               <div className="cell team-rank">{idx + 1}</div>
-              <div className="cell team-name"><div className="team-column"><img src={teamLogo} alt="" /><span>{teamDisplay}</span></div></div>
+              <div className="cell team-name"><div className="team-column__standingsTable"><img src={teamLogo} alt="" /><span>{teamDisplay}</span></div></div>
               <div className="cell team-points">{team.points}</div>
               <div className="cell team-wins">{team.wins}</div>
               <div className="cell team-losses">{team.losses}</div>

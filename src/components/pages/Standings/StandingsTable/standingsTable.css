@@ -51,7 +51,7 @@
   }
 
 
-  .team-column {
+  .team-column__standingsTable {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -62,7 +62,7 @@
   } */
   
 
-  .team-column img{
+  .team-column__standingsTable img{
     width: 2.5rem;
     aspect-ratio: 1/1;
   }

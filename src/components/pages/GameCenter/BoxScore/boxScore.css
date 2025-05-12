@@ -1,0 +1,130 @@
+.boxscore-container {
+    /* padding: 20px; */
+    /* background-color: #f8f9fa; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--font-header);
+  }
+
+  .boxScore-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .boxscore-controls {
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+  }
+  
+  .boxscore-btn {
+    padding: 0.5rem;
+    width: 14rem;
+    background-color: #e9ecef;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 600;
+    font-family: var(--font-header);
+    font-size: 1rem;
+  }
+
+  .boxscore-btn:first-of-type {
+    border-radius: 5px 0 0 5px;
+  }
+
+  .boxscore-btn:last-of-type {
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .boxscore-btn.active,
+  .boxscore-btn:hover {
+    background-color: var(--color-ui-blue);
+    color: #fff;
+  }
+  
+  .boxscore-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    /* gap: 0.5rem; */
+  }
+  
+  /* .player-stats-header,
+  .player-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 5px 0;
+  } */
+  
+  .player-row, .goalie-row {
+    /* background-color: #f1f3f5; */
+    border-bottom: 1px solid lightgrey;
+    /* border-radius: 5px; */
+    padding: 1rem 0;
+  }
+
+  .skater-header__boxScore, .goalie-header__boxScore, .header-row {
+    /* padding: 1rem 0; */
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    font-weight: 700;
+  }
+  
+  .player-row:hover {
+    background-color: #e2e6ea;
+  }
+
+  .skater-header__boxScore, .player-row, .forwards-header__boxScore, .defense-header__boxScore{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+ .goalie-row, .goalies-header__boxScore {
+    display: grid;
+    grid-template-columns: 1fr 5fr repeat(6, 1fr);
+    justify-items: center;
+  }
+
+  .player-name-header___boxScore, .player-name__boxScore, .goalie-name__boxScore, .goalie-name-header__boxScore {
+    justify-self: start;
+  }
+
+  .sortable-header {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    /* gap: 0.5rem; */
+    /* flex-direction: column; */
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+
+  .name-header__boxScore {
+    justify-content: start;
+  }
+
+  .sort-arrow__up, .sort-arrow__down {
+    line-height: 0;
+    font-size: 0.55rem;
+    color: var(--color-ui-blue);
+    /* position: absolute; */
+  }
+
+  .sort-arrow__up {
+    align-self: end;
+    justify-self: center;
+  }
+
+  .sort-arrow__down {
+    align-self: start;
+    justify-self: center;
+  }
+  
