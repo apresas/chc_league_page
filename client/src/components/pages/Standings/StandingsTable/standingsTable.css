@@ -15,16 +15,13 @@
     margin: 0;
     padding: 10px 1.5rem;
     border-bottom: 1px solid lightgrey;
+    color: var(--color-primary);
   }
 
   .standings-title img {
-    width: 3rem;
+    width: 3.5rem;
     aspect-ratio: 1/1;
   }
-  
-  /* .standings-title h3 {
-    color: var(--color-primary);
-  } */
   
   .standings-table-header,
   .standings-row {
@@ -34,6 +31,11 @@
     border-bottom: 1px solid lightgrey;
     font-size: 0.9rem;
     gap: 1rem;
+    transition: var(--transition-main);
+  }
+
+  .standings-row:hover {
+    background-color: var(--color-ui-lightgrey);
   }
 
   .standings-row:last-child {
@@ -44,6 +46,8 @@
     font-weight: bold;
     background: var(--color-ui-lightgrey);
     cursor: pointer;
+    user-select: none;
+    padding: 0 1rem;
   }
   
   .standings-table-header .cell:hover {
@@ -67,10 +71,23 @@
     aspect-ratio: 1/1;
   }
   
-  .cell {
+  .cell, .header-cell {
     display: flex;
     align-items: center;
     /* padding: 4px 8px; */
+  }
+
+  .header-cell {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    transition: var(--transition-main);
+  }
+
+  .header-cell:hover {
+    color: var(--color-ui-blue);
   }
 
   .team-rank {
@@ -82,4 +99,14 @@
   .team-points, .team-wins, .team-losses, .team-ot, .team-gf, .team-ga {
     justify-content: center;
   } 
+
+
+  .animated-row {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .animated-row.sorting {
+    opacity: 0.075;
+    transform: scale(0.97, 1);
+  }
   

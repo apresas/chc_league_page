@@ -3,6 +3,8 @@ import "./scoresCarousel.css";
 import DateDropdown from "./DateDropdown/DateDropdown";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import gameData from "../../data/scheduledGames.json";
+import { Link } from "react-router-dom";
+import { PiHockeyBold } from "react-icons/pi";
 
 const ScoresCarousel = ({ games }) => {
   const scrollRef = useRef(null);
@@ -16,7 +18,7 @@ const ScoresCarousel = ({ games }) => {
   const loadedLogosCount = useRef(0);
   const [isFullyLoaded, setIsFullyLoaded] = useState(false);
 
-  // console.log("Games passed to ScoresCarousel:", games);
+  console.log("Games passed to ScoresCarousel:", games);
 
   useEffect(() => {
     // Reset state when date changes
@@ -137,7 +139,7 @@ const ScoresCarousel = ({ games }) => {
   return (
     <>
       <div className="scores-bar">
-      <DateDropdown
+        <DateDropdown
           setSelectedDate={setSelectedDate}
           dates={[...new Set(games.map((g) => g.date))].sort()}
           onSelect={(date) => {
@@ -187,12 +189,25 @@ const ScoresCarousel = ({ games }) => {
 
               return (
                 <div key={`game-${gameId}`} className="score-card">
+                  <Link className="link" to={`/gamecenter/${item.game.gameId}`}>
+                    <div className="scoreCard__overlay">
+                      <div className="scoreCard-btn__overlay">
+                        <PiHockeyBold />
+                        Gamecenter
+                      </div>
+                    </div>
+                  </Link>
                   <div className="teams">
                     <div className="team">
                       <img src={item.game.away.logo} alt="logo" />
                       <span>{item.game.away.abrev}</span>
                     </div>
-                    <div className="score">{item.game.away.score}</div>
+                    {item.game.status !== "Scheduled" ? (
+                      <div className="score">{item.game.away.score}</div>
+                    ) : (
+                      <div className="score">-</div>
+                    )}
+
                     <span
                       className="division-dot"
                       style={{
@@ -205,7 +220,11 @@ const ScoresCarousel = ({ games }) => {
                       <img src={item.game.home.logo} alt="logo" />
                       <span>{item.game.home.abrev}</span>
                     </div>
-                    <div className="score">{item.game.home.score}</div>
+                    {item.game.status !== "Scheduled" ? (
+                      <div className="score">{item.game.home.score}</div>
+                    ) : (
+                      <div className="score">-</div>
+                    )}
                     <span
                       className="division-dot"
                       style={{

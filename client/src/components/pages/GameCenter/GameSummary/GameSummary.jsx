@@ -300,9 +300,13 @@ const GameSummary = ({ game, goalEvents }) => {
                         <img src={match.home.logo} alt="" />
                         <span>{match.home.abrev}</span>
                       </div>
-                      <span className="score__headToHead">
-                        {match.home.score}
-                      </span>
+                      {match.status !== "Scheduled" ? (
+                        <span className="score__headToHead">
+                          {match.home.score}
+                        </span>
+                      ) : (
+                        <span className="score__headToHead">-</span>
+                      )}
                     </div>
                     <div className="vs__headToHead">
                       <span>vs</span>
@@ -312,9 +316,13 @@ const GameSummary = ({ game, goalEvents }) => {
                         <img src={match.away.logo} alt="" />
                         <span>{match.away.abrev}</span>
                       </div>
-                      <span className="score__headToHead">
-                        {match.away.score}
-                      </span>
+                      {match.status !== "Scheduled" ? (
+                        <span className="score__headToHead">
+                          {match.away.score}
+                        </span>
+                      ) : (
+                        <span className="score__headToHead">-</span>
+                      )}
                     </div>
                   </div>
                 </div>

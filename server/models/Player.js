@@ -1,5 +1,5 @@
 const { DataTypes } = require("sequelize");
-const sequelize = require("../sequelize");
+const sequelize = require("../config/database");
 const Team = require("./Team");
 
 const Player = sequelize.define("Player", {
@@ -8,14 +8,33 @@ const Player = sequelize.define("Player", {
     defaultValue: DataTypes.UUIDV4,
     primaryKey: true,
   },
-  firstName: DataTypes.STRING,
-  lastName: DataTypes.STRING,
-  position: DataTypes.STRING,
-  positionType: DataTypes.STRING,
-  height: DataTypes.STRING,
-  weight: DataTypes.INTEGER,
+  firstName: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  lastName: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  position: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  positionType: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  height: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  weight: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+  },
 });
 
 Player.belongsTo(Team, { foreignKey: "teamId" });
+Team.hasMany(Player, { foreignKey: "teamId" });
 
 module.exports = Player;

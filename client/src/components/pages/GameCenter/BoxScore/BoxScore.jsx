@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import goalEvents from "../../../../data/goalEvents.json";
 import gameStats from "../../../../data/gameStats.json";
 import "./BoxScore.css";
-import { FaChevronUp, FaChevronDown } from "react-icons/fa6";
 import { FaSortUp, FaSortDown } from "react-icons/fa6";
 
 const BoxScore = ({ home, away, teamRosters, gameId }) => {
@@ -13,7 +12,7 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
     defense: { field: "points", order: "desc" },
     goalies: { field: "saves", order: "desc" },
   });
-  console.log(home);
+  const [isSorting, setIsSorting] = useState(false);
   // Extract team rosters
   const getTeamPlayers = (teamId) => {
     const team = teamRosters.find((team) => team.team === teamId);
@@ -125,7 +124,12 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
       ...prev,
       [section]: { field, order },
     }));
+    setIsSorting(true);
   };
+
+  useEffect(() => {
+    setTimeout(() => setIsSorting(false), 300);
+  }, [sortConfig, teamRosters]);
 
   const sortData = (data, section) => {
     const { field, order } = sortConfig[section];
@@ -180,7 +184,10 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
     console.log(section);
     const sortedPlayers = sortData(players, section);
     return sortedPlayers.map((player) => (
-      <div key={player.id} className="player-row">
+      <div
+        key={player.id}
+        className={`player-row animated-row__boxScore  ${isSorting ? "sorting" : ""}`}
+      >
         <span>{player.number}</span>
         <span className="player-name__boxScore">{`${player.name.first} ${player.name.last}`}</span>
         <span>{player.goals}</span>
@@ -193,7 +200,10 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
   const renderGoalieStats = (goalies) => {
     const sortedGoalies = sortData(goalies, "goalies");
     return sortedGoalies.map((goalie) => (
-      <div key={goalie.id} className="goalie-row">
+      <div
+        key={goalie.id}
+        className={`goalie-row animated-row__boxScore  ${isSorting ? "sorting" : ""}`}
+      >
         <span>{goalie.number}</span>
         <span className="goalie-name__boxScore">{`${goalie.name.first} ${goalie.name.last}`}</span>
         <span>{goalie.saves}</span>

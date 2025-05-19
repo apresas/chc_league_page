@@ -18,6 +18,7 @@ import Players from "./components/pages/Players/Players";
 import Standings from "./components/pages/Standings/Standings";
 import ScoresCarousel from "./components/ScoresCarousel/ScoresCarousel"; // Adjust path as needed
 import GamesData from "./data/gamesData.json";
+import GameSchedule from "./data/gameSchedule.json"
 import GameCenter from "./components/pages/GameCenter/GameCenter";
 
 
@@ -36,14 +37,17 @@ function App() {
   const [teamID, setTeamID] = useState("")
 
   useEffect(() => {
-    fetch("/data/gamesData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const sorted = data.sort((a, b) => new Date(a.date) - new Date(b.date));
-        setGames(sorted);
-        setFilteredGames(data);
-      })
-      .catch((err) => console.error("Failed to load scores:", err));
+    // fetch("./data/scheduledGames.json")
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     const sorted = data.sort((a, b) => new Date(a.date) - new Date(b.date));
+    //     console.log(data)
+    //     setGames(sorted);
+    //     setFilteredGames(data);
+    //   })
+    //   .catch((err) => console.error("Failed to load scores:", err));
+      const sortedGames = GameSchedule.sort((a,b) => new Date(a.date) - new Date(b.date));
+      setGames(sortedGames)
   }, []);
   
 

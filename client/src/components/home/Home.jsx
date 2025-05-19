@@ -4,6 +4,10 @@ import "./home.css";
 import StandingsTable from "./standings/standingsTable";
 import StandingsTableTest from "./standings/StandingsTableTest";
 import standingsData from "../../data/standingsData.json";
+import DivDesc from "./DivDesc/DivDesc";
+import TournamentBracket from "../TournamentBracket/TournamentBracket";
+import TournamentData from "../../data/tournamentData.json"
+import TeamInfo from "../../data/teamInfoData.json"
 
 function Home({
   isOpen,
@@ -46,14 +50,18 @@ function Home({
         />
         {/* <StandingsTable /> */}
 
-        <div className="standing_title">
+        {/* <div className="standing_title">
           <h1>Standings</h1>
         </div>
         <div className="homeStandings_container">
           {divisions.map((division, i) => (
             <StandingsTableTest division={division} key={i} />
           ))}
-        </div>
+        </div> */}
+
+        <DivDesc />
+
+        {/* <TournamentBracket tournamentData={TournamentData} teamInfo={TeamInfo}/> */}
       </div>
     </div>
   );

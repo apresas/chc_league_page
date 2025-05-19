@@ -1,0 +1,59 @@
+{
+  "tournamentId": "T1",
+  "name": "2026 Championship Bracket",
+  "dateRange": "2026-03-01 to 2026-03-20",
+  "teams": [
+    { "id": 15, "abrev": "OHS" },
+    { "id": 1, "abrev": "OLHS" },
+    { "id": 2, "abrev": "OBHS" },
+    { "id": 3, "abrev": "UA" },
+    { "id": 4, "abrev": "ST.C" },
+    { "id": 5, "abrev": "NA" },
+    { "id": 6, "abrev": "MOE" },
+    { "id": 7, "abrev": "DCHS" },
+    { "id": 8, "abrev": "DJHS" },
+    { "id": 9, "abrev": "OOHS" },
+    { "id": 10, "abrev": "ST.X" },
+    { "id": 11, "abrev": "WAT" },
+    { "id": 12, "abrev": "WKHS" },
+    { "id": 13, "abrev": "TWHS" },
+    { "id": 14, "abrev": "GLHS" }
+  ],
+  "rounds": [
+    {
+      "roundNumber": 1,
+      "matchups": [
+        { "matchupId": "M1", "team1": "OHS", "team2": "OLHS", "team1Score": 1, "team2Score": 2, "winner": "OLHS", "gameId": "2026-03-01_OHS_OLHS" },
+        { "matchupId": "M2", "team1": "OBHS", "team2": "UA", "team1Score": 2, "team2Score": 3, "winner": "UA", "gameId": "2026-03-02_OBHS_UA" },
+        { "matchupId": "M3", "team1": "GLHS", "team2": "DJHS", "team1Score": 5, "team2Score": 4, "winner": "GLHS", "gameId": "2026-03-03_GLHS_DJHS" },
+        { "matchupId": "M4", "team1": "TWHS", "team2": "WAT", "team1Score": 0, "team2Score": 1, "winner": "WAT", "gameId": "2026-03-04_TWHS_WAT" },
+        { "matchupId": "M5", "team1": "WKHS", "team2": "OOHS", "team1Score": 4, "team2Score": 3, "winner": "WKHS", "gameId": "2026-03-05_WKHS_OOHS" },
+        { "matchupId": "M6", "team1": "MOE", "team2": "NA", "team1Score": 6, "team2Score": 2, "winner": "MOE", "gameId": "2026-03-06_MOE_NA" },
+        { "matchupId": "M7", "team1": "ST.X", "team2": "DCHS", "team1Score": 2, "team2Score": 1, "winner": "ST.X", "gameId": "2026-03-07_STX_DCHS" },
+        { "matchupId": "M8", "team1": "ST.C", "team2": "BYE", "team1Score": 0, "team2Score": 0, "winner": "ST.C", "gameId": "" }
+      ]
+    },
+    {
+      "roundNumber": 2,
+      "matchups": [
+        { "matchupId": "M9", "team1": "OLHS", "team2": "UA", "team1Score": 3, "team2Score": 4, "winner": "UA", "gameId": "2026-03-08_OLHS_UA" },
+        { "matchupId": "M10", "team1": "GLHS", "team2": "WAT", "team1Score": 2, "team2Score": 1, "winner": "GLHS", "gameId": "2026-03-09_GLHS_WAT" },
+        { "matchupId": "M11", "team1": "WKHS", "team2": "MOE", "team1Score": 5, "team2Score": 4, "winner": "WKHS", "gameId": "2026-03-10_WKHS_MOE" },
+        { "matchupId": "M12", "team1": "ST.X", "team2": "ST.C", "team1Score": 1, "team2Score": 3, "winner": "ST.C", "gameId": "2026-03-11_STX_STC" }
+      ]
+    },
+    {
+      "roundNumber": 3,
+      "matchups": [
+        { "matchupId": "M13", "team1": "UA", "team2": "GLHS", "team1Score": 3, "team2Score": 2, "winner": "UA", "gameId": "2026-03-12_UA_GLHS" },
+        { "matchupId": "M14", "team1": "WKHS", "team2": "ST.C", "team1Score": 2, "team2Score": 3, "winner": "ST.C", "gameId": "2026-03-13_WKHS_STC" }
+      ]
+    },
+    {
+      "roundNumber": 4,
+      "matchups": [
+        { "matchupId": "M15", "team1": "UA", "team2": "ST.C", "team1Score": 3, "team2Score": 4, "winner": "ST.C", "gameId": "2026-03-20_UA_STC" }
+      ]
+    }
+  ]
+}

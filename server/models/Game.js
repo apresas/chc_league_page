@@ -1,20 +1,43 @@
 const { DataTypes } = require("sequelize");
-const sequelize = require("../sequelize");
+const sequelize = require("../config/database");
 const Team = require("./Team");
 
 const Game = sequelize.define("Game", {
   id: {
-    type: DataTypes.UUID,
-    defaultValue: DataTypes.UUIDV4,
+    type: DataTypes.STRING,
+    defaultValue: DataTypes.STRING,
     primaryKey: true,
   },
-  date: DataTypes.DATE,
-  homeScore: DataTypes.INTEGER,
-  awayScore: DataTypes.INTEGER,
-  status: DataTypes.STRING,
+  date: {
+    type: DataTypes.DATEONLY,
+    allowNull: false,
+  },
+  homeScore: {
+    type: DataTypes.INTEGER,
+    defaultValue: 0,
+  },
+  awayScore: {
+    type: DataTypes.INTEGER,
+    defaultValue: 0,
+  },
+  status: {
+    type: DataTypes.STRING,
+    allowNull: false,
+    defaultValue: "Scheduled",
+  },
 });
 
-Game.belongsTo(Team, { as: "homeTeam", foreignKey: "homeTeamId" });
-Game.belongsTo(Team, { as: "awayTeam", foreignKey: "awayTeamId" });
+// Use distinct aliases: homeTeam and awayTeam
+Game.belongsTo(Team, {
+  as: "HomeTeam",
+  foreignKey: "homeTeamId",
+  targetKey: "id",
+});
+
+Game.belongsTo(Team, {
+  as: "AwayTeam",
+  foreignKey: "awayTeamId",
+  targetKey: "id",
+});
 
 module.exports = Game;
