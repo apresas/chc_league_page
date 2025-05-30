@@ -3,6 +3,9 @@ const sequelize = require("../config/database");
 const Game = require("./Game");
 const Player = require("./Player");
 const Team = require("./Team");
+const { updatePlayerStats } = require("../utils/updatePlayerStats");
+const { updateSeasonStats } = require("../utils/updateSeasonStats");
+const { updateGoalieSeasonStats } = require("../utils/updateGoalieSeasonStats");
 
 const GameEvents = sequelize.define("GameEvents", {
   id: {
@@ -19,7 +22,7 @@ const GameEvents = sequelize.define("GameEvents", {
     },
   },
   teamId: {
-    type: DataTypes.UUID,
+    type: DataTypes.INTEGER,
     allowNull: false,
     references: {
       model: Team,
@@ -27,7 +30,7 @@ const GameEvents = sequelize.define("GameEvents", {
     },
   },
   playerId: {
-    type: DataTypes.UUID,
+    type: DataTypes.STRING,
     references: {
       model: Player,
       key: "id",
@@ -41,8 +44,9 @@ const GameEvents = sequelize.define("GameEvents", {
     type: DataTypes.TIME,
     allowNull: false,
   },
-  eventType: {
-    type: DataTypes.ENUM("Goal", "Shot", "Hit", "Penalty", "Faceoff", "Blocked Shot"),
+  type: {
+    // type: DataTypes.ENUM("goal", "shot", "hit", "penalty", "faceoff", "blocked shot"),
+    type: DataTypes.STRING,
     allowNull: false,
   },
   assistIds: {
@@ -54,6 +58,18 @@ const GameEvents = sequelize.define("GameEvents", {
     allowNull: true,
   },
 });
+
+GameEvents.afterCreate(async (event) => {
+    const { updateGoalieSeasonStats } = require('../utils/updateGoalieSeasonStats');
+  await updatePlayerStats(event.gameId);
+  await updateSeasonStats(event.gameId);
+  await updateGoalieSeasonStats('2024-25');
+});
+
+
+// GameEvent.afterCreate(() => updateGoalieSeasonStats('2024-25'));
+// GameEvent.afterUpdate(() => updateGoalieSeasonStats('2024-25'));
+// GameEvent.afterDestroy(() => updateGoalieSeasonStats('2024-25'));
 
 GameEvents.belongsTo(Game, { foreignKey: "gameId" });
 GameEvents.belongsTo(Team, { foreignKey: "teamId" });

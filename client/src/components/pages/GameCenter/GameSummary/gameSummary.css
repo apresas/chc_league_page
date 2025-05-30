@@ -39,6 +39,11 @@
     font-weight: 500;
     color: var(--color-ui-grey);
     cursor: pointer;
+    transition: var(--transition-main);
+}
+
+.control-btn__gameSummary:hover {
+  color: var(--color-ui-light);
 }
 
 .btn-selected__gameSummary {

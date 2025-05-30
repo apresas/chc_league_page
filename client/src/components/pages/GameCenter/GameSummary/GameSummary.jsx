@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import TeamStatsComparison from "../TeamStatsComparison/TeamStatsComparison";
 import BoxScore from "../BoxScore/BoxScore";
 
-const GameSummary = ({ game, goalEvents }) => {
+const GameSummary = ({ game, goalEvents, homeId, awayId }) => {
   const { date, home, away } = game;
 
   const [selected, setSelected] = useState("Summary");
@@ -251,31 +251,42 @@ const GameSummary = ({ game, goalEvents }) => {
           <div className="line-score-header">
             <span />
             {periods.map((period) => (
-              <div className="header-label">{period}</div>
+              <div key={period} className="header-label">
+                {period}
+              </div>
             ))}
             <div className="header-label">T</div>
           </div>
           <div className="line-score-row">
-            <div className="line-score-name">
+            <Link to={`/teams/${homeId}`} className="line-score-name link">
               <img src={`${home.logo}`} alt="" />
               {home.abrev}
-            </div>
+            </Link>
             {periods.map((period, index) => (
-              <div className="period-scores">{periodScores.home[index]}</div>
+              <div key={index} className="period-scores">
+                {periodScores.home[index]}
+              </div>
             ))}
             <div className="period-scores">{home.score}</div>
           </div>
           <div className="line-score-row">
-            <div className="line-score-name">
+            <Link to={`/teams/${awayId}`} className="line-score-name link">
               <img src={`${away.logo}`} alt="" />
               {away.abrev}
-            </div>
+            </Link>
             {periods.map((period, index) => (
-              <div className="period-scores">{periodScores.away[index]}</div>
+              <div key={index} className="period-scores">
+                {periodScores.away[index]}
+              </div>
             ))}
             <div className="period-scores">{away.score}</div>
           </div>
         </div>
+        <TeamStatsComparison
+          gameId={game.gameId}
+          homeId={homeId}
+          awayId={awayId}
+        />
         <div className="head-to-head-header">
           <h1>Season Series</h1>
           <div className="series-record">
@@ -286,6 +297,7 @@ const GameSummary = ({ game, goalEvents }) => {
           {headToHeadGames.length > 0 ? (
             headToHeadGames.map((match, index) => (
               <Link
+                key={index}
                 to={`/gamecenter/${headToHeadGames[index].gameId}`}
                 className="link"
               >
@@ -332,7 +344,6 @@ const GameSummary = ({ game, goalEvents }) => {
             <div className="no-matches">No previous matchups</div>
           )}
         </div>
-        <TeamStatsComparison gameId={game.gameId} />
       </div>
     </div>
   );

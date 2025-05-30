@@ -1,5 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import { getWeekDates } from "../utils/getWeekDates";
+import { getInitialWeekFromGames } from "../utils/getWeekContainingGame";
+import gameSchedule from "../data/gameSchedule.json"
 const monthAbbr = [
   "Jan",
   "Feb",
@@ -24,11 +26,21 @@ export const DateProvider = ({ children }) => {
   const [currentMonth, setCurrentMonth] = useState(2);
   const [selectedWeekLabel, setSelectedWeekLabel] = useState("Week");
 
+  const [viewMode, setViewMode] = useState("day"); // "day", "month", "year"
+
+  // useEffect(() => {
+  //   const newWeek = getWeekDates(selectedDate);
+  //   // setSelectedWeek(newWeek);
+  //   setSelectedWeek(getWeekDates(selectedDate));
+  // }, [selectedDate]);
+
   useEffect(() => {
+  if (selectedDate) {
     const newWeek = getWeekDates(selectedDate);
-    // setSelectedWeek(newWeek);
-    setSelectedWeek(getWeekDates(selectedDate));
-  }, [selectedDate]);
+    setSelectedWeek(newWeek);
+    setSelectedWeekLabel(formatWeekLabel(newWeek));
+  }
+}, [selectedDate]);
 
   const handleWeekSelect = (week) => {
     setSelectedWeek(week);
@@ -88,8 +100,10 @@ export const DateProvider = ({ children }) => {
         handleWeekSelect,
         selectedWeekLabel,
         setSelectedWeekLabel,
-        formatWeekLabel, 
-        monthAbbr
+        formatWeekLabel,
+        monthAbbr,
+        viewMode,
+        setViewMode,
       }}
     >
       {children}

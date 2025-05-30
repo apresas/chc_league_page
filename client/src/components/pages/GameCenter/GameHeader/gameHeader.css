@@ -43,7 +43,7 @@
   }
   
   .game-status.final {
-    background-color: #2ed573;
+    background-color: var(--color-ui-blue);
     color: #ffffff;
   }
   

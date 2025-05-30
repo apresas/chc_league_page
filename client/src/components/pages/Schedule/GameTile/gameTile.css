@@ -116,10 +116,6 @@
     background-color: var(--color-ui-blue);
     box-shadow: none;
     color: white;
-    transform: scale(1.02) translateY(-0.25rem);
+    transform: var(--button-transform);
 }
 
-.link {
-    text-decoration: none;
-    color: inherit;
-}

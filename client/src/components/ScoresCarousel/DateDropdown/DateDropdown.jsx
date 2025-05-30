@@ -5,8 +5,10 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 const DateDropdown = ({ dates, onSelect, setSelectedDate }) => {
   const today = new Date().toLocaleDateString("en-CA"); // e.g., "2025-05-03"
   const [isOpen, setIsOpen] = useState(false);
-  const [selected, setSelected] = useState(
-    new Date(today + "T12:00:00").toLocaleDateString("en-CA")
+  //   const [selected, setSelected] = useState(
+  //   new Date(today + "T12:00:00").toLocaleDateString("en-CA")
+  // );
+  const [selected, setSelected] = useState(""
   );
   const dropdownRef = useRef();
 
@@ -17,7 +19,7 @@ const DateDropdown = ({ dates, onSelect, setSelectedDate }) => {
 
   // Close dropdown when clicking outside
   useEffect(() => {
-    setSelected(new Date(today + "T00:00:00").toLocaleDateString("en-CA"));
+    // setSelected(new Date(today + "T00:00:00").toLocaleDateString("en-CA"));
     const handleClickOutside = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
         setIsOpen(false);

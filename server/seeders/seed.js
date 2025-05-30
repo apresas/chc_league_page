@@ -19,6 +19,7 @@ async function seedTeams() {
   for (const team of teamsData) {
     try {
       await Team.create({
+        id: team.id,
         name: team.name,
         abrev: team.abrev,
         mascot: team.mascot,
@@ -75,11 +76,14 @@ async function seedPlayers() {
         }
 
         await Player.create({
-          //   id: playerId,
+          id: player.id,
           firstName,
           lastName,
           position: player.position,
           positionType: player.positionType,
+          positionAbrev: player.positionAbbr,
+          class: player.class,
+          number: player.number,
           height: player.height,
           weight: player.weight,
           teamId: teamRecord.id, // Assign the UUID from the Teams table
@@ -100,7 +104,10 @@ async function seedPlayers() {
 
 // Seed Games
 async function seedGames() {
-  const gamesPath = path.join(__dirname, "../../client/src/data/gameSchedule.json");
+  const gamesPath = path.join(
+    __dirname,
+    "../../client/src/data/gameSchedule.json"
+  );
   const gamesData = JSON.parse(fs.readFileSync(gamesPath, "utf-8"));
 
   console.log(`Seeding ${gamesData.length} games...`);
@@ -140,8 +147,9 @@ async function seedGames() {
       });
 
       gameCount++;
-      console.log(`Game on ${game.date} added successfully. Total seeded: ${gameCount}`);
-
+      console.log(
+        `Game on ${game.date} added successfully. Total seeded: ${gameCount}`
+      );
     } catch (err) {
       console.error(`Error seeding game: ${err.message}`);
     }
@@ -186,7 +194,10 @@ async function seedGameStats() {
 
 // Seed GameEvents
 async function seedGameEvents() {
-  const eventsPath = path.join(__dirname, "../../client/src/data/goalEvents.json");
+  const eventsPath = path.join(
+    __dirname,
+    "../../client/src/data/goalEvents.json"
+  );
   const eventsData = JSON.parse(fs.readFileSync(eventsPath, "utf-8"));
 
   console.log(`Seeding ${eventsData.length} game events...`);
@@ -208,8 +219,12 @@ async function seedGameEvents() {
       const awayTeamId = gameRecord.awayTeamId;
 
       // Retrieve Players for Both Teams
-      const homePlayers = await Player.findAll({ where: { teamId: homeTeamId } });
-      const awayPlayers = await Player.findAll({ where: { teamId: awayTeamId } });
+      const homePlayers = await Player.findAll({
+        where: { teamId: homeTeamId },
+      });
+      const awayPlayers = await Player.findAll({
+        where: { teamId: awayTeamId },
+      });
 
       const allPlayers = [...homePlayers, ...awayPlayers];
 
@@ -226,8 +241,8 @@ async function seedGameEvents() {
 
       // Remove the scorer from assist options to avoid self-assist
       const validAssists = assistPlayers
-        .filter(p => p.id !== scorer.id)
-        .map(p => p.id);
+        .filter((p) => p.id !== scorer.id)
+        .map((p) => p.id);
 
       // Create the Game Event
       await GameEvents.create({
@@ -237,13 +252,16 @@ async function seedGameEvents() {
         eventType: "Goal",
         playerId: scorer.id,
         assistIds: validAssists,
-        description: `Goal by ${scorer.firstName} ${scorer.lastName} with assists from ${validAssists.join(", ")}`,
+        description: `Goal by ${scorer.firstName} ${
+          scorer.lastName
+        } with assists from ${validAssists.join(", ")}`,
         teamId: scorer.teamId,
       });
 
       eventCount++;
-      console.log(`Event for game ${event.gameId} added. Total seeded: ${eventCount}`);
-
+      console.log(
+        `Event for game ${event.gameId} added. Total seeded: ${eventCount}`
+      );
     } catch (err) {
       console.error(`Error seeding game event: ${err.message}`);
     }
@@ -262,7 +280,6 @@ function getRandomElements(arr, maxCount) {
   const shuffled = arr.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, Math.min(maxCount, arr.length));
 }
-
 
 // async function seedGameEvents() {
 //   const eventsPath = path.join(__dirname, "../../client/src/data/goalEvents.json");
@@ -339,7 +356,6 @@ function getRandomElements(arr, maxCount) {
   const shuffled = arr.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, Math.min(maxCount, arr.length));
 }
-
 
 async function seedDatabase() {
   try {

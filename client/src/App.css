@@ -12,7 +12,7 @@
   flex-direction: column;
   width: 100vw;
   /* font-family: "Roboto"; */
-  font-family: var(--font-main);
+  font-family: var(--font-header);
 }
 
 h1 {
@@ -36,6 +36,19 @@ h1 {
 
 .content:last-child {
   margin-bottom: 2rem;
+}
+
+/* Content Fade-in */
+
+.fade-in {
+  animation: fadeIn 0.75s ease-in forwards;
+  opacity: 0; /* start hidden */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 /* .logo {

@@ -1,11 +1,14 @@
 body {
   margin: 0;
   display: flex;
-  /* place-items: center; */
-  /* min-width: 320px; */
   min-height: 100vh;
   background-color: var(--color-bg);
   color: var(--color-ui-black);
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }
 
 :root {
@@ -25,6 +28,9 @@ body {
 
   --font-main: "Roboto";
   --font-header: "Rajdhani";
+
+  --border-radius: 6px;
+  --button-transform: scale(1.02) translateY(-0.25rem);
 
   --transition-main: 300ms ease-in-out;
 }

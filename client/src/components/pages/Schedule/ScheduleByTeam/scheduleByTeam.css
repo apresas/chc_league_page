@@ -1,0 +1,418 @@
+.team-schedule-page__scheduleByTeam {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    font-family: var(--font-header);
+}
+
+.schedule-title__scheduleByTeam {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.game-grid__scheduleByTeam {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.team-title-container__scheduleByTeam {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.game-tile__scheduleByTeam {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    /* background-color: var(--color-ui-lightgrey); */
+    transition: box-shadow 0.2s ease;
+}
+
+.game-tile__scheduleByTeam:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-info__scheduleByTeam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.game-date__scheduleByTeam {
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+}
+
+.game-teams__scheduleByTeam {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team__scheduleByTeam {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.team-logo__scheduleByTeam {
+    width: 3rem;
+    aspect-ratio: 1/1;
+}
+
+.team-abbr__scheduleByTeam {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+
+.score__scheduleByTeam {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.game-status__scheduleByTeam {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #777;
+}
+
+.month-section__scheduleByTeam {
+    margin-bottom: 2rem;
+}
+
+.month-title__scheduleByTeam {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--font-header);
+    /* margin-bottom: 1rem; */
+    /* border-bottom: 1px solid lightgrey; */
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.team-header-divLogo__scheduleByTeam {
+    width: 7.5rem;
+    aspect-ratio: 1/1;
+}
+
+.vs-headToHead__scheduleByTeam {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgrey;
+}
+
+.vs-headToHead__scheduleByTeam span {
+    background-color: white;
+    padding: 0 0.5rem;
+    z-index: 1;
+}
+
+.vs-headToHead__scheduleByTeam::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: lightgrey;
+    right: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.team-header__scheduleByTeam {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: var(--color-primary);
+    font-family: var(--font-header);
+    margin-top: 1rem;
+    justify-content: space-between;
+    /* margin-bottom: 2rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem; */
+}
+
+.team-header-details__scheduleByTeam {
+    display: flex;
+    gap: 1rem;
+}
+
+.team-header-logo__scheduleByTeam {
+    /* width: 60px;
+  height: 60px; */
+    width: 10rem;
+    aspect-ratio: 1/1;
+}
+
+.team-header-details__scheduleByTeam .team-name__scheduleByTeam {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+}
+
+.team-name__scheduleByTeam {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.team-division__scheduleByTeam {
+    font-size: 1rem;
+    color: #777;
+}
+
+.team-mascot__scheduleByTeam {
+    color: white;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.calendar-grid__scheduleByTeam {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+    /* margin-top: 2rem; */
+}
+
+.day-label__scheduleByTeam {
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem 0;
+    color: var(--color-primary);
+    /* background-color: var(--color-ui-lightgrey); */
+    border-radius: 4px;
+    font-size: 1.25rem;
+}
+
+.calendar-tile__scheduleByTeam {
+    position: relative;
+    min-height: 140px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: clip;
+    transition: var(--transition-main);
+}
+
+.calendar-tile__scheduleByTeam:hover .tile-overlay__scheduleByTeam {
+    visibility: visible;
+    /* opacity: 1; */
+    height: 100%;
+}
+
+.tile-overlay__scheduleByTeam {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    /* top: 0; */
+    bottom: 0;
+    height: 0;
+    background-color: var(--color-ui-blue);
+    z-index: 2;
+    /* opacity: 0; */
+    visibility: hidden;
+    transition: var(--transition-main);
+}
+
+.overlay-btn__scheduleByTeam {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: var(--font-header);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: var(--transition-main);
+}
+
+.overlay-btn__scheduleByTeam:hover {
+    color: lightcyan;
+}
+
+.overlay-icon__scheduleByTeam {
+    font-size: 1.5rem;
+    line-height: 0;
+}
+
+/* .calendar-tile__scheduleByTeam:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.tile-date__scheduleByTeam {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+    /* margin-bottom: 0.25rem; */
+}
+
+.tile-game__scheduleByTeam {
+    /* background: var(--color-ui-lightgrey); */
+    padding: 0 0.5rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.calander-icon__scheduleByTeam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--color-ui-grey);
+}
+
+.controls__scheduleByTeam {
+    display: flex;
+    gap: 1rem;
+    /* padding: 1rem 0; */
+    border-bottom: 1px solid lightgrey;
+}
+
+.schedule-header__scheduleByTeam {
+    margin: 0;
+}
+
+/* .calendar-tile-home__scheduleByTeam {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.calendar-tile-away__scheduleByTeam {
+  background-color: white;
+}
+
+.calendar-tile-inactive__scheduleByTeam {
+  background-color: var(--color-ui-lightgrey);
+  opacity: 0.5;
+} */
+
+.tile-date-home__scheduleByTeam {
+    color: white;
+}
+
+.calendar-tile-empty__scheduleByTeam {
+    background-color: white;
+}
+
+.calendar-tile-inactive__scheduleByTeam {
+    background-color: var(--color-ui-lightgrey);
+}
+
+.calendar-tile-home__scheduleByTeam,
+.calendar-tile-away__scheduleByTeam {
+    transition: var(--transition-main);
+}
+
+.calendar-tile-home__scheduleByTeam:hover,
+.calendar-tile-away__scheduleByTeam:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.01);
+}
+
+
+
+.calendar-tile-home__scheduleByTeam {
+    background-color: var(--color-primary);
+    color: white;
+    border-color: rgb(10, 10, 56);
+}
+
+.calendar-tile-away__scheduleByTeam {
+    background-color: white;
+}
+
+.vs-headToHead__scheduleByTeam {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightgrey;
+}
+
+.calendar-tile-home__scheduleByTeam .vs-headToHead__scheduleByTeam span {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.calendar-tile-home__scheduleByTeam .vs-headToHead__scheduleByTeam::after {
+    background-color: white;
+}
+
+.month-nav__scheduleByTeam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 1rem;
+}
+
+.month-nav__scheduleByTeam button {
+    all: unset;
+    transition: var(--transition-main);
+    font-size: 1.25rem;
+}
+
+.month-nav__scheduleByTeam button:hover {
+    color: var(--color-ui-blue);
+}
+
+.splash__scheduleByTeam {
+    text-align: center;
+    padding: 4rem 1rem;
+    font-size: 1.25rem;
+    color: var(--color-ui-grey);
+    font-family: var(--font-header);
+}
+
+.button-controls__scheduleByName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.button-controls__scheduleByName button {
+    all: unset;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+    border: 1px solid lightgrey;
+    padding: 1rem 2.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--font-header);
+    transition: var(--transition-main);
+}
+
+.button-controls__scheduleByName button:hover {
+    background-color: var(--color-ui-blue);
+    color: white;
+    transform: var(--button-transform);
+}

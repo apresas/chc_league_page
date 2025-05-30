@@ -6,6 +6,8 @@ import "./index.css";
 import { DateProvider } from "./context/DateContext.jsx";
 import { StandingsProvider } from "./context/StandingsContext";
 import { StatsProvider } from "./context/StatsContext.jsx";
+import ScrollToTop from "./utils/ScrollToTop.jsx"
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   // <React.StrictMode>
@@ -13,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <StandingsProvider>
     <DateProvider>
       <BrowserRouter>
+      <ScrollToTop/>
         <App />
       </BrowserRouter>
     </DateProvider>

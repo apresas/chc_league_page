@@ -10,8 +10,6 @@ function gameTile({ game, index }) {
 
   const tileRef = useRef();
 
-  console.log(game)
-
   useEffect(() => {
     const el = tileRef.current;
     if (!el) return;

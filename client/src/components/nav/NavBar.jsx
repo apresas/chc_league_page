@@ -16,9 +16,9 @@ function NavBar({ setIsOpen }) {
         </div>
 
         <ul>
-          <li>
+          {/* <li>
             <Link to="/games">Games</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/schedule">Schedule</Link>
           </li>

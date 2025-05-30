@@ -18,7 +18,6 @@ const ScoresCarousel = ({ games }) => {
   const loadedLogosCount = useRef(0);
   const [isFullyLoaded, setIsFullyLoaded] = useState(false);
 
-  console.log("Games passed to ScoresCarousel:", games);
 
   useEffect(() => {
     // Reset state when date changes

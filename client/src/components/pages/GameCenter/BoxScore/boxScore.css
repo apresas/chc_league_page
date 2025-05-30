@@ -46,9 +46,11 @@
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  border-radius: 5px;
-  border-right: 1px solid lightgrey;
-  border-left: 1px solid lightgrey;
+  border-radius: var(--border-radius);
+  border: 1px solid lightgrey;
+  overflow: hidden;
+  /* border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey; */
 }
 
 .player-row,
@@ -57,11 +59,16 @@
   padding: 1rem 0;
 }
 
+.player-row:last-of-type,
+.goalie-row:last-of-type {
+  border-bottom: none;
+}
+
 .skater-header__boxScore,
 .goalie-header__boxScore,
 .header-row {
   border-bottom: 1px solid lightgrey;
-  border-top: 1px solid lightgrey;
+  /* border-top: 1px solid lightgrey; */
   font-weight: 700;
 }
 

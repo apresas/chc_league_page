@@ -35,7 +35,7 @@ const GameCenter = () => {
       <GameHeader game={game} homeTeam={homeTeam} awayTeam={awayTeam} />
 
       {/* Game Summary / Recap */}
-      <GameSummary game={game} goalEvents={goalEvents} />
+      <GameSummary game={game} goalEvents={goalEvents} homeId={homeTeam.id} awayId={awayTeam.id}/>
 
       {/* Game Stats */}
       {/* <GameStats game={game} /> */}

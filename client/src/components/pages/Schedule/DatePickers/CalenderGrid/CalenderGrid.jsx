@@ -1,3 +1,4 @@
+// CalendarGrid.jsx - restored game dot support and visual indicator logic
 import React, { useState, useEffect } from "react";
 import "./calenderGrid.css";
 import { getWeekContainingDate } from "../../../../../utils/getWeekContainingDate";
@@ -8,36 +9,28 @@ const CalendarGrid = ({
   monthData,
   year,
   prevMonthData,
+  nextMonthData,
   onSelectWeek,
+  onSelectDate,
   selectedWeek,
+  gameDatesSet,
+  selectedDate,
 }) => {
   const { name, days, startDay } = monthData;
-
-  const [animateKey, setAnimateKey] = useState('');
+  const [animateKey, setAnimateKey] = useState("");
 
   useEffect(() => {
     if (selectedWeek && selectedWeek.length > 0) {
-      // Generate a key based on the first day of the week
       const key = `${selectedWeek[0].year}-${selectedWeek[0].month}-${selectedWeek[0].day}`;
       setAnimateKey(key);
     }
   }, [selectedWeek]);
 
-
   const getMonthIndex = (monthName) => {
     const months = [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December",
+      "January", "February", "March", "April",
+      "May", "June", "July", "August",
+      "September", "October", "November", "December"
     ];
     return months.indexOf(monthName);
   };
@@ -46,24 +39,29 @@ const CalendarGrid = ({
     const actualMonth = getMonthIndex(name) + mOffset;
     const actualYear = year + (actualMonth > 11 ? 1 : actualMonth < 0 ? -1 : 0);
     const correctedMonth = (actualMonth + 12) % 12;
-
     const week = getWeekContainingDate(actualYear, correctedMonth, day);
+    const selected = new Date(actualYear, correctedMonth, day);
     onSelectWeek(week);
+    onSelectDate(selected);
   };
 
   const isHighlighted = (y, m, d) => {
-    const match = selectedWeek?.some(date =>
-      date.year === y && date.month === m && date.day === d
-    );
-    if (!match) return false;
+    return selectedWeek?.some(date => date.year === y && date.month === m && date.day === d);
+  };
 
-    const cellKey = `${y}-${m}-${d}`;
-    return cellKey === animateKey ? 'highlighted animate' : 'highlighted';
+  const isSelectedDate = (y, m, d) => {
+    if (!selectedDate) return false;
+    const sel = new Date(selectedDate);
+    return sel.getFullYear() === y && sel.getMonth() === m && sel.getDate() === d;
+  };
+
+  const hasGame = (y, m, d) => {
+    const key = `${y}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+    return gameDatesSet?.has(key);
   };
 
   const currentMonthIndex = getMonthIndex(name);
 
-  // Days from previous month
   const prevDays = prevMonthData ? prevMonthData.days : 30;
   const prevMonthDays = Array.from({ length: startDay }, (_, i) => ({
     day: prevDays - startDay + i + 1,
@@ -73,7 +71,6 @@ const CalendarGrid = ({
     offset: -1,
   }));
 
-  // Days from current month
   const currentMonthDays = Array.from({ length: days }, (_, i) => ({
     day: i + 1,
     isCurrent: true,
@@ -82,7 +79,6 @@ const CalendarGrid = ({
     offset: 0,
   }));
 
-  // Days from next month
   const totalDisplayed = prevMonthDays.length + currentMonthDays.length;
   const remaining = 42 - totalDisplayed;
   const nextMonthDays = Array.from({ length: remaining }, (_, i) => ({
@@ -105,11 +101,12 @@ const CalendarGrid = ({
 
       {allDays.map((cell, i) => (
         <button
-        key={`cell-${i}`}
-        className={`calendar-cell ${cell.isCurrent ? '' : 'faded'} ${isHighlighted(cell.year, cell.month, cell.day)}`}
-        onClick={() => handleDayClick(cell.day, cell.offset)}
+          key={`cell-${i}`}
+          className={`calendar-cell ${cell.isCurrent ? '' : 'faded'} ${isHighlighted(cell.year, cell.month, cell.day) ? 'highlighted' : ''} ${isSelectedDate(cell.year, cell.month, cell.day) ? 'selected' : ''}`}
+          onClick={() => handleDayClick(cell.day, cell.offset)}
         >
           {cell.day}
+          {hasGame(cell.year, cell.month, cell.day) && <div className="game-dot" />}
         </button>
       ))}
     </div>

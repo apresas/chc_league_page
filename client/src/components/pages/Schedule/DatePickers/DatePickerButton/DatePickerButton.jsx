@@ -4,7 +4,7 @@ import { FaChevronRight } from "react-icons/fa6";
 import { FaChevronLeft } from "react-icons/fa6";
 import { useDate } from "../../../../../context/DateContext";
 
-function DatePickerButton({ open, toggle, selectedWeekLabel }) {
+function DatePickerButton({ open, toggle, selectedWeekLabel, setViewMode, viewMode }) {
   const { shiftWeek } = useDate();
 
   return (
@@ -22,6 +22,9 @@ function DatePickerButton({ open, toggle, selectedWeekLabel }) {
         onClick={toggle}
       >
         {selectedWeekLabel}
+        {/* {viewMode === "day" && `${thisMonth?.name} ${currentYear}`}
+        {viewMode === "month" && `${currentYear}`}
+        {viewMode === "year" && `${Math.floor(currentYear / 10) * 10}s`} */}
       </button>
 
       <button

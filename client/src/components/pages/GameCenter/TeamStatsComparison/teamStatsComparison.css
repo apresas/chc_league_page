@@ -22,6 +22,10 @@
     aspect-ratio: 1/1;
   }
 
+  .headerLogo__teamStats {
+    width: 100%;
+  }
+
   .team-stats-header h1 {
     margin: 0;
   }

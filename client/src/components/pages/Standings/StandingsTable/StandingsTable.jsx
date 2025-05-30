@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./standingsTable.css";
 import teamInfoData from "../../../../data/teamInfoData.json";
 import { FaSortUp, FaSortDown } from "react-icons/fa6";
+import {Link} from "react-router-dom"
 
 const StandingsTable = ({ title, teams, divLogo }) => {
   const [sortConfig, setSortConfig] = useState({
@@ -10,12 +11,14 @@ const StandingsTable = ({ title, teams, divLogo }) => {
     order: "desc",
   });
 
+  console.log(teams)
   const [isSorting, setIsSorting] = useState(false);
 
   const teamMap = teamInfoData.teams.reduce((acc, team) => {
     acc[team.abrev] = team;
     return acc;
   }, {});
+
 
   useEffect(() => {
     setTimeout(() => setIsSorting(false), 300);
@@ -115,6 +118,7 @@ const StandingsTable = ({ title, teams, divLogo }) => {
       <div className="standings-table-body">
         {sortedTeams.map((team, idx) => {
           const teamInfo = teamMap[team.abrev] || {};
+          const teamId = teamMap[team.abrev].id
           //   const teamDisplay = `${teamInfo.name || team.abrev} ${
           //     teamInfo.mascot || ""
           //   }`;
@@ -129,10 +133,10 @@ const StandingsTable = ({ title, teams, divLogo }) => {
             >
               <div className="cell team-rank">{idx + 1}</div>
               <div className="cell team-name">
-                <div className="team-column__standingsTable">
+                <Link to={`/teams/${teamId}`}className="team-column__standingsTable link">
                   <img src={teamLogo} alt="" />
                   <span>{teamDisplay}</span>
-                </div>
+                </Link>
               </div>
               <div className="cell team-points">{team.points}</div>
               <div className="cell team-wins">{team.wins}</div>

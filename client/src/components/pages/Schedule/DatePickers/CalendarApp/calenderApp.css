@@ -1,0 +1,21 @@
+/* Animation styles for CalendarApp layered view */
+.calendar-view-wrapper {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 300ms ease-in-out forwards;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

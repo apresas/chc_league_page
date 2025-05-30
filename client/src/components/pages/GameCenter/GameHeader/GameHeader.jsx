@@ -1,5 +1,6 @@
 import React from "react";
 import "./GameHeader.css";
+import {Link} from "react-router-dom"
 
 const GameHeader = ({ game, homeTeam, awayTeam }) => {
   const { date, status, home, away } = game;
@@ -28,9 +29,9 @@ const GameHeader = ({ game, homeTeam, awayTeam }) => {
   return (
     <div className="game-header">
       <div className="game-header__teams">
-        <div className="game-team-logo">
+        <Link to={`/teams/${homeTeam.id}`} className="game-team-logo link">
           <img src={homeTeam.logo} alt="" />
-        </div>
+        </Link>
         {/* Home Team */}
         <div className="team home-team">
           <div className="team-info" style={{textAlign: "left"}}>
@@ -60,9 +61,9 @@ const GameHeader = ({ game, homeTeam, awayTeam }) => {
             <span className="team-shots">SOG: {away.shotsFor}</span>
           </div>
         </div>
-        <div className="game-team-logo">
+        <Link to={`/teams/${awayTeam.id}`} className="game-team-logo link">
           <img src={awayTeam.logo} alt="" />
-        </div>
+        </Link>
       </div>
     </div>
   );

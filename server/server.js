@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const sequelize = require("./config/database");
-const { Team, Player, Game, GameEvents, GameStats } = require("./models");
+// const { Team, Player, Game, GameEvents, GameStats, PlayerStats, GoalieStats } = require("./models");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -18,9 +18,12 @@ app.get("/", (req, res) => {
 
 // Routes
 app.use("/api/teams", require("./routes/teamRoutes"));
-// app.use("/api/players", require("./routes/playerRoutes"));
-// app.use("/api/games", require("./routes/gameRoutes"));
-// app.use("/api/events", require("./routes/eventRoutes"));
+app.use("/api/players", require("./routes/playerRoutes"));
+app.use("/api/goalevents", require("./routes/goalEventsRoutes"))
+app.use("/api/games", require("./routes/gameRoutes"));
+app.use("/api/events", require("./routes/gameEventsRoutes"));
+app.use("/api/playerSeasonStats", require("./routes/playerSeasonStatsRoutes"));
+app.use("/api/goalieSeasonStats", require("./routes/goalieSeasonStatsRoutes"))
 // app.use("/api/stats", require("./routes/statsRoutes"));
 
 // Database Sync and Server Start
@@ -34,3 +37,5 @@ sequelize.sync({ alter: true })
   .catch(err => {
     console.error("Error synchronizing the database:", err);
   });
+
+  

@@ -12,6 +12,14 @@ const Game = sequelize.define("Game", {
     type: DataTypes.DATEONLY,
     allowNull: false,
   },
+  homeTeamAbrev: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  awayTeamAbrev: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
   homeScore: {
     type: DataTypes.INTEGER,
     defaultValue: 0,
@@ -20,6 +28,8 @@ const Game = sequelize.define("Game", {
     type: DataTypes.INTEGER,
     defaultValue: 0,
   },
+  homeStartingGoalieId: DataTypes.STRING,
+  awayStartingGoalieId: DataTypes.STRING,
   status: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -29,13 +39,13 @@ const Game = sequelize.define("Game", {
 
 // Use distinct aliases: homeTeam and awayTeam
 Game.belongsTo(Team, {
-  as: "HomeTeam",
+  // as: "homeTeam",
   foreignKey: "homeTeamId",
   targetKey: "id",
 });
 
 Game.belongsTo(Team, {
-  as: "AwayTeam",
+  // as: "awayTeam",
   foreignKey: "awayTeamId",
   targetKey: "id",
 });

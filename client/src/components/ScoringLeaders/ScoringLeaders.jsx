@@ -2,184 +2,145 @@ import React, { useMemo, useState, useEffect } from "react";
 import "./scoringLeaders.css";
 import LeaderCard from "./LeaderCard/LeaderCard";
 import LeaderList from "./LeaderList/LeaderList";
-// import goalEvents from "../../data/gameEvents.json";
-import goalEvents from "../../data/goalEvents.json";
-import gamesData from "../../data/gameSchedule.json";
-// import gamesData from "../../data/scheduledGames.json";
+import Spinner from "../Spinner/Spinner";
 
 function ScoringLeaders({ team, roster, header, view = "skaters" }) {
+  const [seasonStats, setSeasonStats] = useState([]);
+  const [goalieStats, setGoalieStats] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [selected, setSelected] = useState(
     view === "goalies" ? "gaa" : "points"
   );
   const [hoveredPlayer, setHoveredPlayer] = useState(null);
 
+  useEffect(() => {
+    const fetchLeaders = async () => {
+      setLoading(true);
+      const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+      try {
+        const [player, goalie] = await Promise.all([
+          fetch(
+            `http://localhost:5000/api/playerSeasonStats/search?teamId=${team.id}`
+          ).then((res) => res.json()),
+          fetch(
+            `http://localhost:5000/api/goalieSeasonStats/search?teamId=${team.id}`
+          ).then((res) => res.json()),
+          delay(1250), // minimum 2 second delay to show spinner
+        ]);
+
+        // const data = await res.json();
+        setSeasonStats(player);
+        setGoalieStats(goalie);
+
+        // console.log(player);
+      } catch (error) {
+        console.error("Failed to fetch roster:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchLeaders();
+  }, [team.id]);
+
+  const leaderBoards = useMemo(() => {
+    if (!seasonStats.length && !goalieStats.length) return {};
+
+    const goalies = goalieStats.map((stat) => {
+      const player = stat.Player || {
+        firstName: "Unknown",
+        lastName: "Goalie",
+        number: "--",
+        positionAbrev: "--",
+        positionType: "Goalie",
+      };
+
+      const team = stat.Team || {
+        name: "Unknown",
+        abrev: "--",
+        logo: "",
+      };
+
+      return {
+        player,
+        team,
+        savePct: stat.savePct?.toFixed(3) || "0.000",
+        gaa: stat.gaa?.toFixed(2) || "--",
+        wins: stat.wins || 0,
+        points: 0, // so it doesn't break sorting
+        goals: 0,
+        assists: 0,
+      };
+    });
+
+    const players = seasonStats.map((stat) => {
+      const player = stat.Player || {
+        firstName: "Unknown",
+        lastName: "Player",
+        number: "--",
+        positionAbrev: "--",
+        positionType: "Skater",
+      };
+
+      const team = stat.Team || {
+        name: "Unknown",
+        abrev: "--",
+        logo: "",
+      };
+      return {
+        player,
+        team,
+        goals: stat.totalGoals || 0,
+        assists: stat.totalAssists || 0,
+        points: (stat.totalGoals || 0) + (stat.totalAssists || 0),
+        savePct: "--",
+        gaa: "--",
+        wins: "--",
+      };
+    });
+
+    const skaters = players.filter((p) => p.player.positionType !== "Goalie");
+
+    return {
+      points: skaters.sort((a, b) => b.points - a.points).slice(0, 5),
+      goals: skaters.sort((a, b) => b.goals - a.goals).slice(0, 5),
+      assists: skaters.sort((a, b) => b.assists - a.assists).slice(0, 5),
+      savePct: goalies
+        .sort((a, b) => parseFloat(b.savePct) - parseFloat(a.savePct))
+        .slice(0, 5),
+      gaa: goalies
+        .sort((a, b) => parseFloat(a.gaa) - parseFloat(b.gaa))
+        .slice(0, 5),
+      wins: goalies.sort((a, b) => b.wins - a.wins).slice(0, 5),
+    };
+  }, [seasonStats]);
+
   const handleSelect = (type) => {
     setSelected(type);
   };
 
-  /**
-   * Calculate Skater and Goalie Stats
-   */
-  const dataMap = useMemo(() => {
-    const goalMap = {};
-    const assistMap = {};
-    const goalieStats = {};
+  const statdataSet = leaderBoards[selected];
 
-    goalEvents.forEach((goal) => {
-      const scorer = goal.scorerId;
-      const assists = goal.assistIds || [];
-      const goalies = goal.goalieIds || [];
-
-      if (scorer) {
-        goalMap[scorer] = (goalMap[scorer] || 0) + 1;
-      }
-
-      assists.forEach((aid) => {
-        assistMap[aid] = (assistMap[aid] || 0) + 1;
-      });
-
-      goalies.forEach((gid) => {
-        if (!goalieStats[gid]) {
-          goalieStats[gid] = {
-            shotsAgainst: 0,
-            goalsAgainst: 0,
-            wins: 0,
-            gamesPlayed: 0,
-          };
-        }
-        goalieStats[gid].shotsAgainst += 1;
-        goalieStats[gid].goalsAgainst += 1;
-      });
-    });
-
-    // Calculate Goalie Stats from `scheduledGames.json`
-    gamesData.forEach((game) => {
-      const { home, away } = game;
-
-      const updateGoalieStats = (team, opponent, isHome) => {
-        const goalieId = team.startingGoalie;
-        if (!goalieId) return;
-
-        const goalsAgainst = isHome ? opponent.score : team.score;
-        const shotsAgainst = isHome ? opponent.shotsFor : team.shotsFor;
-        const isWin = team.score > opponent.score;
-
-        if (!goalieStats[goalieId]) {
-          goalieStats[goalieId] = {
-            shotsAgainst: 0,
-            goalsAgainst: 0,
-            wins: 0,
-            gamesPlayed: 0,
-          };
-        }
-
-        goalieStats[goalieId].goalsAgainst += goalsAgainst;
-        goalieStats[goalieId].shotsAgainst += shotsAgainst;
-        goalieStats[goalieId].gamesPlayed += 1;
-
-        if (isWin) {
-          goalieStats[goalieId].wins += 1;
-        }
-
-        console.log(goalieStats[goalieId])
-      };
-
-      updateGoalieStats(home, away, true);
-      updateGoalieStats(away, home, false);
-    });
-
-    let playerStats = roster.map((player) => {
-      const id = player.id;
-      const goals = goalMap[id] || 0;
-      const assists = assistMap[id] || 0;
-      const points = goals + assists;
-
-      const isGoalie = player.positionType === "Goalie";
-      const goalieData = goalieStats[id] || {
-        shotsAgainst: 0,
-        goalsAgainst: 0,
-        wins: 0,
-        gamesPlayed: 0,
-      };
-
-      const savePct =
-        goalieData.shotsAgainst > 0
-          ? (
-              (goalieData.shotsAgainst - goalieData.goalsAgainst) /
-              goalieData.shotsAgainst
-            ).toFixed(3)
-          : "0.000";
-
-      const gaa =
-        goalieData.gamesPlayed > 0
-          ? (goalieData.goalsAgainst / goalieData.gamesPlayed).toFixed(2)
-          : "--";
-
-      return {
-        player,
-        goals,
-        assists,
-        points,
-        savePct,
-        gaa,
-        wins: goalieData.wins,
-      };
-    });
-
-    // Apply view filters
-    if (view === "forwards") {
-      playerStats = playerStats.filter(
-        (entry) => entry.player.positionType === "Forward"
-      );
-    } else if (view === "defense") {
-      playerStats = playerStats.filter(
-        (entry) => entry.player.positionType === "Defense"
-      );
-    } else if (view === "goalies") {
-      playerStats = playerStats.filter(
-        (entry) => entry.player.positionType === "Goalie"
-      );
-    } else if (view === "skaters") {
-      playerStats = playerStats.filter(
-        (entry) => entry.player.positionType !== "Goalie"
-      );
-    }
-
-    return {
-      points: playerStats.sort((a, b) => b.points - a.points).slice(0, 5),
-      goals: playerStats.sort((a, b) => b.goals - a.goals).slice(0, 5),
-      assists: playerStats.sort((a, b) => b.assists - a.assists).slice(0, 5),
-      savePct: playerStats
-        .sort((a, b) => parseFloat(b.savePct) - parseFloat(a.savePct))
-        .slice(0, 5),
-      gaa: playerStats
-        .sort((a, b) => parseFloat(a.gaa) - parseFloat(b.gaa))
-        .slice(0, 5),
-      wins: playerStats.sort((a, b) => b.wins - a.wins).slice(0, 5),
-    };
-  }, [roster, view]);
-
-  const dataSet = dataMap[selected];
-
+  // Set Default Hover
   useEffect(() => {
-    if (dataSet.length > 0) {
-      setHoveredPlayer(dataSet[0]);
-    } else {
+    if (!statdataSet || statdataSet.length === 0) {
       setHoveredPlayer(null);
+      return;
     }
-  }, [dataSet, selected]);
 
-   /**
-   * Set Default Selection Based on Lowest GAA for Goalies
-   */
-   useEffect(() => {
-    if (view === "goalies" && dataMap.gaa.length > 0) {
-      setSelected("gaa");
-      setHoveredPlayer(dataMap.gaa[0]);
-    } else if (dataSet.length > 0) {
-      setHoveredPlayer(dataSet[0]);
-    }
-  }, [dataMap, view]);
+    setHoveredPlayer(statdataSet[0]);
+  }, [statdataSet]);
+
+  // Save Hoover
+  // const defaultHover = useMemo(() => {
+  //   const list = leaderBoards[selected];
+  //   return list?.length > 0 ? list[0] : null;
+  // }, [leaderBoards, selected]);
+
+  // useEffect(() => {
+  //   setHoveredPlayer(defaultHover);
+  // }, [defaultHover]);
 
   return (
     <div className="scoring-leader">
@@ -244,23 +205,37 @@ function ScoringLeaders({ team, roster, header, view = "skaters" }) {
         </div>
       </div>
 
-      <div className="scoring-grid__scoringLeaders">
-        <LeaderCard team={team} player={hoveredPlayer} type={selected} view={view}/>
-
-        <LeaderList
-          data={dataSet}
-          defaultSelectedId={hoveredPlayer ? hoveredPlayer.player.id : null}
-          onHover={setHoveredPlayer}
-          renderRow={(row) => (
-            <>
-              <div className="leader-list-cell">
-                {row.player.name.first} {row.player.name.last}
-              </div>
-              <div className="leader-list-cell">{row[selected]}</div>
-            </>
-          )}
-        />
-      </div>
+      {loading ? (
+        <Spinner />
+      ) : (
+        <div
+          className={`scoring-grid__scoringLeaders ${
+            !loading ? "fade-in" : null
+          }`}
+        >
+          <LeaderCard
+            team={team}
+            player={hoveredPlayer}
+            type={selected}
+            view={view}
+          />
+          <LeaderList
+            loading={loading}
+            data={statdataSet || []}
+            goalieData={goalieStats}
+            defaultSelectedId={hoveredPlayer ? hoveredPlayer.player.id : null}
+            onHover={setHoveredPlayer}
+            renderRow={(row) => (
+              <>
+                <div className="leader-list-cell">
+                  {row.player.firstName} {row.player.lastName}
+                </div>
+                <div className="leader-list-cell">{row[selected]}</div>
+              </>
+            )}
+          />
+        </div>
+      )}
     </div>
   );
 }

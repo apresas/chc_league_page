@@ -1,5 +1,5 @@
 // src/pages/Team.jsx
-import React, { useMemo, useEffect } from "react";
+import React, { useMemo, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import teamData from "../../../data/teamInfoData.json";
 import rosterData from "../../../data/teamRosters.json";
@@ -17,8 +17,37 @@ import ScoringLeaders from "../../ScoringLeaders/ScoringLeaders";
 const Team = ({ setTeamID }) => {
   const { teamId } = useParams();
   const team = teamData.teams.find((t) => t.id.toString() === teamId);
-  const roster = rosterData.find((t) => t.team === team.abrev)?.roster || [];
-  console.log(roster);
+  // const roster = rosterData.find((t) => t.team === team.abrev)?.roster || [];
+  const [roster, setRoster] = useState([]);
+  const [loading, setLoading] = useState(false);
+  // console.log(roster);
+
+  useEffect(() => {
+    const fetchRoster = async () => {
+      setLoading(true);
+      const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+      try {
+        const [res] = await Promise.all([
+          fetch(`http://localhost:5000/api/players/search?teamId=${teamId}`),
+          delay(1250), // minimum 2 second delay to show spinner
+        ]);
+
+        const data = await res.json();
+        setRoster(data);
+      } catch (error) {
+        console.error("Failed to fetch roster:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchRoster();
+  }, [teamId]);
+
+  // useEffect(() => {
+  //   console.log(teamRoster)
+  // }, [teamRoster])
 
   const { standings, overall, sortedDivisions } = useStandings();
   const teamStandings = standings[team.abrev];
@@ -209,6 +238,7 @@ const Team = ({ setTeamID }) => {
 
           <section className="roster-section">
             <RosterTable
+              loading={loading}
               title="Team Roster"
               players={roster}
               team={team.abrev}

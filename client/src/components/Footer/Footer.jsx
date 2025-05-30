@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import {Link} from "react-router-dom"
 
 function Footer() {
   return (
@@ -8,7 +9,9 @@ function Footer() {
       <div className="footer_content">
         <div className="footer_grid">
           <div className="footer_logo">
+            <Link to="/" className="footer-logo link">
             <img src="/logo_wordmark.svg" alt="" className="footer_icon" />
+            </Link>
           </div>
           <div className="footer_info">
             <div className="link_grid">

@@ -1,0 +1,63 @@
+.div-grid__teamsOverview {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    font-family: var(--font-header);
+}
+
+.div-cards__teamsOverview {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-cards__teamsOverview h2 {
+    align-self: start;
+    margin: 0 0 1rem;
+}
+
+.team-card__teamsOverview {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid lightgrey;
+    transition: var(--transition-main);
+}
+
+.team-card__teamsOverview:hover {
+    background-color: var(--color-ui-lightgrey);
+}
+
+.team-card__teamsOverview:last-of-type {
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.team-card__teamsOverview img {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    margin-left: 1rem;
+}
+
+.team-label__teamsOverview {
+    justify-content: space-between;
+}
+
+.team-label__teamsOverview h2 {
+    margin: 0;
+}
+
+.team-label__teamsOverview span {
+    font-size: 1.1rem;
+}
+
+.team-links__teamsOverview a {
+    transition: var(--transition-main);
+}
+
+.team-links__teamsOverview a:hover {
+    color: var(--color-ui-blue);
+}

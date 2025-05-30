@@ -2,9 +2,14 @@ const { DataTypes } = require("sequelize");
 const sequelize = require("../config/database");
 
 const Team = sequelize.define("Team", {
+  // id: {
+  //   type: DataTypes.UUID,
+  //   defaultValue: DataTypes.UUIDV4,
+  //   primaryKey: true,
+  // },
   id: {
-    type: DataTypes.UUID,
-    defaultValue: DataTypes.UUIDV4,
+    type: DataTypes.INTEGER,
+    defaultValue: DataTypes.INTEGER,
     primaryKey: true,
   },
   name: {

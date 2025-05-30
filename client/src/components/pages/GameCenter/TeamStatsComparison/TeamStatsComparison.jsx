@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import gameSchedule from "../../../../data/gameSchedule.json";
 import gameStats from "../../../../data/gameStats.json";
 import "./teamStatsComparison.css";
+import { Link } from "react-router-dom";
 
-const TeamStatsComparison = ({ gameId }) => {
+const TeamStatsComparison = ({ gameId, homeId, awayId }) => {
   const [gameData, setGameData] = useState(null);
   const [statsData, setStatsData] = useState(null);
 
@@ -19,7 +20,7 @@ const TeamStatsComparison = ({ gameId }) => {
     }
   }, [gameId]);
 
-//   console.log(statsData);
+  //   console.log(statsData);
 
   if (!gameData || !statsData) return <div>Loading game data...</div>;
 
@@ -87,12 +88,12 @@ const TeamStatsComparison = ({ gameId }) => {
     };
   };
 
-//   console.log(homeStats);
+  //   console.log(homeStats);
 
-//   console.log(
-//     calculatePowerPlayShare(homeStats.powerPlayGoals, awayStats.powerPlayGoals)
-//       .home
-//   );
+  //   console.log(
+  //     calculatePowerPlayShare(homeStats.powerPlayGoals, awayStats.powerPlayGoals)
+  //       .home
+  //   );
 
   let faceoff = statCategories[4].home;
   let faceoffNumber = 100 - parseFloat(faceoff.replace("%", ""));
@@ -101,9 +102,13 @@ const TeamStatsComparison = ({ gameId }) => {
   return (
     <div className="team-stats-comparison">
       <div className="team-stats-header">
-        <img src={home.logo} alt="" className="" />
+        <Link to={`/teams/${homeId}`} className="headerLogo__teamStats link">
+          <img src={home.logo} alt="" className="" />
+        </Link>
         <h1>Game Stats</h1>
-        <img src={away.logo} alt="" className="" />
+        <Link to={`/teams/${awayId}`} className="headerLogo__teamStats link">
+          <img src={away.logo} alt="" className="" />
+        </Link>
       </div>
 
       <div className="team-stats-grid">
@@ -111,7 +116,7 @@ const TeamStatsComparison = ({ gameId }) => {
           let percentage = calculatePercentage(stats.home, stats.away);
 
           return (
-            <div className="team-row__teamStats">
+            <div key={index} className="team-row__teamStats">
               <div className="content__teamStats">
                 <div className="stat__teamStats home__teamStats">
                   {/* {stats.home}{" "} */}

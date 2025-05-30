@@ -46,8 +46,8 @@ function LeaderCard({ team, player, type, view }) {
       </div>
       <div className="leader-player">
         <div className="leader-name">
-          <h2>{playerInfo.name.first}</h2>
-          <h2>{playerInfo.name.last}</h2>
+          <h2>{playerInfo.firstName}</h2>
+          <h2>{playerInfo.lastName}</h2>
         </div>
 
         <div className="leader-team">
@@ -55,7 +55,7 @@ function LeaderCard({ team, player, type, view }) {
             <img src={teamInfo.logo} alt="logo" /> {teamInfo.abrev}
           </div>{" "}
           |<div className="leader-number">{playerInfo.number}</div> |
-          <div className="leader-position">{playerInfo.positionAbbr}</div>
+          <div className="leader-position">{playerInfo.positionAbrev}</div>
         </div>
       </div>
 

@@ -37,7 +37,7 @@
   }
 
   .faded {
-    color: var(--color-ui-lightgrey);
+    color: var(--color-ui-grey);
   }
 
 
@@ -46,6 +46,33 @@
     color: white;
     /* border-color: #1a73e8; */
   }
+
+  /* Dot indicator for calendar days with games */
+.game-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--color-ui-grey);
+  border-radius: 50%;
+  margin: 2px auto 0;
+}
+
+.calendar-cell {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar-cell .game-dot {
+  position: absolute;
+  bottom: 4px;
+}
+
+.highlighted .game-dot {
+  opacity: 0;
+  /* background-color: var(--color-primary); */
+}
 
   /* .highlighted.animate {
     animation: pulse 0.5s ease-out;

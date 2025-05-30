@@ -18,8 +18,13 @@ import Players from "./components/pages/Players/Players";
 import Standings from "./components/pages/Standings/Standings";
 import ScoresCarousel from "./components/ScoresCarousel/ScoresCarousel"; // Adjust path as needed
 import GamesData from "./data/gamesData.json";
-import GameSchedule from "./data/gameSchedule.json"
+import GameSchedule from "./data/gameSchedule.json";
 import GameCenter from "./components/pages/GameCenter/GameCenter";
+import TeamsOverview from "./components/pages/Teams/TeamsOverview";
+import ScheduleByTeam from "./components/pages/Schedule/ScheduleByTeam/ScheduleByTeam";
+import PlayersByTeam from "./components/pages/Players/PlayerByTeam/PlayersByTeam";
+import PlayerByID from "./components/pages/Players/PlayerByID/PlayerByID";
+import ScrollToTop from "./utils/ScrollToTop.jsx"
 
 
 function App() {
@@ -34,7 +39,7 @@ function App() {
   const [filteredGames, setFilteredGames] = useState([]);
   const [selectedDate, setSelectedDate] = useState("");
   const [selectedDivision, setSelectedDivision] = useState("");
-  const [teamID, setTeamID] = useState("")
+  const [teamID, setTeamID] = useState("");
 
   useEffect(() => {
     // fetch("./data/scheduledGames.json")
@@ -46,10 +51,11 @@ function App() {
     //     setFilteredGames(data);
     //   })
     //   .catch((err) => console.error("Failed to load scores:", err));
-      const sortedGames = GameSchedule.sort((a,b) => new Date(a.date) - new Date(b.date));
-      setGames(sortedGames)
+    const sortedGames = GameSchedule.sort(
+      (a, b) => new Date(a.date) - new Date(b.date)
+    );
+    setGames(sortedGames);
   }, []);
-  
 
   // const uniqueDates = [...new Set(games.map(g => g.date))].sort();
   // const uniqueDivisions = [...new Set(games.flatMap(g => [g.home.div, g.away.div]))].sort();
@@ -58,12 +64,14 @@ function App() {
     let filtered = games;
 
     if (selectedDate) {
-      filtered = filtered.filter(game => game.date === selectedDate);
+      filtered = filtered.filter((game) => game.date === selectedDate);
     }
 
     if (selectedDivision) {
       filtered = filtered.filter(
-        game => game.home.div === selectedDivision || game.away.div === selectedDivision
+        (game) =>
+          game.home.div === selectedDivision ||
+          game.away.div === selectedDivision
       );
     }
 
@@ -118,11 +126,18 @@ function App() {
           />
           <Route path="/games" element={<Games />} />
           <Route path="/schedule" element={<Schedule />} />
+          <Route path="/schedule/:teamId" element={<ScheduleByTeam />} />
           <Route path="/news" element={<News />} />
           <Route path="/stats" element={<Stats />} />
           <Route path="/standings" element={<Standings />} />
-          <Route path="/teams/:teamId" element={<Teams setTeamID={setTeamID}/>} />
+          <Route path="/teams" element={<TeamsOverview />} />
+          <Route
+            path="/teams/:teamId"
+            element={<Teams setTeamID={setTeamID} />}
+          />
           <Route path="/players" element={<Players />} />
+          <Route path="/players/:teamId" element={<PlayersByTeam />} />
+          <Route path="/players/:playerId" element={<PlayerByID />} />
           <Route path="/gamecenter/:gameId" element={<GameCenter />} />
         </Routes>
         <Footer />
