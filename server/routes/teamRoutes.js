@@ -5,7 +5,7 @@ const { Team } = require("../models");
 // GET all teams
 router.get("/", async (req, res) => {
   try {
-    const teams = await Team.findAll();
+    const teams = await Team.findAll({order: [["name", "ASC"]]});
     res.json(teams);
   } catch (error) {
     console.error("Error fetching teams:", error.message);
@@ -27,7 +27,7 @@ router.get("/", async (req, res) => {
 
 //  GET a Single Team by Abrev or ID
 
-router.get('/search', async (req, res) => {
+router.get("/search", async (req, res) => {
   const { id, abrev, division } = req.query;
 
   try {
@@ -35,20 +35,27 @@ router.get('/search', async (req, res) => {
     if (id) {
       team = await Team.findByPk(id);
     } else if (abrev) {
-      team = await Team.findOne({ where: { abrev: abrev } });
+      team = await Team.findOne({
+        where: { abrev: abrev },
+        order: [["name", "ASC"]],
+      });
     } else if (division) {
-      team = await Team.findAll({ where: { division: division} });
+      team = await Team.findAll({
+        where: { division: division },
+        order: [["name", "ASC"]],
+      });
     } else {
-      return res.status(400).json({ error: 'Provide either id or abrev or division' });
+      return res
+        .status(400)
+        .json({ error: "Provide either id or abrev or division" });
     }
 
-    if (!team) return res.status(404).json({ error: 'Team not found' });
+    if (!team) return res.status(404).json({ error: "Team not found" });
 
     res.json(team);
   } catch (err) {
-    res.status(500).json({ error: 'Server error', details: err.message });
+    res.status(500).json({ error: "Server error", details: err.message });
   }
 });
-
 
 module.exports = router;

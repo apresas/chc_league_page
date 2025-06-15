@@ -22,8 +22,11 @@ app.use("/api/players", require("./routes/playerRoutes"));
 app.use("/api/goalevents", require("./routes/goalEventsRoutes"))
 app.use("/api/games", require("./routes/gameRoutes"));
 app.use("/api/events", require("./routes/gameEventsRoutes"));
+app.use("/api/playerStats", require("./routes/playerStatsRoutes"))
 app.use("/api/playerSeasonStats", require("./routes/playerSeasonStatsRoutes"));
-app.use("/api/goalieSeasonStats", require("./routes/goalieSeasonStatsRoutes"))
+app.use("/api/goalieSeasonStats", require("./routes/goalieSeasonStatsRoutes"));
+app.use("/api/teamStandings", require("./routes/teamStandingsRoutes"))
+app.use("/api/gameStats", require("./routes/gameStatsRoutes"))
 // app.use("/api/stats", require("./routes/statsRoutes"));
 
 // Database Sync and Server Start

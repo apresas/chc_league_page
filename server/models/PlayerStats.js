@@ -1,5 +1,7 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../config/database");
+const Team = require("./Team");
+const Player = require("./Player");
 
 const PlayerStats = sequelize.define(
   "PlayerStats",
@@ -14,6 +16,16 @@ const PlayerStats = sequelize.define(
     faceoffWins: DataTypes.INTEGER,
     penaltyMinutes: DataTypes.INTEGER,
   },
-  {}
 );
+
+PlayerStats.associate = function () {
+  PlayerStats.belongsTo(Player, {
+    foreignKey: "playerId",
+    as: "player",
+  });
+  PlayerStats.belongsTo(Team, {
+    foreignKey: "teamId",
+    as: "team",
+  });
+};
 module.exports = PlayerStats;

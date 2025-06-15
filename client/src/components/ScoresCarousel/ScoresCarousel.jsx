@@ -2,91 +2,47 @@ import React, { useMemo, useRef, useState, useEffect } from "react";
 import "./scoresCarousel.css";
 import DateDropdown from "./DateDropdown/DateDropdown";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
-import gameData from "../../data/scheduledGames.json";
 import { Link } from "react-router-dom";
 import { PiHockeyBold } from "react-icons/pi";
 
-const ScoresCarousel = ({ games }) => {
+const ScoresCarousel = () => {
   const scrollRef = useRef(null);
   const [selectedDate, setSelectedDate] = useState("");
   const dateRefs = useRef({});
 
-  const [loadedLogos, setLoadedLogos] = useState({});
-
-  const [isLoading, setIsLoading] = useState(true);
   const totalLogosToLoad = useRef(0);
   const loadedLogosCount = useRef(0);
-  const [isFullyLoaded, setIsFullyLoaded] = useState(false);
+  const [carouselGames, setCarouselGames] = useState([])
 
+  const [loading, setLoading] = useState(false)
 
-  useEffect(() => {
-    // Reset state when date changes
-    // setLogosLoaded({});
-    setIsFullyLoaded(false);
+   useEffect(() => {
+      const fetchGames = async () => {
+        setLoading(true);
+        const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  
+        try {
+          const [games] = await Promise.all([
+            fetch(
+              `http://localhost:5000/api/games`
+            ).then((res) => res.json()),
+            // delay(1250),
+          ]);
 
-    const newGameIds = games.map(
-      (g) => `${g.date}_${g.home.abrev}_${g.away.abrev}`
-    );
-
-    const preloadImages = async () => {
-      const promises = [];
-
-      games.forEach((game) => {
-        const id = `${game.date}_${game.home.abrev}_${game.away.abrev}`;
-
-        // preload home
-        promises.push(
-          new Promise((resolve) => {
-            const img = new Image();
-            img.src = game.home.logo;
-            img.onload = () => resolve({ id, team: "home" });
-          })
-        );
-
-        // preload away
-        promises.push(
-          new Promise((resolve) => {
-            const img = new Image();
-            img.src = game.away.logo;
-            img.onload = () => resolve({ id, team: "away" });
-          })
-        );
-      });
-
-      const results = await Promise.all(promises);
-      const loaded = {};
-      results.forEach(({ id, team }) => {
-        if (!loaded[id]) loaded[id] = {};
-        loaded[id][team] = true;
-      });
-
-      // setLogosLoaded(loaded);
-      setIsFullyLoaded(true);
-    };
-
-    preloadImages();
-  }, [selectedDate]);
-
-  const handleLogoLoad = () => {
-    loadedLogosCount.current += 1;
-    if (loadedLogosCount.current === totalLogosToLoad.current) {
-      setTimeout(() => setIsLoading(false), 500); // fade out effect
-    }
-
-    if (isLoading) {
-      setTimeout(() => {
-        setIsFullyLoaded(true);
-      }, 300); // small delay before fade-out starts
-    }
-  };
-
-  //   console.log(gameData)
-
-  //   console.log(games)
+          setCarouselGames(games)
+        } catch (error) {
+          console.error("Failed to fetch games:", error);
+        } finally {
+          setLoading(false);
+        }
+      };
+  
+      fetchGames();
+    }, []);
 
   // Step 1: Group games by date
   const items = useMemo(() => {
-    const grouped = games.reduce((acc, game) => {
+    const grouped = carouselGames.reduce((acc, game) => {
       if (!acc[game.date]) acc[game.date] = [];
       acc[game.date].push(game);
       return acc;
@@ -100,11 +56,11 @@ const ScoresCarousel = ({ games }) => {
     });
 
     return flatList;
-  }, [games]);
+  }, [carouselGames]);
 
   useEffect(() => {
     const today = new Date().toLocaleDateString("en-CA");
-    const availableDates = [...new Set(games.map((g) => g.date))];
+    const availableDates = [...new Set(carouselGames.map((g) => g.date))];
 
     const defaultDate = availableDates.includes(today)
       ? today
@@ -112,9 +68,9 @@ const ScoresCarousel = ({ games }) => {
 
     setSelectedDate(defaultDate);
 
-    const logosToLoad = games.filter((g) => g.date === defaultDate).length * 2; // home + away logos
-    totalLogosToLoad.current = logosToLoad;
-    loadedLogosCount.current = 0;
+    // const logosToLoad = carouselGames.filter((g) => g.date === defaultDate).length * 2; // home + away logos
+    // totalLogosToLoad.current = logosToLoad;
+    // loadedLogosCount.current = 0;
 
     const el = dateRefs.current[defaultDate];
     if (el && scrollRef.current) {
@@ -123,7 +79,7 @@ const ScoresCarousel = ({ games }) => {
         behavior: "smooth",
       });
     }
-  }, [games]);
+  }, [carouselGames]);
 
   const scroll = (e, direction) => {
     e?.preventDefault(); // 👈 Prevent anchor/button scrolling
@@ -140,7 +96,8 @@ const ScoresCarousel = ({ games }) => {
       <div className="scores-bar">
         <DateDropdown
           setSelectedDate={setSelectedDate}
-          dates={[...new Set(games.map((g) => g.date))].sort()}
+          selectedDate={selectedDate}
+          dates={[...new Set(carouselGames.map((g) => g.date))].sort()}
           onSelect={(date) => {
             setSelectedDate(date); // update local state
             const el = dateRefs.current[date];
@@ -188,7 +145,7 @@ const ScoresCarousel = ({ games }) => {
 
               return (
                 <div key={`game-${gameId}`} className="score-card">
-                  <Link className="link" to={`/gamecenter/${item.game.gameId}`}>
+                  <Link className="link" to={`/gamecenter/${item.game.id}`}>
                     <div className="scoreCard__overlay">
                       <div className="scoreCard-btn__overlay">
                         <PiHockeyBold />
@@ -198,11 +155,11 @@ const ScoresCarousel = ({ games }) => {
                   </Link>
                   <div className="teams">
                     <div className="team">
-                      <img src={item.game.away.logo} alt="logo" />
-                      <span>{item.game.away.abrev}</span>
+                      <img src={item.game.awayTeam.logo} alt="logo" />
+                      <span>{item.game.awayTeam.abrev}</span>
                     </div>
                     {item.game.status !== "Scheduled" ? (
-                      <div className="score">{item.game.away.score}</div>
+                      <div className="score">{item.game.awayScore}</div>
                     ) : (
                       <div className="score">-</div>
                     )}
@@ -210,24 +167,24 @@ const ScoresCarousel = ({ games }) => {
                     <span
                       className="division-dot"
                       style={{
-                        backgroundColor: `var(--color-${item.game.away.div})`,
+                        backgroundColor: `var(--color-${item.game.awayTeam.division})`,
                       }}
                     />
                   </div>
                   <div className="teams">
                     <div className="team">
-                      <img src={item.game.home.logo} alt="logo" />
-                      <span>{item.game.home.abrev}</span>
+                      <img src={item.game.homeTeam.logo} alt="logo" />
+                      <span>{item.game.homeTeam.abrev}</span>
                     </div>
                     {item.game.status !== "Scheduled" ? (
-                      <div className="score">{item.game.home.score}</div>
+                      <div className="score">{item.game.homeScore}</div>
                     ) : (
                       <div className="score">-</div>
                     )}
                     <span
                       className="division-dot"
                       style={{
-                        backgroundColor: `var(--color-${item.game.home.div})`,
+                        backgroundColor: `var(--color-${item.game.homeTeam.division})`,
                       }}
                     />
                   </div>

@@ -1,0 +1,40 @@
+.header__playersByTeam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teamName__playersByTeam div{
+    font-size: 1.35rem;
+}
+
+.list-views__playersByTeam {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.player-btn__playersByTeam {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--color-ui-lightgrey);
+    color: var(--color-ui-black);
+    border-radius: var(--border-radius);
+    border: 1px solid lightgrey;
+    transition: var(--transition-main);
+}
+
+.player-btn__playersByTeam:hover {
+    background-color: lightgrey;
+}
+
+.selected-view {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.selected-view:hover {
+    background-color: var(--color-ui-blue);
+}

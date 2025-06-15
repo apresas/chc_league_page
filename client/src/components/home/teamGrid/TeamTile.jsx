@@ -3,6 +3,7 @@ import "./teamGrid.css";
 import { MdLocationPin } from "react-icons/md";
 import standingsData from "../../../data/standingsData.json";
 import { Link } from "react-router-dom";
+import { useImageCounter } from "../../../utils/useImageCounter";
 
 const TeamTile = forwardRef((props, ref) => {
   const {
@@ -39,6 +40,8 @@ const TeamTile = forwardRef((props, ref) => {
   const [redStandings, setRedStandings] = useState([]);
 
   let redStats = [];
+
+  const { imagesLoaded, handleImageLoad } = useImageCounter(1);
 
   useEffect(() => {
     // standingsData.map((data) => setStandings(data.teams));
@@ -135,20 +138,20 @@ const TeamTile = forwardRef((props, ref) => {
   // console.log(currentTarget);
   return (
     <Link to={`/teams/${team.id}`} className="tile-list">
-    <div
-      id={id}
-      ref={ref}
-      className="teamTile_container"
-      // onClick={() => handelClick(team)}
-    >
-      <div className={`${division}_logo logo_container`}>
-        <img src={team.logo} alt="" />
+      <div
+        id={id}
+        ref={ref}
+        className="teamTile_container"
+        // onClick={() => handelClick(team)}
+      >
+        <div className={`${division}_logo logo_container`}>
+          <img src={team.logo} alt="" onLoad={handleImageLoad}/>
+        </div>
+        <div className={`${division}_underline icon_bg`} />
+        <div className="team_info">
+          <div className="teamTile_name">{team.name}</div>
+        </div>
       </div>
-      <div className={`${division}_underline icon_bg`} />
-      <div className="team_info">
-        <div className="teamTile_name">{team.name}</div>
-      </div>
-    </div>
     </Link>
   );
 });

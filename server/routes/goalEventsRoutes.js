@@ -1,12 +1,17 @@
 const express = require("express");
 const router = express.Router();
 const { Op } = require("sequelize");
-const { GoalEvents } = require("../models");
+const { GoalEvents, Game, Team } = require("../models");
 
 // GET all goals
 router.get("/", async (req, res) => {
   try {
-    const goals = await GoalEvents.findAll();
+    const goals = await GoalEvents.findAll({
+      order: [
+        ["period", "ASC"], // Sort by period first (1st, 2nd, OT, etc.)
+        ["time", "ASC"], // Then by time within each period
+      ],
+    });
     res.json(goals);
   } catch (error) {
     console.error("Error fetching teams:", error.message);
@@ -16,17 +21,46 @@ router.get("/", async (req, res) => {
 
 // GET GoalEvents by playerId or teamId
 router.get("/search", async (req, res) => {
-  const { playerId, teamId } = req.query;
+  const { playerId, teamId, gameId } = req.query;
 
   try {
     let goal;
 
     if (playerId) {
       // Prioritize ID lookup if given
-      goal = await GoalEvents.findAll({ where: { scorerId: playerId } });
-    } else {
+      goal = await GoalEvents.findAll({
+        where: { scorerId: playerId },
+        order: [
+          ["period", "ASC"], // Sort by period first (1st, 2nd, OT, etc.)
+          ["time", "ASC"], // Then by time within each period
+        ],
+      });
+    } else if (teamId) {
       const whereClause = {};
-      goal = await GoalEvents.findAll({ where: { teamId: teamId } });
+      goal = await GoalEvents.findAll({
+        where: { teamId: teamId },
+        order: [
+          ["period", "ASC"], // Sort by period first (1st, 2nd, OT, etc.)
+          ["time", "ASC"], // Then by time within each period
+        ],
+      });
+    } else {
+      goal = await GoalEvents.findAll({
+         include: [
+          {
+            model: Game,
+            include: [
+              { model: Team, as: "homeTeam" },
+              { model: Team, as: "awayTeam" },
+            ],
+          },
+        ],
+        where: { gameId: gameId },
+        order: [
+          ["period", "ASC"], // Sort by period first (1st, 2nd, OT, etc.)
+          ["time", "ASC"], // Then by time within each period
+        ],
+      });
     }
 
     if (!goal || (Array.isArray(goal) && goal.length === 0)) {

@@ -1,28 +1,27 @@
 // src/components/StandingsTable.jsx
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import "./standingsTable.css";
-import teamInfoData from "../../../../data/teamInfoData.json";
 import { FaSortUp, FaSortDown } from "react-icons/fa6";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import { useImageCounter } from "../../../../utils/useImageCounter";
 
-const StandingsTable = ({ title, teams, divLogo }) => {
+const StandingsTable = ({ title, divLogo, standings, gamesPlayed }) => {
   const [sortConfig, setSortConfig] = useState({
     field: "points",
     order: "desc",
   });
 
-  console.log(teams)
+//   useEffect(() => {
+//   if (logoImageCount === loadedCount) {
+//     setAllImagesLoaded?.((prev) => prev + 1);
+//   }
+// }, [loadedCount]);
+
   const [isSorting, setIsSorting] = useState(false);
-
-  const teamMap = teamInfoData.teams.reduce((acc, team) => {
-    acc[team.abrev] = team;
-    return acc;
-  }, {});
-
 
   useEffect(() => {
     setTimeout(() => setIsSorting(false), 300);
-  }, [sortConfig, teams]);
+  }, [sortConfig]);
 
   const handleSort = (field) => {
     if (!sortConfig) return;
@@ -41,16 +40,22 @@ const StandingsTable = ({ title, teams, divLogo }) => {
     setIsSorting(true);
   };
 
-  const sortedTeams = [...teams].sort((a, b) => {
-    if (sortConfig.field === "name") {
-      const nameA = (teamMap[a.abrev]?.name || a.abrev).toLowerCase();
-      const nameB = (teamMap[b.abrev]?.name || b.abrev).toLowerCase();
+  const sortedTeams = [...standings].sort((a, b) => {
+    let valA, valB;
+
+    if (sortConfig.field === "games") {
+      valA = gamesPlayed[a.team?.id] || 0;
+      valB = gamesPlayed[b.team?.id] || 0;
+    } else if (sortConfig.field === "name") {
+      const nameA = (a.team?.name || "").toLowerCase();
+      const nameB = (b.team?.name || "").toLowerCase();
       if (nameA < nameB) return sortConfig.order === "asc" ? -1 : 1;
       if (nameA > nameB) return sortConfig.order === "asc" ? 1 : -1;
       return 0;
+    } else {
+      valA = a[sortConfig.field];
+      valB = b[sortConfig.field];
     }
-    let valA = a[sortConfig.field];
-    let valB = b[sortConfig.field];
 
     if (typeof valA === "string") {
       return sortConfig.order === "asc"
@@ -60,6 +65,11 @@ const StandingsTable = ({ title, teams, divLogo }) => {
       return sortConfig.order === "asc" ? valA - valB : valB - valA;
     }
   });
+
+  // Check Image Load
+  const logoImageCount = sortedTeams.length + 1; // +1 for the divLogo
+
+  const { handleImageLoad } = useImageCounter(logoImageCount);
 
   const renderHeaders = (headers) => {
     return (
@@ -97,51 +107,60 @@ const StandingsTable = ({ title, teams, divLogo }) => {
     );
   };
 
-  const headers = [
-    { label: "", field: "rank" },
-    { label: "", field: "name" },
-    { label: "Pts", field: "points" },
-    { label: "W", field: "wins" },
-    { label: "L", field: "losses" },
-    { label: "OTL", field: "otLosses" },
-    { label: "GF", field: "goalsFor" },
-    { label: "GA", field: "goalsAgainst" },
-  ];
+  const headers = useMemo(
+    () => [
+      { label: "", field: "rank" },
+      { label: "", field: "name" },
+      { label: "GP", field: "games" },
+      { label: "W", field: "wins" },
+      { label: "L", field: "losses" },
+      { label: "OTL", field: "otLosses" },
+      { label: "Pts", field: "points" },
+      { label: "GF", field: "goalsFor" },
+      { label: "GA", field: "goalsAgainst" },
+    ],
+    []
+  );
 
   return (
     <div className="standings-table">
       <div className="standings-title">
         <h3>{title}</h3>
-        <img src={divLogo} alt="" />
+        <img src={divLogo} alt="" onLoad={handleImageLoad} />
       </div>
       {renderHeaders(headers)}
       <div className="standings-table-body">
         {sortedTeams.map((team, idx) => {
-          const teamInfo = teamMap[team.abrev] || {};
-          const teamId = teamMap[team.abrev].id
-          //   const teamDisplay = `${teamInfo.name || team.abrev} ${
-          //     teamInfo.mascot || ""
-          //   }`;
-          const teamDisplay = `${teamInfo.name || team.abrev}`;
+          const teamInfo = team.team || {};
+          const teamId = teamInfo.id;
+          const teamDisplay = `${teamInfo.name || teamInfo.abrev}`;
           const teamLogo = `${teamInfo.logo}`;
           return (
             <div
-              key={team.teamId || idx}
+              key={team.id || idx}
               className={`standings-row animated-row  ${
                 isSorting ? "sorting" : ""
               }`}
             >
               <div className="cell team-rank">{idx + 1}</div>
               <div className="cell team-name">
-                <Link to={`/teams/${teamId}`}className="team-column__standingsTable link">
-                  <img src={teamLogo} alt="" />
+                <Link
+                  to={`/teams/${teamId}`}
+                  className="team-column__standingsTable link"
+                >
+                  <img
+                    src={teamLogo || "/default-logo.svg"}
+                    alt=""
+                    onLoad={handleImageLoad}
+                  />
                   <span>{teamDisplay}</span>
                 </Link>
               </div>
-              <div className="cell team-points">{team.points}</div>
+              <div className="cell team-points">{gamesPlayed[teamId] || 0}</div>
               <div className="cell team-wins">{team.wins}</div>
               <div className="cell team-losses">{team.losses}</div>
               <div className="cell team-ot">{team.otLosses}</div>
+              <div className="cell team-points">{team.points}</div>
               <div className="cell team-gf">{team.goalsFor}</div>
               <div className="cell team-ga">{team.goalsAgainst}</div>
             </div>

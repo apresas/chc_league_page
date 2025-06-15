@@ -1,115 +1,155 @@
 import React, { useState, useEffect } from "react";
-import goalEvents from "../../../../data/goalEvents.json";
-import gameStats from "../../../../data/gameStats.json";
 import "./BoxScore.css";
 import { FaSortUp, FaSortDown } from "react-icons/fa6";
 
-const BoxScore = ({ home, away, teamRosters, gameId }) => {
+const BoxScore = ({
+  teams,
+  boxScore,
+  game,
+  stats,
+}) => {
   const [selectedTeam, setSelectedTeam] = useState("home");
-  const [teamStats, setTeamStats] = useState([]);
   const [sortConfig, setSortConfig] = useState({
     forwards: { field: "points", order: "desc" },
     defense: { field: "points", order: "desc" },
     goalies: { field: "saves", order: "desc" },
   });
   const [isSorting, setIsSorting] = useState(false);
-  // Extract team rosters
-  const getTeamPlayers = (teamId) => {
-    const team = teamRosters.find((team) => team.team === teamId);
-    return team ? team.roster : [];
-  };
+  const [teamBoxScore, setTeamBoxScore] = useState({
+    home: {
+      forwards: [],
+      defense: [],
+      goalies: [],
+    },
+    away: {
+      forwards: [],
+      defense: [],
+      goalies: [],
+    },
+  });
 
-  const calculatePlayerStats = (team) => {
-    const teamId = team === "home" ? home.abrev : away.abrev;
 
-    // Extract players for the selected team
-    const teamPlayers = getTeamPlayers(teamId);
-
-    const playerStats = teamPlayers.map((player) => ({
-      ...player,
-      goals: 0,
-      assists: 0,
-      points: 0,
-      saves: 0,
-      goalsAgainst: 0,
-      shotsAgainst: 0,
-      savePercentage: 0,
-      evenStrengthGA: 0,
-      powerPlayGA: 0,
-    }));
-
-    const gameEventsForGame = goalEvents.filter(
-      (event) => event.gameId === gameId
-    );
-    const gameStatsForGame = gameStats.find((game) => game.gameId === gameId);
-
-    console.log(gameStatsForGame);
-
-    gameEventsForGame.forEach((event) => {
-      const { scorerId, assistIds, goalieId, isGoal, period, type } = event;
-
-      // Update Skater Stats
-      const scorer = playerStats.find((p) => p.id === scorerId);
-      if (scorer) {
-        scorer.goals += 1;
-        scorer.points += 1;
-      }
-
-      assistIds.forEach((assistId) => {
-        const assister = playerStats.find((p) => p.id === assistId);
-        if (assister) {
-          assister.assists += 1;
-          assister.points += 1;
-        }
-      });
-
-      // Update Goalie Stats
-      if (selectedTeam === "home") {
-        const goalie = playerStats.find((p) => p.id === home.startingGoalie);
-
-        if (goalie) {
-          goalie.goalsAgainst = away.score;
-          goalie.shotsAgainst = away.shotsFor;
-          goalie.saves = away.shotsFor - away.score;
-          goalie.powerPlayGA = gameStatsForGame.away.powerPlayGoals;
-          goalie.evenStrengthGA =
-            away.score - gameStatsForGame.away.powerPlayGoals;
-
-          // Calculate save percentage
-          if (goalie.shotsAgainst > 0) {
-            goalie.savePercentage = (
-              (goalie.saves / goalie.shotsAgainst) *
-              100
-            ).toFixed(1);
-          }
-        }
-      } else if (selectedTeam === "away") {
-        const goalie = playerStats.find((p) => p.id === away.startingGoalie);
-        if (goalie) {
-          goalie.goalsAgainst = home.score;
-          goalie.shotsAgainst = home.shotsFor;
-          goalie.saves = home.shotsFor - home.score;
-          goalie.powerPlayGA = gameStatsForGame.home.powerPlayGoals;
-          goalie.evenStrengthGA =
-            home.score - gameStatsForGame.home.powerPlayGoals;
-
-          // Calculate save percentage
-          if (goalie.shotsAgainst > 0) {
-            goalie.savePercentage = (
-              (goalie.saves / goalie.shotsAgainst) *
-              100
-            ).toFixed(1);
-          }
-        }
-      }
-    });
-
-    setTeamStats(playerStats);
-  };
 
   useEffect(() => {
-    calculatePlayerStats(selectedTeam);
-  }, [selectedTeam, gameId]);
+    console.log(stats)
+    const getPlayersByTeam = () => {
+      const homeId = teams.homeTeam.id;
+      const awayId = teams.awayTeam.id;
+      const homeBoxScore = boxScore.filter((b) => b.teamId === homeId);
+      const awayBoxScore = boxScore.filter((b) => b.teamId === awayId);
+      const homeForwards = homeBoxScore.filter(
+        (b) => b.Player.positionType === "Forward"
+      );
+      const homeDefense = homeBoxScore.filter(
+        (b) => b.Player.positionType === "Defense"
+      );
+      const awayForwards = awayBoxScore.filter(
+        (b) => b.Player.positionType === "Forward"
+      );
+      const awayDefense = awayBoxScore.filter(
+        (b) => b.Player.positionType === "Defense"
+      );
+
+      const homeGoalies = stats.Game.homeTeam.Players.filter(
+        (b) => b.positionType === "Goalie"
+      );
+      const awayGoalies = stats.Game.awayTeam.Players.filter(
+        (b) => b.positionType === "Goalie"
+      );
+      
+      const homeStarter = homeGoalies.find(
+        (g) => g.id === game.homeStartingGoalieId
+      );
+      const awayStarter = awayGoalies.find(
+        (g) => g.id === game.awayStartingGoalieId
+      );
+
+      const homeBackup = homeGoalies.find(
+        (g) => g.id !== game.homeStartingGoalieId
+      );
+      const awayBackup = awayGoalies.find(
+        (g) => g.id !== game.awayStartingGoalieId
+      );
+
+      const homeSV = (
+        (stats.awayShotsFor - game.awayScore) /
+        stats.awayShotsFor
+      ).toFixed(3);
+
+      const awaySV = (
+        (stats.homeShotsFor - game.homeScore) /
+        stats.homeShotsFor
+      ).toFixed(3);
+
+      const homeStarterObject = {
+        Player: homeStarter,
+        saves: stats.awayShotsFor - game.awayScore,
+        shotsAgainst: stats.awayShotsFor,
+        goalsAgainst: game.awayScore,
+        savePercentage: homeSV,
+        EVGA: game.awayScore - stats.awayPowerplayGoals,
+        PPGA: stats.awayPowerplayGoals,
+      };
+
+      const awayStarterObject = {
+        Player: awayStarter,
+        saves: stats.homeShotsFor - game.homeScore,
+        shotsAgainst: stats.homeShotsFor,
+        goalsAgainst: game.homeScore,
+        savePercentage: awaySV,
+        EVGA: game.homeScore - stats.homePowerplayGoals,
+        PPGA: stats.homePowerplayGoals,
+      };
+
+      const homeGoaliesArray = [homeStarterObject];
+      const awayGoaliesArray = [awayStarterObject];
+
+      if (homeBackup.length > 0) {
+        const homeBackupObject = {
+          Player: homeBackup,
+          saves: 0,
+          shotsAgainst: 0,
+          goalsAgainst: 0,
+          savePercentage: 0.0,
+          EVGA: 0,
+          PPGA: 0,
+        };
+        homeGoaliesArray.push(homeBackupObject);
+      }
+
+      if (awayBackup.length > 0) {
+        const awayBackupObject = {
+          Player: awayBackup,
+          saves: 0,
+          shotsAgainst: 0,
+          goalsAgainst: 0,
+          savePercentage: 0.0,
+          EVGA: 0,
+          PPGA: 0,
+        };
+        awayGoaliesArray.push(awayBackupObject);
+      }
+
+      setTeamBoxScore({
+        home: {
+          forwards: homeForwards,
+          defense: homeDefense,
+          goalies: homeGoaliesArray,
+        },
+        away: {
+          forwards: awayForwards,
+          defense: awayDefense,
+          goalies: awayGoaliesArray,
+        },
+      });
+    };
+
+    getPlayersByTeam();
+  }, []);
+
+  useEffect(() => {
+    console.log(teamBoxScore)
+  }, [teamBoxScore])
 
   const handleSort = (section, field) => {
     if (!sortConfig[section]) return;
@@ -129,7 +169,7 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
 
   useEffect(() => {
     setTimeout(() => setIsSorting(false), 300);
-  }, [sortConfig, teamRosters]);
+  }, [sortConfig, teamBoxScore]);
 
   const sortData = (data, section) => {
     const { field, order } = sortConfig[section];
@@ -181,18 +221,22 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
   };
 
   const renderPlayerStats = (players, section) => {
-    console.log(section);
     const sortedPlayers = sortData(players, section);
     return sortedPlayers.map((player) => (
       <div
-        key={player.id}
-        className={`player-row animated-row__boxScore  ${isSorting ? "sorting" : ""}`}
+        key={player.Player.id}
+        className={`player-row animated-row__boxScore  ${
+          isSorting ? "sorting" : ""
+        }`}
       >
-        <span>{player.number}</span>
-        <span className="player-name__boxScore">{`${player.name.first} ${player.name.last}`}</span>
+        <span>{player.Player.number}</span>
+        <span className="player-name__boxScore">{`${player.Player.firstName} ${player.Player.lastName}`}</span>
         <span>{player.goals}</span>
         <span>{player.assists}</span>
         <span>{player.points}</span>
+        <span>{player.shots}</span>
+        <span>{player.hits}</span>
+        <span>{player.penaltyMinutes}</span>
       </div>
     ));
   };
@@ -202,23 +246,38 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
     return sortedGoalies.map((goalie) => (
       <div
         key={goalie.id}
-        className={`goalie-row animated-row__boxScore  ${isSorting ? "sorting" : ""}`}
+        className={`goalie-row animated-row__boxScore  ${
+          isSorting ? "sorting" : ""
+        }`}
       >
-        <span>{goalie.number}</span>
-        <span className="goalie-name__boxScore">{`${goalie.name.first} ${goalie.name.last}`}</span>
+        <span>{goalie.Player.number}</span>
+        <span className="goalie-name__boxScore">{`${goalie.Player.firstName} ${goalie.Player.lastName}`}</span>
         <span>{goalie.saves}</span>
         <span>{goalie.shotsAgainst}</span>
         <span>{goalie.goalsAgainst}</span>
         <span>{goalie.savePercentage}%</span>
-        <span>{goalie.evenStrengthGA}</span>
-        <span>{goalie.powerPlayGA}</span>
+        <span>{goalie.EVGA}</span>
+        <span>{goalie.PPGA}</span>
       </div>
     ));
   };
 
-  const forwards = teamStats.filter((p) => p.positionType === "Forward");
-  const defense = teamStats.filter((p) => p.positionType === "Defense");
-  const goalies = teamStats.filter((p) => p.positionType === "Goalie");
+  // const forwards = teamStats.filter((p) => p.positionType === "Forward");
+  // const defense = teamStats.filter((p) => p.positionType === "Defense");
+  // const goalies = teamStats.filter((p) => p.positionType === "Goalie");
+
+  const forwards =
+    selectedTeam === "home"
+      ? teamBoxScore.home.forwards
+      : teamBoxScore.away.forwards;
+  const defense =
+    selectedTeam === "home"
+      ? teamBoxScore.home.defense
+      : teamBoxScore.away.defense;
+  const goalies =
+    selectedTeam === "home"
+      ? teamBoxScore.home.goalies
+      : teamBoxScore.away.goalies;
 
   const skaterHeaders = [
     { label: "#", field: "number" },
@@ -226,6 +285,9 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
     { label: "G", field: "goals" },
     { label: "A", field: "assists" },
     { label: "P", field: "points" },
+    { label: "S", field: "shots" },
+    { label: "HITS", field: "hits" },
+    { label: "PIM", field: "penaltyMinutes" },
   ];
 
   const goalieHeaders = [
@@ -250,7 +312,7 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
             }`}
             onClick={() => setSelectedTeam("home")}
           >
-            {home.name}
+            {teams.homeTeam.name}
           </button>
           <button
             className={`boxscore-btn ${
@@ -258,7 +320,7 @@ const BoxScore = ({ home, away, teamRosters, gameId }) => {
             }`}
             onClick={() => setSelectedTeam("away")}
           >
-            {away.name}
+            {teams.awayTeam.name}
           </button>
         </div>
       </div>

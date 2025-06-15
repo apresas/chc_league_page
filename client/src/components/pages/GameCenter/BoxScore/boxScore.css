@@ -85,7 +85,7 @@
 .forwards-header__boxScore,
 .defense-header__boxScore {
   display: grid;
-  grid-template-columns: 1fr 8fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 5fr repeat(6, 1fr);
   justify-items: center;
 }
 

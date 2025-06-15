@@ -9,8 +9,8 @@ router.get("/", async (req, res) => {
     const events = await GameEvents.findAll();
     res.json(events);
   } catch (error) {
-    console.error("Error fetching teams:", error.message);
-    res.status(500).json({ error: "Error fetching teams" });
+    console.error("Error fetching events:", error.message);
+    res.status(500).json({ error: "Error fetching events" });
   }
 });
 
@@ -23,17 +23,41 @@ router.get("/search", async (req, res) => {
 
     if (playerId) {
       // Prioritize ID lookup if given
-      event = await GameEvents.findAll({ where: { playerId: playerId } });
+      event = await GameEvents.findAll({
+        where: { playerId: playerId },
+        order: [
+          ["period", "ASC"], // Sort by period first (1st, 2nd, OT, etc.)
+          ["time", "ASC"], // Then by time within each period
+        ],
+      });
     } else if (teamId) {
-      event = await GameEvents.findAll({ where: { teamId: teamId } });
+      event = await GameEvents.findAll({
+        where: { teamId: teamId },
+        order: [
+          ["period", "ASC"], // Sort by period first (1st, 2nd, OT, etc.)
+          ["time", "ASC"], // Then by time within each period
+        ],
+      });
     } else if (gameId) {
-      event = await GameEvents.findAll({ where: { gameId: gameId } });
+      event = await GameEvents.findAll({
+        where: { gameId: gameId },
+        order: [
+          ["period", "ASC"], // Sort by period first (1st, 2nd, OT, etc.)
+          ["time", "ASC"], // Then by time within each period
+        ],
+      });
     } else {
-      event = await GameEvents.findAll({ where: { type: type } });
+      event = await GameEvents.findAll({
+        where: { type: type },
+        order: [
+          ["period", "ASC"], // Sort by period first (1st, 2nd, OT, etc.)
+          ["time", "ASC"], // Then by time within each period
+        ],
+      });
     }
 
     if (!event || (Array.isArray(event) && event.length === 0)) {
-      return res.status(404).json({ error: "Goals not found" });
+      return res.status(404).json({ error: "event not found" });
     }
 
     res.json(event);

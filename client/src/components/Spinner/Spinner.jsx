@@ -6,7 +6,7 @@ function Spinner() {
     <div className="spinner_container">
       <div className="spinner" />
       <div className="spinner_icon">
-        <img src="/CHC_Logo.svg" alt="" />
+        <img src="/CHC_Logo.svg" alt="Loading..." />
       </div>
     </div>
   );

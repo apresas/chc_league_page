@@ -5,33 +5,37 @@ const Team = require("./Team");
 
 const GameStats = sequelize.define("GameStats", {
   id: {
-    type: DataTypes.UUID,
-    defaultValue: DataTypes.UUIDV4,
+    type: DataTypes.INTEGER,
     primaryKey: true,
+    autoIncrement: true,
   },
-  shots: {
-    type: DataTypes.INTEGER,
-    defaultValue: 0,
-  },
-  hits: {
-    type: DataTypes.INTEGER,
-    defaultValue: 0,
-  },
-  blockedShots: {
-    type: DataTypes.INTEGER,
-    defaultValue: 0,
-  },
-  powerPlayGoals: {
-    type: DataTypes.INTEGER,
-    defaultValue: 0,
-  },
-  penaltyMinutes: {
-    type: DataTypes.INTEGER,
-    defaultValue: 0,
-  },
+gameId: {
+  type: DataTypes.STRING,
+  allowNull: false,
+  unique: true, // <== this helps Sequelize map the conflict target
+},
+  homeShotsFor: DataTypes.INTEGER,
+  awayShotsFor: DataTypes.INTEGER,
+  homeHits: DataTypes.INTEGER,
+  awayHits: DataTypes.INTEGER,
+  homeFaceoffsWon: DataTypes.INTEGER,
+  awayFaceoffsWon: DataTypes.INTEGER,
+  homePowerplayOpportunities: DataTypes.INTEGER,
+  awayPowerplayOpportunities: DataTypes.INTEGER,
+  homePowerplayGoals: DataTypes.INTEGER,
+  awayPowerplayGoals: DataTypes.INTEGER,
+  homePenaltyMinutes: DataTypes.INTEGER,
+  awayPenaltyMinutes: DataTypes.INTEGER,
 });
 
-GameStats.belongsTo(Game, { foreignKey: "gameId" });
-GameStats.belongsTo(Team, { foreignKey: "teamId" });
+// GameStats.belongsTo(Game, {foreignKey: "gameId"})
+
+GameStats.associate = function () {
+  GameStats.belongsTo(Game, {
+    foreignKey: "gameId",
+    // targetKey: "id",
+    // as: "game",
+  });
+};
 
 module.exports = GameStats;

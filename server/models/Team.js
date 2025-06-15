@@ -1,5 +1,6 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../config/database");
+const TeamStandings = require("./TeamStandings")
 
 const Team = sequelize.define("Team", {
   // id: {
@@ -40,6 +41,11 @@ const Team = sequelize.define("Team", {
     type: DataTypes.STRING,
     allowNull: false,
   },
+});
+
+Team.hasOne(TeamStandings, {
+  foreignKey: 'teamId',
+  as: 'standings'
 });
 
 module.exports = Team;

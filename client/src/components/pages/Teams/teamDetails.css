@@ -1,5 +1,6 @@
 .team-detail-page {
     font-family: var(--font-header);
+    position: relative;
 }
 
 .leader-grid {

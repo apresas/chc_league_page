@@ -60,12 +60,10 @@ const GameEvents = sequelize.define("GameEvents", {
 });
 
 GameEvents.afterCreate(async (event) => {
-    const { updateGoalieSeasonStats } = require('../utils/updateGoalieSeasonStats');
   await updatePlayerStats(event.gameId);
   await updateSeasonStats(event.gameId);
-  await updateGoalieSeasonStats('2024-25');
+  await updateGoalieSeasonStats("2024-25");
 });
-
 
 // GameEvent.afterCreate(() => updateGoalieSeasonStats('2024-25'));
 // GameEvent.afterUpdate(() => updateGoalieSeasonStats('2024-25'));

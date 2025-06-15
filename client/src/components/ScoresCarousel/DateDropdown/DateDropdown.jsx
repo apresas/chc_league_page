@@ -2,13 +2,13 @@ import React, { useState, useRef, useEffect } from "react";
 import "./dateDropdown.css";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 
-const DateDropdown = ({ dates, onSelect, setSelectedDate }) => {
+const DateDropdown = ({ dates, onSelect, setSelectedDate, selectedDate }) => {
   const today = new Date().toLocaleDateString("en-CA"); // e.g., "2025-05-03"
   const [isOpen, setIsOpen] = useState(false);
   //   const [selected, setSelected] = useState(
   //   new Date(today + "T12:00:00").toLocaleDateString("en-CA")
   // );
-  const [selected, setSelected] = useState(""
+  const [selected, setSelected] = useState(new Date(selectedDate + "T00:00:00").toLocaleDateString("en-US")
   );
   const dropdownRef = useRef();
 
@@ -64,7 +64,7 @@ const DateDropdown = ({ dates, onSelect, setSelectedDate }) => {
   const handleSelect = (e, date) => {
     e.preventDefault();
     setSelected(date);          // local state
-    setSelectedDate(date );      // external prop
+    setSelectedDate(date);      // external prop
     onSelect(date);             // optional handler (e.g. for scroll)
     setIsOpen(false);
   };

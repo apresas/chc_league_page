@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./leaderCard.css";
+import { useImageCounter } from "../../../utils/useImageCounter";
 
-function LeaderCard({ team, player, type, view }) {
-//   console.log("Player in LeaderCard:", player);
+function LeaderCard({
+  team,
+  player,
+  type,
+  view,
+  // handleImageLoad,
+  // loadedCount,
+  // setImagesLoaded,
+}) {
+  //   console.log("Player in LeaderCard:", player);
 
   // Fallback values if player data is missing
   const playerInfo = player?.player || {
@@ -34,15 +43,32 @@ function LeaderCard({ team, player, type, view }) {
       : "--"
     : "--";
 
+  // Check Image Load
+   const { imagesLoaded, handleImageLoad } = useImageCounter(3);
+  // const totalImages = 3;
+
+  // useEffect(() => {
+  //   if (loadedCount === totalImages) {
+  //     setImagesLoaded(true);
+  //   }
+  // }, [loadedCount]);
+
   return (
     <div className="leader-card">
       <div className="leader-portrait">
         {view === "goalies" ? (
-          <img src={`/teamIcons/${teamInfo.abrev}_goalie.svg`} alt="portrait" />
+          <img
+            src={`/teamIcons/${teamInfo.abrev}_goalie.svg`}
+            alt="portrait"
+            onLoad={handleImageLoad}
+          />
         ) : (
-          <img src={`/teamIcons/${teamInfo.abrev}.svg`} alt="portrait" />
+          <img
+            src={`/teamIcons/${teamInfo.abrev}.svg`}
+            alt="portrait"
+            onLoad={handleImageLoad}
+          />
         )}
-        {/* <img src={`/teamIcons/${teamInfo.abrev}.svg`} alt="portrait" /> */}
       </div>
       <div className="leader-player">
         <div className="leader-name">
@@ -52,7 +78,8 @@ function LeaderCard({ team, player, type, view }) {
 
         <div className="leader-team">
           <div className="leader-teamName">
-            <img src={teamInfo.logo} alt="logo" /> {teamInfo.abrev}
+            <img src={teamInfo.logo} alt="logo" onLoad={handleImageLoad} />{" "}
+            {teamInfo.abrev}
           </div>{" "}
           |<div className="leader-number">{playerInfo.number}</div> |
           <div className="leader-position">{playerInfo.positionAbrev}</div>

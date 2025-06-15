@@ -4,6 +4,7 @@ import "./rosterTable.css";
 import { FaSortUp, FaSortDown } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import Spinner from "../Spinner/Spinner";
+import { useImageCounter } from "../../utils/useImageCounter";
 
 const PositionGroup = ({ title, players, team, loading }) => {
   const [sortKey, setSortKey] = useState("number");
@@ -14,6 +15,9 @@ const PositionGroup = ({ title, players, team, loading }) => {
   });
 
   const [isSorting, setIsSorting] = useState(false);
+
+  // Check Image Load
+  const { handleImageLoad } = useImageCounter(2);
 
   useEffect(() => {
     setTimeout(() => setIsSorting(false), 300);
@@ -137,67 +141,94 @@ const PositionGroup = ({ title, players, team, loading }) => {
     <div className="roster-group">
       {/* <h3>{title}</h3> */}
       {renderHeaders(headers)}
-      {loading ? (
-        <Spinner/>
-      ) : (
-        <div className={`roster-table-body ${!loading ? "fade-in" : null}`}>
-          {sortedPlayers.map((p, index) => (
-            <Link
-              key={index}
-              to={`/players/${p.id}`}
-              className={`roster-table-row animated-row link ${
-                isSorting ? "sorting" : ""
-              }`}
-            >
-              <div className="roster-table-cell roster-name-cell">
-                <div className="roster-portrait">
-                  {title === "Goalies" ? (
-                    <img src={`/teamIcons/${team}_goalie.svg`} alt="" />
-                  ) : (
-                    <img src={`/teamIcons/${team}.svg`} alt="" />
-                  )}
-                </div>
-                {p.firstName} {p.lastName}
+      <div className={`roster-table-body ${!loading ? "fade-in" : null}`}>
+        {sortedPlayers.map((p, index) => (
+          <Link
+            key={index}
+            to={`/players/${p.id}`}
+            className={`roster-table-row animated-row link ${
+              isSorting ? "sorting" : ""
+            }`}
+          >
+            <div className="roster-table-cell roster-name-cell">
+              <div className="roster-portrait">
+                {title === "Goalies" ? (
+                  <img
+                    src={`/teamIcons/${team}_goalie.svg`}
+                    alt=""
+                    onLoad={handleImageLoad}
+                  />
+                ) : (
+                  <img
+                    src={`/teamIcons/${team}.svg`}
+                    alt=""
+                    onLoad={handleImageLoad}
+                  />
+                )}
               </div>
-              <div className="roster-table-cell">{p.number}</div>
-              <div className="roster-table-cell">{p.positionAbrev}</div>
-              <div className="roster-table-cell">{p.class}</div>
-              <div className="roster-table-cell">{p.height}</div>
-              <div className="roster-table-cell">{p.weight} lbs</div>
-            </Link>
-          ))}
-        </div>
-      )}
+              {p.firstName} {p.lastName}
+            </div>
+            <div className="roster-table-cell">{p.number}</div>
+            <div className="roster-table-cell">{p.positionAbrev}</div>
+            <div className="roster-table-cell">{p.class}</div>
+            <div className="roster-table-cell">{p.height}</div>
+            <div className="roster-table-cell">{p.weight} lbs</div>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };
 
-const RosterTable = ({ title = "Roster", players, team, loading }) => {
+const RosterTable = ({
+  title = "Roster",
+  players,
+  team,
+  loading,
+  type,
+  // handleImageLoad,
+  // loadedCount,
+  // setImagesLoaded,
+}) => {
   const forwards = players.filter((p) => p.positionType === "Forward");
   const defense = players.filter((p) => p.positionType === "Defense");
   const goalies = players.filter((p) => p.positionType === "Goalie");
 
   return (
-    <div className="roster-table">
-      <h1>{title}</h1>
-      <PositionGroup
-        title="Forwards"
-        players={forwards}
-        team={team}
-        loading={loading}
-      />
-      <PositionGroup
-        title="Defense"
-        players={defense}
-        team={team}
-        loading={loading}
-      />
-      <PositionGroup
-        title="Goalies"
-        players={goalies}
-        team={team}
-        loading={loading}
-      />
+    <div
+      className={` ${type === "All" ? "roster-table-full" : "roster-table"}`}
+    >
+      {type !== "All" ? <h1>{title}</h1> : null}
+
+      {type === "All" ? (
+        <PositionGroup
+          title="Roster"
+          players={players}
+          team={team}
+          loading={loading}
+        />
+      ) : (
+        <>
+          <PositionGroup
+            title="Forwards"
+            players={forwards}
+            team={team}
+            loading={loading}
+          />
+          <PositionGroup
+            title="Defense"
+            players={defense}
+            team={team}
+            loading={loading}
+          />
+          <PositionGroup
+            title="Goalies"
+            players={goalies}
+            team={team}
+            loading={loading}
+          />
+        </>
+      )}
     </div>
   );
 };

@@ -12,4 +12,21 @@
     font-size: 1.2rem;
     color: #ff4d4f;
   }
+
+  .scheduled-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    background-color: var(--color-ui-lightgrey);
+    padding: 1.25rem 0;
+    border-radius: var(--border-radius);
+    color: var(--color-ui-grey);
+  }
+
+    .scheduled-section span{
+      font-weight: 500;
+  }
   

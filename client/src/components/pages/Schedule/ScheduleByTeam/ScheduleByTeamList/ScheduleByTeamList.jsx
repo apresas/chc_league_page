@@ -1,20 +1,7 @@
 // ScheduleByTeamList.jsx
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import teamInfoData from "../../../../../data/teamInfoData.json";
-import gameSchedule from "../../../../../data/gameSchedule.json";
-import gameStats from "../../../../../data/gameStats.json";
-import goalEvents from "../../../../../data/goalEvents.json";
-import teamRosters from "../../../../../data/teamRosters.json";
 import "./scheduleByTeamList.css";
-
-
-const getWinningGoalScorer = (gameId) => {
-  const goals = goalEvents
-    .filter((event) => event.gameId === gameId)
-    .sort((a, b) => new Date(a.time) - new Date(b.time));
-  return goals.length > 0 ? goals[goals.length - 1].scorerId : null;
-};
 
 const formatDateLabel = (dateString) => {
   const dateObj = new Date(dateString);
@@ -26,31 +13,47 @@ const formatDateLabel = (dateString) => {
   });
 };
 
-const ScheduleByTeamList = () => {
+const ScheduleByTeamList = ({ games, events }) => {
   const { teamId } = useParams();
-  const teamInfo = teamInfoData.teams.find((team) => team.abrev === teamId);
-  const teamPlayers = teamRosters[teamId]?.players || [];
-  const teamGoalies = teamPlayers.filter((p) => p.position === "G");
 
-  const teamGames = gameSchedule
-    .filter((game) => game.home.abrev === teamId || game.away.abrev === teamId)
+  const eventsByGameId = events.reduce((acc, event) => {
+  if (!acc[event.gameId]) acc[event.gameId] = [];
+  acc[event.gameId].push(event);
+  return acc;
+}, {});
+
+const getWinningGoalScorer = (gameId) => {
+  const goals = (eventsByGameId[gameId] || [])
+    .sort((a, b) => {
+      const [aMin = 0, aSec = 0] = (a.time || "0:00").split(":").map(Number);
+      const [bMin = 0, bSec = 0] = (b.time || "0:00").split(":").map(Number);
+      return aMin * 60 + aSec - (bMin * 60 + bSec);
+    });
+  return goals.length > 0 ? goals[goals.length - 1].scorerId : null;
+};
+
+  const teamGames = games
+    .filter(
+      (game) =>
+        game.homeTeam?.id?.toString() === teamId ||
+        game.awayTeam?.id?.toString() === teamId
+    )
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
   const didHomeWin = (game) =>
-    game.home.score > game.away.score && game.home.score !== null;
+    game.homeScore > game.awayScore && game.homeScore !== null;
 
   return (
     <div className="list-container__scheduleByTeam">
       {teamGames.map((game) => {
-        const gameStat = gameStats.find((g) => g.gameId === game.gameId);
-        const isHome = game.home.abrev === teamId;
+        const isHome = game.homeTeamId === teamId;
         const goalieId = isHome
-          ? game.home.startingGoalie
-          : game.away.startingGoalie;
+          ? game.homeStartingGoalieId
+          : game.awayStartingGoalieId;
         const homeTeamRoster =
-          teamRosters.find((t) => t.team === game.home.abrev)?.roster || [];
+         game.homeTeam.Players || [];
         const awayTeamRoster =
-          teamRosters.find((t) => t.team === game.away.abrev)?.roster || [];
+          game.awayTeam.Players || [];
         const allPlayers = [...homeTeamRoster, ...awayTeamRoster];
 
         const goalie = allPlayers.find(
@@ -58,24 +61,21 @@ const ScheduleByTeamList = () => {
             p &&
             typeof p.id === "string" &&
             p.id === goalieId &&
-            typeof p.name.first === "string" &&
-            typeof p.name.last === "string"
+            typeof p.firstName === "string" &&
+            typeof p.lastName === "string"
         );
-
-        const winner =
-          game.home.score > game.away.score ? game.home.abrev : game.away.abrev;
-        const goalScorerId = getWinningGoalScorer(game.gameId);
+        const goalScorerId = getWinningGoalScorer(game.id);
         const goalScorer = allPlayers.find(
           (p) =>
             p &&
             typeof p.id === "string" &&
             p.id === goalScorerId &&
-            typeof p.name.first === "string" &&
-            typeof p.name.last === "string"
+            typeof p.firstName === "string" &&
+            typeof p.lastName === "string"
         );
 
         return (
-          <div key={game.gameId} className="game-section__scheduleByTeam">
+          <div key={game.id} className="game-section__scheduleByTeam">
             <h1 className="game-date-header__scheduleByTeam">
               {formatDateLabel(game.date)}
             </h1>
@@ -88,44 +88,43 @@ const ScheduleByTeamList = () => {
             <div className="game-tile__scheduleByTeam">
               <div className="team-block__scheduleByTeam home__scheduleByTeam">
                 <span className="team-name__scheduleByTeam">
-                  {game.home.mascot}
+                  {game.homeTeam.mascot}
                 </span>
                 <img
-                  src={game.home.logo}
-                  alt={game.home.abrev}
+                  src={game.homeTeam.logo}
+                  alt={game.homeTeam.abrev}
                   className="team-logo__scheduleByTeam"
                 />
               </div>
               <div className="vs-label__scheduleByTeam">@</div>
               <div className="team-block__scheduleByTeam away__scheduleByTeam">
                 <img
-                  src={game.away.logo}
-                  alt={game.away.abrev}
+                  src={game.awayTeam.logo}
+                  alt={game.awayTeam.abrev}
                   className="team-logo__scheduleByTeam"
                 />
                 <span className="team-name__scheduleByTeam">
-                  {game.away.mascot}
+                  {game.awayTeam.mascot}
                 </span>
-                {/* <span className="score__scheduleByTeam">{game.away.score}</span> */}
               </div>
               <span className="score-field__scheduleByTeam">
-                {game.home.score === null ? (
+                {game.homeScore === null ? (
                   <>
-                    {game.home.abrev} {game.home.score} - {game.away.score}{" "}
-                    {game.away.abrev}
+                    {game.homeTeam.abrev} {game.homeTeam.score} -{" "}
+                    {game.awayTeam.score} {game.awayTeam.abrev}
                   </>
                 ) : didHomeWin(game) ? (
                   <>
                     <span>
-                      {game.home.abrev} {game.home.score}
+                      {game.homeTeam.abrev} {game.homeScore}
                     </span>{" "}
-                    -{" "}{game.away.score} {game.away.abrev}
+                    - {game.awayScore} {game.awayTeam.abrev}
                   </>
                 ) : (
                   <>
-                    {game.home.abrev} {game.home.score}{" "}-{" "}
+                    {game.homeTeam.abrev} {game.homeScore} -{" "}
                     <span>
-                      {game.away.score} {game.away.abrev}
+                      {game.awayScore} {game.awayTeam.abrev}
                     </span>
                   </>
                 )}
@@ -136,23 +135,25 @@ const ScheduleByTeamList = () => {
                     {" "}
                     <div>
                       {goalie
-                        ? `${goalie.name.first[0]}. ${goalie.name.last}, `
+                        ? `${goalie.firstName[0]}. ${goalie.lastName}, `
                         : "N/A"}
                     </div>
                     <div>
                       {goalScorer
-                        ? `${goalScorer.name.first[0]}. ${goalScorer.name.last}`
+                        ? `${goalScorer.firstName[0]}. ${goalScorer.lastName}`
                         : "N/A"}
                     </div>
                   </>
-                ) : "Scheduled"}
+                ) : (
+                  "Scheduled"
+                )}
               </div>
               <div className="gamecenter-link__scheduleByTeam">
                 <Link
-                  to={`/gamecenter/${game.gameId}`}
+                  to={`/gamecenter/${game.id}`}
                   className="gamecenter-button__scheduleByTeam"
                 >
-                  Gamecenter 
+                  Gamecenter
                 </Link>
               </div>
             </div>

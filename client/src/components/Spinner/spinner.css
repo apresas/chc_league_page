@@ -1,5 +1,21 @@
 /* Spinner Styles */
 
+.spinner-bg {
+    position: absolute;
+    top: 0;
+    /* bottom: 0; */
+    height: 100vh;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    z-index: 100;
+    opacity: 1;
+    transition: opacity 0.75s ease-in-out;
+}
+
 .spinner_container {
     display: flex;
     align-items: center;
@@ -9,13 +25,15 @@
     padding: 1rem 0;
 }
 
-.spinner{
-    height: 5.5rem;
+.spinner {
+    height: 7rem;
     aspect-ratio: 1/1;
-    border: 6px solid ;
+    border: 6px solid;
     border-color: var(--color-blue) transparent var(--color-blue) transparent;
+    /* border-color: var(--color-red) transparent var(--color-red) transparent; */
     border-radius: 50%;
     animation: spin 1.5s ease-in-out infinite;
+    color: white;
 }
 
 .spinner_icon {
@@ -37,5 +55,18 @@
 @keyframes spin {
     to {
         transform: rotate(360deg);
+    }
+}
+
+.fade-out {
+    /* animation: fadeOut 0.75s ease-out forwards; */
+    opacity: 0;
+    visibility: hidden;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        visibility: hidden;
     }
 }

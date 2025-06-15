@@ -135,7 +135,7 @@ function App() {
             path="/teams/:teamId"
             element={<Teams setTeamID={setTeamID} />}
           />
-          <Route path="/players" element={<Players />} />
+          <Route path="/players" element={<PlayersByTeam />} />
           <Route path="/players/:teamId" element={<PlayersByTeam />} />
           <Route path="/players/:playerId" element={<PlayerByID />} />
           <Route path="/gamecenter/:gameId" element={<GameCenter />} />

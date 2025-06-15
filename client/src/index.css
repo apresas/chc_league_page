@@ -12,6 +12,7 @@ body {
 }
 
 :root {
+  background-color: rgb(29, 53, 113);
 
   /* League Colors */
   --color-primary: rgb(29, 53, 113);

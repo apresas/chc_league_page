@@ -33,8 +33,8 @@
   }
   
   .game-status.scheduled {
-    background-color: #3b3b3b;
-    color: #ffffff;
+    background-color: #E5E7EB;
+    color: var(--color-ui-black);
   }
   
   .game-status.live {
@@ -49,7 +49,7 @@
   
   .game-status.ot,
   .game-status.so {
-    background-color: #ffa502;
+    background-color: #642ab5;
     color: #ffffff;
   }
   

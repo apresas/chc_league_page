@@ -1,6 +1,7 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../config/database");
 const Team = require("./Team");
+const GameStats = require("./GameStats")
 
 const Game = sequelize.define("Game", {
   id: {
@@ -37,17 +38,22 @@ const Game = sequelize.define("Game", {
   },
 });
 
-// Use distinct aliases: homeTeam and awayTeam
-Game.belongsTo(Team, {
-  // as: "homeTeam",
-  foreignKey: "homeTeamId",
-  targetKey: "id",
-});
+// Game.hasOne(GameStats, {
+//   foreignKey: "gameId",
+//   as: "stats",
+// });
 
-Game.belongsTo(Team, {
-  // as: "awayTeam",
-  foreignKey: "awayTeamId",
-  targetKey: "id",
-});
+// Use distinct aliases: homeTeam and awayTeam
+// Game.belongsTo(Team, {
+//   // as: "homeTeam",
+//   foreignKey: "homeTeamId",
+//   targetKey: "id",
+// });
+
+// Game.belongsTo(Team, {
+//   // as: "awayTeam",
+//   foreignKey: "awayTeamId",
+//   targetKey: "id",
+// });
 
 module.exports = Game;

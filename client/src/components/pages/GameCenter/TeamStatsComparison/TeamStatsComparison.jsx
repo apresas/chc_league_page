@@ -1,72 +1,46 @@
 import React, { useEffect, useState } from "react";
-import gameSchedule from "../../../../data/gameSchedule.json";
-import gameStats from "../../../../data/gameStats.json";
+// import gameSchedule from "../../../../data/gameSchedule.json";
+// import gameStats from "../../../../data/gameStats.json";
 import "./teamStatsComparison.css";
 import { Link } from "react-router-dom";
 
-const TeamStatsComparison = ({ gameId, homeId, awayId }) => {
-  const [gameData, setGameData] = useState(null);
-  const [statsData, setStatsData] = useState(null);
-
-  useEffect(() => {
-    const game = gameSchedule.find((game) => game.gameId === gameId);
-    const stats = gameStats.find((stat) => stat.gameId === gameId);
-
-    // console.log(stats)
-
-    if (game && stats) {
-      setGameData(game);
-      setStatsData(stats);
-    }
-  }, [gameId]);
-
-  //   console.log(statsData);
-
-  if (!gameData || !statsData) return <div>Loading game data...</div>;
-
-  const { home, away } = gameData;
-  const homeStats = statsData.home;
-  const awayStats = statsData.away;
-
-  const calculatePowerPlayPercentage = (teamStats) => {
-    const { powerPlayGoals, powerPlayOpportunities } = teamStats;
-    return powerPlayOpportunities > 0
-      ? ((powerPlayGoals / powerPlayOpportunities) * 100).toFixed(1) + "%"
-      : "0%";
+const TeamStatsComparison = ({ stat, gameId, homeId, awayId }) => {
+  const setPowerplay = (goals, attempts) => {
+    return attempts > 0 ? ((goals / attempts) * 100).toFixed(1) + "%" : "0%";
   };
 
-  const calculateFaceoffPercentage = (teamStats) => {
-    const { faceoffWins, faceoffLosses } = teamStats;
-    const totalFaceoffs = faceoffWins + faceoffLosses;
+  const setFaceoffs = (stats) => {
+    const totalFaceoffs = stat.homeFaceoffsWon + stat.awayFaceoffsWon;
     return totalFaceoffs > 0
-      ? ((faceoffWins / totalFaceoffs) * 100).toFixed(1) + "%"
+      ? ((stats / totalFaceoffs) * 100).toFixed(1) + "%"
       : "0%";
   };
 
   const statCategories = [
-    { label: "Shots", home: home.shotsFor, away: away.shotsFor },
-    { label: "Goals", home: home.score, away: away.score },
+    { label: "Shots", home: stat.homeShotsFor, away: stat.awayShotsFor },
+    { label: "Goals", home: stat.Game.homeScore, away: stat.Game.awayScore },
     {
       label: "Power Play %",
-      home: calculatePowerPlayPercentage(homeStats),
-      away: calculatePowerPlayPercentage(awayStats),
+      home: setPowerplay(
+        stat.homePowerplayGoals,
+        stat.homePowerplayOpportunities
+      ),
+      away: setPowerplay(
+        stat.awayPowerplayGoals,
+        stat.awayPowerplayOpportunities
+      ),
     },
     {
       label: "Penalty Minutes",
-      home: homeStats.penaltyMinutes,
-      away: awayStats.penaltyMinutes,
+      home: stat.homePenaltyMinutes,
+      away: stat.awayPenaltyMinutes,
     },
     {
       label: "Faceoff %",
-      home: calculateFaceoffPercentage(homeStats),
-      away: calculateFaceoffPercentage(awayStats),
+      home: setFaceoffs(stat.homeFaceoffsWon),
+      away: setFaceoffs(stat.awayFaceoffsWon),
     },
-    { label: "Hits", home: homeStats.hits, away: awayStats.hits },
-    {
-      label: "Blocked Shots",
-      home: homeStats.blockedShots,
-      away: awayStats.blockedShots,
-    },
+    { label: "Hits", home: stat.homeHits, away: stat.awayHits },
   ];
 
   const calculatePercentage = (homeValue, awayValue) => {
@@ -75,25 +49,26 @@ const TeamStatsComparison = ({ gameId, homeId, awayId }) => {
     return `${((homeValue / total) * 100).toFixed(1)}`;
   };
 
-  const calculatePowerPlayShare = (homeGoals, awayGoals) => {
+  const calculatePowerPlayShare = (homeGoals, awayGoals, home, away) => {
     const totalGoals = homeGoals + awayGoals;
-    if (totalGoals === 0) return { home: "0%", away: "0%" };
+    const totalTries = home + away;
+    if (totalTries === 0) return { home: "0%", away: "0%" };
 
     const homeShare = ((homeGoals / totalGoals) * 100).toFixed(1);
     const awayShare = ((awayGoals / totalGoals) * 100).toFixed(1);
 
-    return {
-      home: `${homeShare}%`,
-      away: `${awayShare}%`,
-    };
+    if (homeShare === awayShare) {
+      return {
+        home: "50%",
+        away: "50%",
+      };
+    } else {
+      return {
+        home: `${homeShare}%`,
+        away: `${awayShare}%`,
+      };
+    }
   };
-
-  //   console.log(homeStats);
-
-  //   console.log(
-  //     calculatePowerPlayShare(homeStats.powerPlayGoals, awayStats.powerPlayGoals)
-  //       .home
-  //   );
 
   let faceoff = statCategories[4].home;
   let faceoffNumber = 100 - parseFloat(faceoff.replace("%", ""));
@@ -102,12 +77,18 @@ const TeamStatsComparison = ({ gameId, homeId, awayId }) => {
   return (
     <div className="team-stats-comparison">
       <div className="team-stats-header">
-        <Link to={`/teams/${homeId}`} className="headerLogo__teamStats link">
-          <img src={home.logo} alt="" className="" />
+        <Link
+          to={`/teams/${stat.Game.homeTeam.id}`}
+          className="headerLogo__teamStats link"
+        >
+          <img src={stat.Game.homeTeam.logo} alt="" className="" />
         </Link>
         <h1>Game Stats</h1>
-        <Link to={`/teams/${awayId}`} className="headerLogo__teamStats link">
-          <img src={away.logo} alt="" className="" />
+        <Link
+          to={`/teams/${stat.Game.awayTeam.id}`}
+          className="headerLogo__teamStats link"
+        >
+          <img src={stat.Game.awayTeam.logo} alt="" className="" />
         </Link>
       </div>
 
@@ -124,8 +105,8 @@ const TeamStatsComparison = ({ gameId, homeId, awayId }) => {
                     <div className="powerplay-rate">
                       {stats.home}
                       <div className="powerplay-value">
-                        ({homeStats.powerPlayGoals} /{" "}
-                        {homeStats.powerPlayOpportunities})
+                        ({stat.homePowerplayGoals} /{" "}
+                        {stat.homePowerplayOpportunities})
                       </div>
                     </div>
                   ) : (
@@ -138,8 +119,8 @@ const TeamStatsComparison = ({ gameId, homeId, awayId }) => {
                   {stats.label === "Power Play %" ? (
                     <div className="powerplay-rate">
                       <div className="powerplay-value">
-                        ({awayStats.powerPlayGoals} /{" "}
-                        {awayStats.powerPlayOpportunities})
+                        ({stat.awayPowerplayGoals} /{" "}
+                        {stat.awayPowerplayOpportunities})
                       </div>
                       {stats.away}
                     </div>
@@ -157,8 +138,10 @@ const TeamStatsComparison = ({ gameId, homeId, awayId }) => {
                         ? `${faceoff}`
                         : stats.label === "Power Play %"
                         ? calculatePowerPlayShare(
-                            homeStats.powerPlayGoals,
-                            awayStats.powerPlayGoals
+                            stat.homePowerplayGoals,
+                            stat.awayPowerplayGoals,
+                            stat.homePowerplayOpportunities,
+                            stat.awayPowerplayOpportunities
                           ).home
                         : `${percentage}%`
                     }`,
@@ -169,8 +152,10 @@ const TeamStatsComparison = ({ gameId, homeId, awayId }) => {
                         ? `${
                             100 -
                             calculatePowerPlayShare(
-                              homeStats.powerPlayGoals,
-                              awayStats.powerPlayGoals
+                              stat.homePowerplayGoals,
+                              stat.awayPowerplayGoals,
+                              stat.homePowerplayOpportunities,
+                              stat.awayPowerplayOpportunities
                             ).home.replace("%", "")
                           }%`
                         : `${100 - percentage}%`
@@ -181,30 +166,6 @@ const TeamStatsComparison = ({ gameId, homeId, awayId }) => {
             </div>
           );
         })}
-
-        {/* <div className="team-column">
-          {statCategories.map((stat, index) => (
-            <div key={index} className="team-stat-value">
-              {stat.home}
-            </div>
-          ))}
-        </div>
-
-        <div className="stat-column">
-          {statCategories.map((stat, index) => (
-            <div key={index} className="stat-label">
-              {stat.label}
-            </div>
-          ))}
-        </div>
-
-        <div className="team-column">
-          {statCategories.map((stat, index) => (
-            <div key={index} className="team-stat-value">
-              {stat.away}
-            </div>
-          ))}
-        </div> */}
       </div>
     </div>
   );

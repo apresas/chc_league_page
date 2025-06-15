@@ -1,13 +1,8 @@
 import React, { useState, useEffect } from "react";
 import TeamGrid from "./teamGrid/TeamGrid";
 import "./home.css";
-import StandingsTable from "./standings/standingsTable";
-import StandingsTableTest from "./standings/StandingsTableTest";
-import standingsData from "../../data/standingsData.json";
 import DivDesc from "./DivDesc/DivDesc";
-import TournamentBracket from "../TournamentBracket/TournamentBracket";
-import TournamentData from "../../data/tournamentData.json"
-import TeamInfo from "../../data/teamInfoData.json"
+import Spinner from "../Spinner/Spinner";
 
 function Home({
   isOpen,
@@ -23,47 +18,74 @@ function Home({
 }) {
   const divisions = ["Red", "White", "Blue"];
 
-  // const [standings, setStandings] = useState([])
+  const [loading, setLoading] = useState(true);
 
-  // useEffect(() => {
-  //   standingsData.map((standing) => {setStandings(standing.teams)})
-  // }, [])
+  const [divisionTeams, setDivisionTeams] = useState({
+    red: [],
+    white: [],
+    blue: [],
+  });
 
-  // useEffect(() => {
-  //   console.log(standings)
-  // }, [standings])
+  // Check Image Load
+  // const { imagesLoaded, handleImageLoad } = useImageCounter(3);
+
+  useEffect(() => {
+    const fetchDivisionTeams = async () => {
+      setLoading(true);
+      const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+      try {
+        const [red, white, blue] = await Promise.all([
+          fetch("http://localhost:5000/api/teams/search?division=red").then(
+            (res) => res.json()
+          ),
+          fetch("http://localhost:5000/api/teams/search?division=white").then(
+            (res) => res.json()
+          ),
+          fetch("http://localhost:5000/api/teams/search?division=blue").then(
+            (res) => res.json()
+          ),
+          delay(1250),
+        ]);
+        setDivisionTeams({ red: red, white: white, blue: blue });
+      } catch (error) {
+        console.error("Error fetching division teams:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchDivisionTeams();
+  }, []);
 
   return (
-    <div className="main_container">
-      <div className="content">
-        <TeamGrid
-          isOpen={isOpen}
-          setIsOpen={setIsOpen}
-          currentTeam={currentTeam}
-          setCurrentTeam={setCurrentTeam}
-          redTeam={redTeam}
-          setRedTeam={setRedTeam}
-          whiteTeam={whiteTeam}
-          setWhiteTeam={setWhiteTeam}
-          blueTeam={blueTeam}
-          setBlueTeam={setBlueTeam}
-        />
-        {/* <StandingsTable /> */}
-
-        {/* <div className="standing_title">
-          <h1>Standings</h1>
+    <>
+      {loading ? (
+        <div
+          className={`spinner-bg`}
+          style={{ backgroundColor: "var(--color-primary)" }}
+        >
+          <Spinner />
         </div>
-        <div className="homeStandings_container">
-          {divisions.map((division, i) => (
-            <StandingsTableTest division={division} key={i} />
-          ))}
-        </div> */}
-
-        <DivDesc />
-
-        {/* <TournamentBracket tournamentData={TournamentData} teamInfo={TeamInfo}/> */}
-      </div>
-    </div>
+      ) : (
+        <div className={`main_container ${!loading ? "fade-in" : null}`}>
+          <div className="content">
+            <TeamGrid
+              isOpen={isOpen}
+              setIsOpen={setIsOpen}
+              currentTeam={currentTeam}
+              setCurrentTeam={setCurrentTeam}
+              redTeam={redTeam}
+              setRedTeam={setRedTeam}
+              whiteTeam={whiteTeam}
+              setWhiteTeam={setWhiteTeam}
+              blueTeam={blueTeam}
+              setBlueTeam={setBlueTeam}
+              divisionTeams={divisionTeams}
+            />
+            <DivDesc />
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 

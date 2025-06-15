@@ -26,7 +26,7 @@
   .standings-table-header,
   .standings-row {
     display: grid;
-    grid-template-columns: 1fr 12fr repeat(6, 2fr);
+    grid-template-columns: 1fr 12fr repeat(7, 2fr);
     padding: 10px 16px;
     border-bottom: 1px solid lightgrey;
     font-size: 0.9rem;
